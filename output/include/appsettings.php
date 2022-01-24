@@ -381,7 +381,7 @@ $globalSettings["openPDFFileDirectly"] = true;
 $globalSettings["override"] = array();
 
 
-$wr_pagestylepath = "FusionOffice";
+$wr_pagestylepath = "FusionFire";
 $wr_is_standalone = false;
 $WRAdminPagePassword = "";
 

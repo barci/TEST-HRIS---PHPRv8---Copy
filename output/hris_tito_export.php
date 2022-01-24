@@ -13,7 +13,7 @@ require_once("include/hris_tito_variables.php");
 
 
 
-$layout = new TLayout("export2", "FusionOffice", "MobileOffice");
+$layout = new TLayout("export2", "FusionFire", "MobileFire");
 $layout->version = 2;
 $layout->blocks["top"] = array();
 $layout->containers["export"] = array();

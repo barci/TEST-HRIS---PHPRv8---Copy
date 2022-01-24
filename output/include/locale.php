@@ -59,8 +59,8 @@ $locale_info["LOCALE_SABBREVMONTHNAME12"]="Dec";
 $locale_info["LOCALE_ITIME"]="0";
 $locale_info["LOCALE_ITIMEMARKPOSN"]="0";
 $locale_info["LOCALE_ITLZERO"]="0";
-$locale_info["LOCALE_S1159"]="AM";
-$locale_info["LOCALE_S2359"]="PM";
+$locale_info["LOCALE_S1159"]="am";
+$locale_info["LOCALE_S2359"]="pm";
 $locale_info["LOCALE_STIME"]=":";
 $locale_info["LOCALE_STIMEFORMAT"]="h:mm:ss tt";
 //	currency settings

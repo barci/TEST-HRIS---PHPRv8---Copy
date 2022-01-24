@@ -13,7 +13,7 @@ require_once("include/hris_journey_variables.php");
 
 
 
-$layout = new TLayout("export2", "FusionFire", "MobileFire");
+$layout = new TLayout("export2", "FusionDeliciousLavender", "MobileDeliciousLavender");
 $layout->version = 2;
 $layout->blocks["top"] = array();
 $layout->containers["export"] = array();

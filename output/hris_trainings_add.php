@@ -19,7 +19,7 @@ AddPage::handleBrokenRequest();
 
 
 
-$layout = new TLayout("add2", "FusionFire", "MobileFire");
+$layout = new TLayout("add2", "FusionDeliciousLavender", "MobileDeliciousLavender");
 $layout->version = 2;
 $layout->blocks["top"] = array();
 $layout->containers["all"] = array();

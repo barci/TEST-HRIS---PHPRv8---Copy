@@ -15,7 +15,7 @@ require_once("include/Job_Titles_variables.php");
 
 
 
-$layout = new TLayout("print", "FusionFire", "MobileFire");
+$layout = new TLayout("print", "FusionDeliciousLavender", "MobileDeliciousLavender");
 $layout->version = 2;
 $layout->blocks["center"] = array();
 $layout->containers["pageheader"] = array();

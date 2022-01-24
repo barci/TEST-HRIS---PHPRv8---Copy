@@ -19,7 +19,7 @@ EditPage::handleBrokenRequest();
 
 
 
-$layout = new TLayout("edit2", "FusionFire", "MobileFire");
+$layout = new TLayout("edit2", "FusionDeliciousLavender", "MobileDeliciousLavender");
 $layout->version = 2;
 $layout->blocks["top"] = array();
 $layout->containers["all"] = array();

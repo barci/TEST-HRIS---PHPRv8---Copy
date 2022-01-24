@@ -17,7 +17,7 @@ require_once("classes/searchclause.php");
 
 
 
-$layout = new TLayout("search2", "FusionFire", "MobileFire");
+$layout = new TLayout("search2", "FusionDeliciousLavender", "MobileDeliciousLavender");
 $layout->version = 2;
 $layout->blocks["top"] = array();
 $layout->containers["search"] = array();

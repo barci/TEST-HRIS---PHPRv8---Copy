@@ -15,7 +15,7 @@ require_once("include/hris_job_variables.php");
 
 
 
-$layout = new TLayout("print", "FusionFire", "MobileFire");
+$layout = new TLayout("print", "FusionDeliciousLavender", "MobileDeliciousLavender");
 $layout->version = 2;
 $layout->blocks["center"] = array();
 $layout->containers["pageheader"] = array();
@@ -72,7 +72,7 @@ $layout->skinsparams["3"] = array("button"=>"button1");
 	
 
 
-$layout = new TLayout("masterprint", "FusionFire", "MobileFire");
+$layout = new TLayout("masterprint", "FusionDeliciousLavender", "MobileDeliciousLavender");
 $layout->version = 2;
 $layout->blocks["bare"] = array();
 $layout->containers["masterlistheader"] = array();
@@ -108,7 +108,7 @@ $layout->skinsparams["3"] = array("button"=>"button1");
 	
 
 
-$layout = new TLayout("masterprint", "FusionFire", "MobileFire");
+$layout = new TLayout("masterprint", "FusionDeliciousLavender", "MobileDeliciousLavender");
 $layout->version = 2;
 $layout->blocks["bare"] = array();
 $layout->containers["masterlistheader"] = array();

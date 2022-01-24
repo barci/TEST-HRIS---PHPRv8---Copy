@@ -24,10 +24,10 @@ membership,
 `role`, 
 status</m_sqlHead>
 			<m_sqlFrom>FROM hris_affiliation</m_sqlFrom>
-			<m_sqlWhere />
-			<m_sqlTail />
+			<m_sqlWhere></m_sqlWhere>
+			<m_sqlTail></m_sqlTail>
 			<m_bGroupBy>0</m_bGroupBy>
-			<m_strOrderBy />
+			<m_strOrderBy></m_strOrderBy>
 			<m_nType>0</m_nType>
 			<m_strConnectionID>hris_at_localhost</m_strConnectionID>
 			<m_strOriginalTable>hris_affiliation</m_strOriginalTable>
@@ -194,7 +194,7 @@ status</m_sqlHead>
 					<m_strTable>hris_affiliation</m_strTable>
 					<m_strName>ID</m_strName>
 					<m_strSQLExpression>ID</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -226,7 +226,7 @@ status</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>3</m_nDataType>
 					<m_bAutoInc>1</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -415,7 +415,7 @@ status</m_sqlHead>
 					<m_strTable>hris_affiliation</m_strTable>
 					<m_strName>personnelID</m_strName>
 					<m_strSQLExpression>personnelID</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -447,7 +447,7 @@ status</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -636,7 +636,7 @@ status</m_sqlHead>
 					<m_strTable>hris_affiliation</m_strTable>
 					<m_strName>name</m_strName>
 					<m_strSQLExpression>name</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -668,7 +668,7 @@ status</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -857,7 +857,7 @@ status</m_sqlHead>
 					<m_strTable>hris_affiliation</m_strTable>
 					<m_strName>membership</m_strName>
 					<m_strSQLExpression>membership</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -889,7 +889,7 @@ status</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -1078,7 +1078,7 @@ status</m_sqlHead>
 					<m_strTable>hris_affiliation</m_strTable>
 					<m_strName>role</m_strName>
 					<m_strSQLExpression>`role`</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -1110,7 +1110,7 @@ status</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -1299,7 +1299,7 @@ status</m_sqlHead>
 					<m_strTable>hris_affiliation</m_strTable>
 					<m_strName>status</m_strName>
 					<m_strSQLExpression>status</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -1331,7 +1331,7 @@ status</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -1673,7 +1673,7 @@ status</m_sqlHead>
 			</m_arrGroupsPerPage>
 			<m_bHighlightSearchResults>1</m_bHighlightSearchResults>
 			<m_bFlexibleSearch>1</m_bFlexibleSearch>
-			<m_nPartialBuildState>0</m_nPartialBuildState>
+			<m_nPartialBuildState>1</m_nPartialBuildState>
 			<m_bSaveSearches>0</m_bSaveSearches>
 			<m_bWarnLeavingPages>1</m_bWarnLeavingPages>
 			<m_pDashboard>
@@ -1733,14 +1733,14 @@ membership,
 `role`, 
 status</m_strFieldList>
 				<m_strFrom>FROM hris_affiliation</m_strFrom>
-				<m_strWhere />
-				<m_strOrderBy />
-				<m_strTail />
+				<m_strWhere></m_strWhere>
+				<m_strOrderBy></m_strOrderBy>
+				<m_strTail></m_strTail>
 				<m_where>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>1</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -1749,10 +1749,10 @@ status</m_strFieldList>
 					<m_contained />
 				</m_where>
 				<m_having>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -1765,9 +1765,9 @@ status</m_strFieldList>
 						<m_sql>ID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_affiliation</m_strTable>
@@ -1778,9 +1778,9 @@ status</m_strFieldList>
 						<m_sql>personnelID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_affiliation</m_strTable>
@@ -1791,9 +1791,9 @@ status</m_strFieldList>
 						<m_sql>name</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_affiliation</m_strTable>
@@ -1804,9 +1804,9 @@ status</m_strFieldList>
 						<m_sql>membership</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_affiliation</m_strTable>
@@ -1817,9 +1817,9 @@ status</m_strFieldList>
 						<m_sql>`role`</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_affiliation</m_strTable>
@@ -1830,9 +1830,9 @@ status</m_strFieldList>
 						<m_sql>status</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_affiliation</m_strTable>
@@ -1847,7 +1847,7 @@ status</m_strFieldList>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>hris_affiliation</m_strName>
@@ -1860,12 +1860,12 @@ status</m_strFieldList>
 								<val>status</val>
 							</m_columns>
 						</m_table>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_joinon>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase />
+							<m_strCase></m_strCase>
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -1904,10 +1904,10 @@ yearstarted,
 yeargraduated, 
 personelID</m_sqlHead>
 			<m_sqlFrom>FROM hris_educationprofile</m_sqlFrom>
-			<m_sqlWhere />
-			<m_sqlTail />
+			<m_sqlWhere></m_sqlWhere>
+			<m_sqlTail></m_sqlTail>
 			<m_bGroupBy>0</m_bGroupBy>
-			<m_strOrderBy />
+			<m_strOrderBy></m_strOrderBy>
 			<m_nType>0</m_nType>
 			<m_strConnectionID>hris_at_localhost</m_strConnectionID>
 			<m_strOriginalTable>hris_educationprofile</m_strOriginalTable>
@@ -2074,7 +2074,7 @@ personelID</m_sqlHead>
 					<m_strTable>hris_educationprofile</m_strTable>
 					<m_strName>ID</m_strName>
 					<m_strSQLExpression>ID</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -2106,7 +2106,7 @@ personelID</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>3</m_nDataType>
 					<m_bAutoInc>1</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>1</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -2295,7 +2295,7 @@ personelID</m_sqlHead>
 					<m_strTable>hris_educationprofile</m_strTable>
 					<m_strName>schoolname</m_strName>
 					<m_strSQLExpression>schoolname</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -2327,7 +2327,7 @@ personelID</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>3</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -2516,7 +2516,7 @@ personelID</m_sqlHead>
 					<m_strTable>hris_educationprofile</m_strTable>
 					<m_strName>schooladd</m_strName>
 					<m_strSQLExpression>schooladd</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -2548,7 +2548,7 @@ personelID</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>4</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -2737,7 +2737,7 @@ personelID</m_sqlHead>
 					<m_strTable>hris_educationprofile</m_strTable>
 					<m_strName>educationlevel</m_strName>
 					<m_strSQLExpression>educationlevel</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -2769,7 +2769,7 @@ personelID</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>5</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -2958,7 +2958,7 @@ personelID</m_sqlHead>
 					<m_strTable>hris_educationprofile</m_strTable>
 					<m_strName>yearstarted</m_strName>
 					<m_strSQLExpression>yearstarted</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -2990,7 +2990,7 @@ personelID</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>6</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -3179,7 +3179,7 @@ personelID</m_sqlHead>
 					<m_strTable>hris_educationprofile</m_strTable>
 					<m_strName>yeargraduated</m_strName>
 					<m_strSQLExpression>yeargraduated</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -3211,7 +3211,7 @@ personelID</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>7</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -3400,7 +3400,7 @@ personelID</m_sqlHead>
 					<m_strTable>hris_educationprofile</m_strTable>
 					<m_strName>personelID</m_strName>
 					<m_strSQLExpression>personelID</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -3432,7 +3432,7 @@ personelID</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>2</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -3795,7 +3795,7 @@ personelID</m_sqlHead>
 			</m_arrGroupsPerPage>
 			<m_bHighlightSearchResults>1</m_bHighlightSearchResults>
 			<m_bFlexibleSearch>1</m_bFlexibleSearch>
-			<m_nPartialBuildState>0</m_nPartialBuildState>
+			<m_nPartialBuildState>1</m_nPartialBuildState>
 			<m_bSaveSearches>0</m_bSaveSearches>
 			<m_bWarnLeavingPages>1</m_bWarnLeavingPages>
 			<m_pDashboard>
@@ -3857,14 +3857,14 @@ yearstarted,
 yeargraduated, 
 personelID</m_strFieldList>
 				<m_strFrom>FROM hris_educationprofile</m_strFrom>
-				<m_strWhere />
-				<m_strOrderBy />
-				<m_strTail />
+				<m_strWhere></m_strWhere>
+				<m_strOrderBy></m_strOrderBy>
+				<m_strTail></m_strTail>
 				<m_where>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>1</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -3873,10 +3873,10 @@ personelID</m_strFieldList>
 					<m_contained />
 				</m_where>
 				<m_having>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -3889,9 +3889,9 @@ personelID</m_strFieldList>
 						<m_sql>ID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_educationprofile</m_strTable>
@@ -3902,9 +3902,9 @@ personelID</m_strFieldList>
 						<m_sql>schoolname</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_educationprofile</m_strTable>
@@ -3915,9 +3915,9 @@ personelID</m_strFieldList>
 						<m_sql>schooladd</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_educationprofile</m_strTable>
@@ -3928,9 +3928,9 @@ personelID</m_strFieldList>
 						<m_sql>educationlevel</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_educationprofile</m_strTable>
@@ -3941,9 +3941,9 @@ personelID</m_strFieldList>
 						<m_sql>yearstarted</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_educationprofile</m_strTable>
@@ -3954,9 +3954,9 @@ personelID</m_strFieldList>
 						<m_sql>yeargraduated</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_educationprofile</m_strTable>
@@ -3967,9 +3967,9 @@ personelID</m_strFieldList>
 						<m_sql>personelID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_educationprofile</m_strTable>
@@ -3984,7 +3984,7 @@ personelID</m_strFieldList>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>hris_educationprofile</m_strName>
@@ -3998,12 +3998,12 @@ personelID</m_strFieldList>
 								<val>personelID</val>
 							</m_columns>
 						</m_table>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_joinon>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase />
+							<m_strCase></m_strCase>
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -4054,10 +4054,10 @@ category,
 empstatus, 
 personnelID</m_sqlHead>
 			<m_sqlFrom>FROM hris_job</m_sqlFrom>
-			<m_sqlWhere />
-			<m_sqlTail />
+			<m_sqlWhere></m_sqlWhere>
+			<m_sqlTail></m_sqlTail>
 			<m_bGroupBy>0</m_bGroupBy>
-			<m_strOrderBy />
+			<m_strOrderBy></m_strOrderBy>
 			<m_nType>0</m_nType>
 			<m_strConnectionID>hris_at_localhost</m_strConnectionID>
 			<m_strOriginalTable>hris_job</m_strOriginalTable>
@@ -4249,7 +4249,7 @@ personnelID</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>ID</m_strName>
 					<m_strSQLExpression>ID</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -4281,7 +4281,7 @@ personnelID</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>3</m_nDataType>
 					<m_bAutoInc>1</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>1</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -4470,7 +4470,7 @@ personnelID</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>empID</m_strName>
 					<m_strSQLExpression>empID</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -4502,7 +4502,7 @@ personnelID</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>3</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -4691,7 +4691,7 @@ personnelID</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>department</m_strName>
 					<m_strSQLExpression>department</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -4723,7 +4723,7 @@ personnelID</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>4</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -4912,7 +4912,7 @@ personnelID</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>unit</m_strName>
 					<m_strSQLExpression>unit</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -4944,7 +4944,7 @@ personnelID</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>5</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -5133,7 +5133,7 @@ personnelID</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>jobtitle</m_strName>
 					<m_strSQLExpression>jobtitle</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -5165,7 +5165,7 @@ personnelID</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>6</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -5354,7 +5354,7 @@ personnelID</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>jobdescription</m_strName>
 					<m_strSQLExpression>jobdescription</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -5386,7 +5386,7 @@ personnelID</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>201</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>7</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -5575,7 +5575,7 @@ personnelID</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>datehired</m_strName>
 					<m_strSQLExpression>datehired</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -5607,7 +5607,7 @@ personnelID</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>7</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>8</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -5796,7 +5796,7 @@ personnelID</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>reference</m_strName>
 					<m_strSQLExpression>reference</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -5828,7 +5828,7 @@ personnelID</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>9</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -6017,7 +6017,7 @@ personnelID</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>dateend</m_strName>
 					<m_strSQLExpression>dateend</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -6049,7 +6049,7 @@ personnelID</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>7</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>10</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -6238,7 +6238,7 @@ personnelID</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>type</m_strName>
 					<m_strSQLExpression>`type`</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -6270,7 +6270,7 @@ personnelID</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>11</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -6459,7 +6459,7 @@ personnelID</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>category</m_strName>
 					<m_strSQLExpression>category</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -6491,7 +6491,7 @@ personnelID</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>12</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -6680,7 +6680,7 @@ personnelID</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>empstatus</m_strName>
 					<m_strSQLExpression>empstatus</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -6712,7 +6712,7 @@ personnelID</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>13</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -6901,7 +6901,7 @@ personnelID</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>personnelID</m_strName>
 					<m_strSQLExpression>personnelID</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -6933,7 +6933,7 @@ personnelID</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>2</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -7422,7 +7422,7 @@ personnelID</m_sqlHead>
 			</m_arrGroupsPerPage>
 			<m_bHighlightSearchResults>1</m_bHighlightSearchResults>
 			<m_bFlexibleSearch>1</m_bFlexibleSearch>
-			<m_nPartialBuildState>0</m_nPartialBuildState>
+			<m_nPartialBuildState>1</m_nPartialBuildState>
 			<m_bSaveSearches>0</m_bSaveSearches>
 			<m_bWarnLeavingPages>1</m_bWarnLeavingPages>
 			<m_pDashboard>
@@ -7496,14 +7496,14 @@ category,
 empstatus, 
 personnelID</m_strFieldList>
 				<m_strFrom>FROM hris_job</m_strFrom>
-				<m_strWhere />
-				<m_strOrderBy />
-				<m_strTail />
+				<m_strWhere></m_strWhere>
+				<m_strOrderBy></m_strOrderBy>
+				<m_strTail></m_strTail>
 				<m_where>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>1</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -7512,10 +7512,10 @@ personnelID</m_strFieldList>
 					<m_contained />
 				</m_where>
 				<m_having>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -7528,9 +7528,9 @@ personnelID</m_strFieldList>
 						<m_sql>ID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -7541,9 +7541,9 @@ personnelID</m_strFieldList>
 						<m_sql>empID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -7554,9 +7554,9 @@ personnelID</m_strFieldList>
 						<m_sql>department</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -7567,9 +7567,9 @@ personnelID</m_strFieldList>
 						<m_sql>unit</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -7580,9 +7580,9 @@ personnelID</m_strFieldList>
 						<m_sql>jobtitle</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -7593,9 +7593,9 @@ personnelID</m_strFieldList>
 						<m_sql>jobdescription</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -7606,9 +7606,9 @@ personnelID</m_strFieldList>
 						<m_sql>datehired</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -7619,9 +7619,9 @@ personnelID</m_strFieldList>
 						<m_sql>reference</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -7632,9 +7632,9 @@ personnelID</m_strFieldList>
 						<m_sql>dateend</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -7645,9 +7645,9 @@ personnelID</m_strFieldList>
 						<m_sql>`type`</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -7658,9 +7658,9 @@ personnelID</m_strFieldList>
 						<m_sql>category</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -7671,9 +7671,9 @@ personnelID</m_strFieldList>
 						<m_sql>empstatus</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -7684,9 +7684,9 @@ personnelID</m_strFieldList>
 						<m_sql>personnelID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -7701,7 +7701,7 @@ personnelID</m_strFieldList>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>hris_job</m_strName>
@@ -7721,12 +7721,12 @@ personnelID</m_strFieldList>
 								<val>personnelID</val>
 							</m_columns>
 						</m_table>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_joinon>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase />
+							<m_strCase></m_strCase>
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -7773,9 +7773,9 @@ hris_licert.validity</m_sqlHead>
 			<m_sqlFrom>FROM hris_licert
 , hris_job</m_sqlFrom>
 			<m_sqlWhere>hris_licert.personnelID =hris_job.personnelID</m_sqlWhere>
-			<m_sqlTail />
+			<m_sqlTail></m_sqlTail>
 			<m_bGroupBy>0</m_bGroupBy>
-			<m_strOrderBy />
+			<m_strOrderBy></m_strOrderBy>
 			<m_nType>0</m_nType>
 			<m_strConnectionID>hris_at_localhost</m_strConnectionID>
 			<m_strOriginalTable>hris_licert</m_strOriginalTable>
@@ -7942,7 +7942,7 @@ hris_licert.validity</m_sqlHead>
 					<m_strTable>hris_licert</m_strTable>
 					<m_strName>ID</m_strName>
 					<m_strSQLExpression>hris_licert.ID</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -7974,7 +7974,7 @@ hris_licert.validity</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>3</m_nDataType>
 					<m_bAutoInc>1</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -8163,7 +8163,7 @@ hris_licert.validity</m_sqlHead>
 					<m_strTable>hris_licert</m_strTable>
 					<m_strName>personnelID</m_strName>
 					<m_strSQLExpression>hris_licert.personnelID</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -8195,7 +8195,7 @@ hris_licert.validity</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -8384,7 +8384,7 @@ hris_licert.validity</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>department</m_strName>
 					<m_strSQLExpression>hris_job.department</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -8416,7 +8416,7 @@ hris_licert.validity</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -8605,7 +8605,7 @@ hris_licert.validity</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>unit</m_strName>
 					<m_strSQLExpression>hris_job.unit</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -8637,7 +8637,7 @@ hris_licert.validity</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -8826,7 +8826,7 @@ hris_licert.validity</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>jobtitle</m_strName>
 					<m_strSQLExpression>hris_job.jobtitle</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -8858,7 +8858,7 @@ hris_licert.validity</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -9047,7 +9047,7 @@ hris_licert.validity</m_sqlHead>
 					<m_strTable>hris_licert</m_strTable>
 					<m_strName>name</m_strName>
 					<m_strSQLExpression>hris_licert.name</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -9079,7 +9079,7 @@ hris_licert.validity</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -9268,7 +9268,7 @@ hris_licert.validity</m_sqlHead>
 					<m_strTable>hris_licert</m_strTable>
 					<m_strName>reference</m_strName>
 					<m_strSQLExpression>hris_licert.reference</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -9300,7 +9300,7 @@ hris_licert.validity</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -9489,7 +9489,7 @@ hris_licert.validity</m_sqlHead>
 					<m_strTable>hris_licert</m_strTable>
 					<m_strName>validity</m_strName>
 					<m_strSQLExpression>hris_licert.validity</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -9521,7 +9521,7 @@ hris_licert.validity</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>7</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -9863,7 +9863,7 @@ hris_licert.validity</m_sqlHead>
 			</m_arrGroupsPerPage>
 			<m_bHighlightSearchResults>1</m_bHighlightSearchResults>
 			<m_bFlexibleSearch>1</m_bFlexibleSearch>
-			<m_nPartialBuildState>0</m_nPartialBuildState>
+			<m_nPartialBuildState>1</m_nPartialBuildState>
 			<m_bSaveSearches>0</m_bSaveSearches>
 			<m_bWarnLeavingPages>1</m_bWarnLeavingPages>
 			<m_pDashboard>
@@ -9933,8 +9933,8 @@ hris_licert.validity</m_strFieldList>
 				<m_strFrom>FROM hris_licert
 , hris_job</m_strFrom>
 				<m_strWhere>hris_licert.personnelID =hris_job.personnelID</m_strWhere>
-				<m_strOrderBy />
-				<m_strTail />
+				<m_strOrderBy></m_strOrderBy>
+				<m_strTail></m_strTail>
 				<m_where>
 					<m_sql>hris_licert.personnelID =hris_job.personnelID</m_sql>
 					<m_parsed>1</m_parsed>
@@ -9944,7 +9944,7 @@ hris_licert.validity</m_strFieldList>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
 					<m_column>
-						<m_sql />
+						<m_sql></m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::SQLField</type>
 						<m_strTable>hris_licert</m_strTable>
@@ -9954,10 +9954,10 @@ hris_licert.validity</m_strFieldList>
 					<m_contained />
 				</m_where>
 				<m_having>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -9970,9 +9970,9 @@ hris_licert.validity</m_strFieldList>
 						<m_sql>hris_licert.ID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_licert</m_strTable>
@@ -9983,9 +9983,9 @@ hris_licert.validity</m_strFieldList>
 						<m_sql>hris_licert.personnelID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_licert</m_strTable>
@@ -9996,9 +9996,9 @@ hris_licert.validity</m_strFieldList>
 						<m_sql>hris_job.department</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -10009,9 +10009,9 @@ hris_licert.validity</m_strFieldList>
 						<m_sql>hris_job.unit</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -10022,9 +10022,9 @@ hris_licert.validity</m_strFieldList>
 						<m_sql>hris_job.jobtitle</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -10035,9 +10035,9 @@ hris_licert.validity</m_strFieldList>
 						<m_sql>hris_licert.name</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_licert</m_strTable>
@@ -10048,9 +10048,9 @@ hris_licert.validity</m_strFieldList>
 						<m_sql>hris_licert.reference</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_licert</m_strTable>
@@ -10061,9 +10061,9 @@ hris_licert.validity</m_strFieldList>
 						<m_sql>hris_licert.validity</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_licert</m_strTable>
@@ -10078,7 +10078,7 @@ hris_licert.validity</m_strFieldList>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>hris_licert</m_strName>
@@ -10090,12 +10090,12 @@ hris_licert.validity</m_strFieldList>
 								<val>validity</val>
 							</m_columns>
 						</m_table>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_joinon>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase />
+							<m_strCase></m_strCase>
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -10110,7 +10110,7 @@ hris_licert.validity</m_strFieldList>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_CROSSJOIN</m_link>
 						<m_table>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>hris_job</m_strName>
@@ -10130,12 +10130,12 @@ hris_licert.validity</m_strFieldList>
 								<val>personnelID</val>
 							</m_columns>
 						</m_table>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_joinon>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase />
+							<m_strCase></m_strCase>
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -10198,10 +10198,10 @@ dateofbirth,
 skills,
 civilstatus</m_sqlHead>
 			<m_sqlFrom>FROM hris_personnel</m_sqlFrom>
-			<m_sqlWhere />
-			<m_sqlTail />
+			<m_sqlWhere></m_sqlWhere>
+			<m_sqlTail></m_sqlTail>
 			<m_bGroupBy>0</m_bGroupBy>
-			<m_strOrderBy />
+			<m_strOrderBy></m_strOrderBy>
 			<m_nType>0</m_nType>
 			<m_strConnectionID>hris_at_localhost</m_strConnectionID>
 			<m_strOriginalTable>hris_personnel</m_strOriginalTable>
@@ -10408,7 +10408,7 @@ civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>ID</m_strName>
 					<m_strSQLExpression>ID</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -10440,7 +10440,7 @@ civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>3</m_nDataType>
 					<m_bAutoInc>1</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>1</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -10626,7 +10626,7 @@ civilstatus</m_sqlHead>
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 				<v>
-					<m_strTable />
+					<m_strTable></m_strTable>
 					<m_strName>fullName</m_strName>
 					<m_strSQLExpression>concat(upper(lastname), ", ", firstname)</m_strSQLExpression>
 					<m_strSQLAlias>fullName</m_strSQLAlias>
@@ -10847,7 +10847,7 @@ civilstatus</m_sqlHead>
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 				<v>
-					<m_strTable />
+					<m_strTable></m_strTable>
 					<m_strName>age</m_strName>
 					<m_strSQLExpression>TIMESTAMPDIFF(YEAR, dateofbirth, now())</m_strSQLExpression>
 					<m_strSQLAlias>age</m_strSQLAlias>
@@ -11071,7 +11071,7 @@ civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>firstname</m_strName>
 					<m_strSQLExpression>firstname</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -11103,7 +11103,7 @@ civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>1</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -11292,7 +11292,7 @@ civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>middlename</m_strName>
 					<m_strSQLExpression>middlename</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -11324,7 +11324,7 @@ civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>2</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -11513,7 +11513,7 @@ civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>lastname</m_strName>
 					<m_strSQLExpression>lastname</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -11545,7 +11545,7 @@ civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>3</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -11734,7 +11734,7 @@ civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>gender</m_strName>
 					<m_strSQLExpression>gender</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -11766,7 +11766,7 @@ civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>7</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -11955,7 +11955,7 @@ civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>currentaddress</m_strName>
 					<m_strSQLExpression>currentaddress</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -11987,7 +11987,7 @@ civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>8</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -12176,7 +12176,7 @@ civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>permanentaddress</m_strName>
 					<m_strSQLExpression>permanentaddress</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -12208,7 +12208,7 @@ civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>10</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -12397,7 +12397,7 @@ civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>sss</m_strName>
 					<m_strSQLExpression>sss</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -12429,7 +12429,7 @@ civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>9</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -12618,7 +12618,7 @@ civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>tin</m_strName>
 					<m_strSQLExpression>tin</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -12650,7 +12650,7 @@ civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>11</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -12839,7 +12839,7 @@ civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>pagibig</m_strName>
 					<m_strSQLExpression>pagibig</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -12871,7 +12871,7 @@ civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>12</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -13060,7 +13060,7 @@ civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>philhealth</m_strName>
 					<m_strSQLExpression>philhealth</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -13092,7 +13092,7 @@ civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>14</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -13281,7 +13281,7 @@ civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>emailaddress</m_strName>
 					<m_strSQLExpression>emailaddress</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -13313,7 +13313,7 @@ civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>13</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -13502,7 +13502,7 @@ civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>telephone</m_strName>
 					<m_strSQLExpression>telephone</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -13534,7 +13534,7 @@ civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>15</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -13723,7 +13723,7 @@ civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>dateofbirth</m_strName>
 					<m_strSQLExpression>dateofbirth</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -13755,7 +13755,7 @@ civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>7</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>4</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -13944,7 +13944,7 @@ civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>skills</m_strName>
 					<m_strSQLExpression>skills</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -13976,7 +13976,7 @@ civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>5</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -14165,7 +14165,7 @@ civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>civilstatus</m_strName>
 					<m_strSQLExpression>civilstatus</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -14197,7 +14197,7 @@ civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>6</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -14763,7 +14763,7 @@ civilstatus</m_sqlHead>
 			</m_arrGroupsPerPage>
 			<m_bHighlightSearchResults>1</m_bHighlightSearchResults>
 			<m_bFlexibleSearch>1</m_bFlexibleSearch>
-			<m_nPartialBuildState>0</m_nPartialBuildState>
+			<m_nPartialBuildState>1</m_nPartialBuildState>
 			<m_bSaveSearches>0</m_bSaveSearches>
 			<m_bWarnLeavingPages>1</m_bWarnLeavingPages>
 			<m_pDashboard>
@@ -14849,14 +14849,14 @@ dateofbirth,
 skills,
 civilstatus</m_strFieldList>
 				<m_strFrom>FROM hris_personnel</m_strFrom>
-				<m_strWhere />
-				<m_strOrderBy />
-				<m_strTail />
+				<m_strWhere></m_strWhere>
+				<m_strOrderBy></m_strOrderBy>
+				<m_strTail></m_strTail>
 				<m_where>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>1</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -14865,10 +14865,10 @@ civilstatus</m_strFieldList>
 					<m_contained />
 				</m_where>
 				<m_having>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -14881,9 +14881,9 @@ civilstatus</m_strFieldList>
 						<m_sql>ID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -14954,9 +14954,9 @@ civilstatus</m_strFieldList>
 						<m_sql>firstname</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -14967,9 +14967,9 @@ civilstatus</m_strFieldList>
 						<m_sql>middlename</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -14980,9 +14980,9 @@ civilstatus</m_strFieldList>
 						<m_sql>lastname</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -14993,9 +14993,9 @@ civilstatus</m_strFieldList>
 						<m_sql>gender</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -15006,9 +15006,9 @@ civilstatus</m_strFieldList>
 						<m_sql>currentaddress</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -15019,9 +15019,9 @@ civilstatus</m_strFieldList>
 						<m_sql>permanentaddress</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -15032,9 +15032,9 @@ civilstatus</m_strFieldList>
 						<m_sql>sss</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -15045,9 +15045,9 @@ civilstatus</m_strFieldList>
 						<m_sql>tin</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -15058,9 +15058,9 @@ civilstatus</m_strFieldList>
 						<m_sql>pagibig</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -15071,9 +15071,9 @@ civilstatus</m_strFieldList>
 						<m_sql>philhealth</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -15084,9 +15084,9 @@ civilstatus</m_strFieldList>
 						<m_sql>emailaddress</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -15097,9 +15097,9 @@ civilstatus</m_strFieldList>
 						<m_sql>telephone</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -15110,9 +15110,9 @@ civilstatus</m_strFieldList>
 						<m_sql>dateofbirth</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -15123,9 +15123,9 @@ civilstatus</m_strFieldList>
 						<m_sql>skills</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -15136,9 +15136,9 @@ civilstatus</m_strFieldList>
 						<m_sql>civilstatus</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -15153,7 +15153,7 @@ civilstatus</m_strFieldList>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>hris_personnel</m_strName>
@@ -15176,12 +15176,12 @@ civilstatus</m_strFieldList>
 								<val>civilstatus</val>
 							</m_columns>
 						</m_table>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_joinon>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase />
+							<m_strCase></m_strCase>
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -15234,9 +15234,9 @@ hris_tito.CheckedBy</m_sqlHead>
 			<m_sqlFrom>FROM hris_tito
 , hris_job</m_sqlFrom>
 			<m_sqlWhere>hris_tito.personnelID =hris_job.personnelID</m_sqlWhere>
-			<m_sqlTail />
+			<m_sqlTail></m_sqlTail>
 			<m_bGroupBy>0</m_bGroupBy>
-			<m_strOrderBy />
+			<m_strOrderBy></m_strOrderBy>
 			<m_nType>0</m_nType>
 			<m_strConnectionID>hris_at_localhost</m_strConnectionID>
 			<m_strOriginalTable>hris_tito</m_strOriginalTable>
@@ -15381,7 +15381,7 @@ hris_tito.CheckedBy</m_sqlHead>
 					<m_strTable>hris_tito</m_strTable>
 					<m_strName>ID</m_strName>
 					<m_strSQLExpression>hris_tito.ID</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -15413,7 +15413,7 @@ hris_tito.CheckedBy</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>3</m_nDataType>
 					<m_bAutoInc>1</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>1</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -15602,7 +15602,7 @@ hris_tito.CheckedBy</m_sqlHead>
 					<m_strTable>hris_tito</m_strTable>
 					<m_strName>personnelID</m_strName>
 					<m_strSQLExpression>hris_tito.personnelID</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -15634,7 +15634,7 @@ hris_tito.CheckedBy</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>2</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -15823,7 +15823,7 @@ hris_tito.CheckedBy</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>department</m_strName>
 					<m_strSQLExpression>hris_job.department</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -15855,7 +15855,7 @@ hris_tito.CheckedBy</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>3</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -16044,7 +16044,7 @@ hris_tito.CheckedBy</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>unit</m_strName>
 					<m_strSQLExpression>hris_job.unit</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -16076,7 +16076,7 @@ hris_tito.CheckedBy</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>4</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -16265,7 +16265,7 @@ hris_tito.CheckedBy</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>jobtitle</m_strName>
 					<m_strSQLExpression>hris_job.jobtitle</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -16297,7 +16297,7 @@ hris_tito.CheckedBy</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>5</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -16486,7 +16486,7 @@ hris_tito.CheckedBy</m_sqlHead>
 					<m_strTable>hris_tito</m_strTable>
 					<m_strName>TimeIn</m_strName>
 					<m_strSQLExpression>hris_tito.TimeIn</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -16518,7 +16518,7 @@ hris_tito.CheckedBy</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>135</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>6</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -16707,7 +16707,7 @@ hris_tito.CheckedBy</m_sqlHead>
 					<m_strTable>hris_tito</m_strTable>
 					<m_strName>TimeOut</m_strName>
 					<m_strSQLExpression>hris_tito.TimeOut</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -16739,7 +16739,7 @@ hris_tito.CheckedBy</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>135</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>7</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -16928,7 +16928,7 @@ hris_tito.CheckedBy</m_sqlHead>
 					<m_strTable>hris_tito</m_strTable>
 					<m_strName>IPin</m_strName>
 					<m_strSQLExpression>hris_tito.IPin</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -16960,7 +16960,7 @@ hris_tito.CheckedBy</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>8</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -17149,7 +17149,7 @@ hris_tito.CheckedBy</m_sqlHead>
 					<m_strTable>hris_tito</m_strTable>
 					<m_strName>IPout</m_strName>
 					<m_strSQLExpression>hris_tito.IPout</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -17181,7 +17181,7 @@ hris_tito.CheckedBy</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>9</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -17370,7 +17370,7 @@ hris_tito.CheckedBy</m_sqlHead>
 					<m_strTable>hris_tito</m_strTable>
 					<m_strName>TotalHours</m_strName>
 					<m_strSQLExpression>hris_tito.TotalHours</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -17402,7 +17402,7 @@ hris_tito.CheckedBy</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>10</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -17591,7 +17591,7 @@ hris_tito.CheckedBy</m_sqlHead>
 					<m_strTable>hris_tito</m_strTable>
 					<m_strName>CheckedBy</m_strName>
 					<m_strSQLExpression>hris_tito.CheckedBy</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -17623,7 +17623,7 @@ hris_tito.CheckedBy</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>11</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -18028,7 +18028,7 @@ hris_tito.CheckedBy</m_sqlHead>
 			</m_arrGroupsPerPage>
 			<m_bHighlightSearchResults>1</m_bHighlightSearchResults>
 			<m_bFlexibleSearch>1</m_bFlexibleSearch>
-			<m_nPartialBuildState>0</m_nPartialBuildState>
+			<m_nPartialBuildState>1</m_nPartialBuildState>
 			<m_bSaveSearches>0</m_bSaveSearches>
 			<m_bWarnLeavingPages>1</m_bWarnLeavingPages>
 			<m_pDashboard>
@@ -18104,8 +18104,8 @@ hris_tito.CheckedBy</m_strFieldList>
 				<m_strFrom>FROM hris_tito
 , hris_job</m_strFrom>
 				<m_strWhere>hris_tito.personnelID =hris_job.personnelID</m_strWhere>
-				<m_strOrderBy />
-				<m_strTail />
+				<m_strOrderBy></m_strOrderBy>
+				<m_strTail></m_strTail>
 				<m_where>
 					<m_sql>hris_tito.personnelID =hris_job.personnelID</m_sql>
 					<m_parsed>1</m_parsed>
@@ -18115,7 +18115,7 @@ hris_tito.CheckedBy</m_strFieldList>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
 					<m_column>
-						<m_sql />
+						<m_sql></m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::SQLField</type>
 						<m_strTable>hris_tito</m_strTable>
@@ -18125,10 +18125,10 @@ hris_tito.CheckedBy</m_strFieldList>
 					<m_contained />
 				</m_where>
 				<m_having>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -18141,9 +18141,9 @@ hris_tito.CheckedBy</m_strFieldList>
 						<m_sql>hris_tito.ID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_tito</m_strTable>
@@ -18154,9 +18154,9 @@ hris_tito.CheckedBy</m_strFieldList>
 						<m_sql>hris_tito.personnelID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_tito</m_strTable>
@@ -18167,9 +18167,9 @@ hris_tito.CheckedBy</m_strFieldList>
 						<m_sql>hris_job.department</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -18180,9 +18180,9 @@ hris_tito.CheckedBy</m_strFieldList>
 						<m_sql>hris_job.unit</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -18193,9 +18193,9 @@ hris_tito.CheckedBy</m_strFieldList>
 						<m_sql>hris_job.jobtitle</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -18206,9 +18206,9 @@ hris_tito.CheckedBy</m_strFieldList>
 						<m_sql>hris_tito.TimeIn</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_tito</m_strTable>
@@ -18219,9 +18219,9 @@ hris_tito.CheckedBy</m_strFieldList>
 						<m_sql>hris_tito.TimeOut</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_tito</m_strTable>
@@ -18232,9 +18232,9 @@ hris_tito.CheckedBy</m_strFieldList>
 						<m_sql>hris_tito.IPin</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_tito</m_strTable>
@@ -18245,9 +18245,9 @@ hris_tito.CheckedBy</m_strFieldList>
 						<m_sql>hris_tito.IPout</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_tito</m_strTable>
@@ -18258,9 +18258,9 @@ hris_tito.CheckedBy</m_strFieldList>
 						<m_sql>hris_tito.TotalHours</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_tito</m_strTable>
@@ -18271,9 +18271,9 @@ hris_tito.CheckedBy</m_strFieldList>
 						<m_sql>hris_tito.CheckedBy</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_tito</m_strTable>
@@ -18288,7 +18288,7 @@ hris_tito.CheckedBy</m_strFieldList>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>hris_tito</m_strName>
@@ -18303,12 +18303,12 @@ hris_tito.CheckedBy</m_strFieldList>
 								<val>CheckedBy</val>
 							</m_columns>
 						</m_table>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_joinon>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase />
+							<m_strCase></m_strCase>
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -18323,7 +18323,7 @@ hris_tito.CheckedBy</m_strFieldList>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_CROSSJOIN</m_link>
 						<m_table>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>hris_job</m_strName>
@@ -18343,12 +18343,12 @@ hris_tito.CheckedBy</m_strFieldList>
 								<val>personnelID</val>
 							</m_columns>
 						</m_table>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_joinon>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase />
+							<m_strCase></m_strCase>
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -18385,10 +18385,10 @@ address,
 startdate, 
 enddate</m_sqlHead>
 			<m_sqlFrom>FROM hris_trainings</m_sqlFrom>
-			<m_sqlWhere />
-			<m_sqlTail />
+			<m_sqlWhere></m_sqlWhere>
+			<m_sqlTail></m_sqlTail>
 			<m_bGroupBy>0</m_bGroupBy>
-			<m_strOrderBy />
+			<m_strOrderBy></m_strOrderBy>
 			<m_nType>0</m_nType>
 			<m_strConnectionID>hris_at_localhost</m_strConnectionID>
 			<m_strOriginalTable>hris_trainings</m_strOriginalTable>
@@ -18555,7 +18555,7 @@ enddate</m_sqlHead>
 					<m_strTable>hris_trainings</m_strTable>
 					<m_strName>ID</m_strName>
 					<m_strSQLExpression>ID</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -18587,7 +18587,7 @@ enddate</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>3</m_nDataType>
 					<m_bAutoInc>1</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -18776,7 +18776,7 @@ enddate</m_sqlHead>
 					<m_strTable>hris_trainings</m_strTable>
 					<m_strName>personnelID</m_strName>
 					<m_strSQLExpression>personnelID</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -18808,7 +18808,7 @@ enddate</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -18997,7 +18997,7 @@ enddate</m_sqlHead>
 					<m_strTable>hris_trainings</m_strTable>
 					<m_strName>trainingname</m_strName>
 					<m_strSQLExpression>trainingname</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -19029,7 +19029,7 @@ enddate</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -19218,7 +19218,7 @@ enddate</m_sqlHead>
 					<m_strTable>hris_trainings</m_strTable>
 					<m_strName>address</m_strName>
 					<m_strSQLExpression>address</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -19250,7 +19250,7 @@ enddate</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -19439,7 +19439,7 @@ enddate</m_sqlHead>
 					<m_strTable>hris_trainings</m_strTable>
 					<m_strName>startdate</m_strName>
 					<m_strSQLExpression>startdate</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -19471,7 +19471,7 @@ enddate</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>7</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -19660,7 +19660,7 @@ enddate</m_sqlHead>
 					<m_strTable>hris_trainings</m_strTable>
 					<m_strName>enddate</m_strName>
 					<m_strSQLExpression>enddate</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -19692,7 +19692,7 @@ enddate</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>7</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -20034,7 +20034,7 @@ enddate</m_sqlHead>
 			</m_arrGroupsPerPage>
 			<m_bHighlightSearchResults>1</m_bHighlightSearchResults>
 			<m_bFlexibleSearch>1</m_bFlexibleSearch>
-			<m_nPartialBuildState>0</m_nPartialBuildState>
+			<m_nPartialBuildState>1</m_nPartialBuildState>
 			<m_bSaveSearches>0</m_bSaveSearches>
 			<m_bWarnLeavingPages>1</m_bWarnLeavingPages>
 			<m_pDashboard>
@@ -20094,14 +20094,14 @@ address,
 startdate, 
 enddate</m_strFieldList>
 				<m_strFrom>FROM hris_trainings</m_strFrom>
-				<m_strWhere />
-				<m_strOrderBy />
-				<m_strTail />
+				<m_strWhere></m_strWhere>
+				<m_strOrderBy></m_strOrderBy>
+				<m_strTail></m_strTail>
 				<m_where>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>1</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -20110,10 +20110,10 @@ enddate</m_strFieldList>
 					<m_contained />
 				</m_where>
 				<m_having>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -20126,9 +20126,9 @@ enddate</m_strFieldList>
 						<m_sql>ID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_trainings</m_strTable>
@@ -20139,9 +20139,9 @@ enddate</m_strFieldList>
 						<m_sql>personnelID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_trainings</m_strTable>
@@ -20152,9 +20152,9 @@ enddate</m_strFieldList>
 						<m_sql>trainingname</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_trainings</m_strTable>
@@ -20165,9 +20165,9 @@ enddate</m_strFieldList>
 						<m_sql>address</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_trainings</m_strTable>
@@ -20178,9 +20178,9 @@ enddate</m_strFieldList>
 						<m_sql>startdate</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_trainings</m_strTable>
@@ -20191,9 +20191,9 @@ enddate</m_strFieldList>
 						<m_sql>enddate</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_trainings</m_strTable>
@@ -20208,7 +20208,7 @@ enddate</m_strFieldList>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>hris_trainings</m_strName>
@@ -20221,12 +20221,12 @@ enddate</m_strFieldList>
 								<val>enddate</val>
 							</m_columns>
 						</m_table>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_joinon>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase />
+							<m_strCase></m_strCase>
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -20261,10 +20261,10 @@ email,
 password, 
 `mode`</m_sqlHead>
 			<m_sqlFrom>FROM hris_user</m_sqlFrom>
-			<m_sqlWhere />
-			<m_sqlTail />
+			<m_sqlWhere></m_sqlWhere>
+			<m_sqlTail></m_sqlTail>
 			<m_bGroupBy>0</m_bGroupBy>
-			<m_strOrderBy />
+			<m_strOrderBy></m_strOrderBy>
 			<m_nType>0</m_nType>
 			<m_strConnectionID>hris_at_localhost</m_strConnectionID>
 			<m_strOriginalTable>hris_user</m_strOriginalTable>
@@ -20431,7 +20431,7 @@ password,
 					<m_strTable>hris_user</m_strTable>
 					<m_strName>ID</m_strName>
 					<m_strSQLExpression>ID</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -20463,7 +20463,7 @@ password,
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>3</m_nDataType>
 					<m_bAutoInc>1</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -20652,7 +20652,7 @@ password,
 					<m_strTable>hris_user</m_strTable>
 					<m_strName>name</m_strName>
 					<m_strSQLExpression>name</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -20679,7 +20679,7 @@ password,
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -20863,7 +20863,7 @@ password,
 					<m_strTable>hris_user</m_strTable>
 					<m_strName>email</m_strName>
 					<m_strSQLExpression>email</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -20895,7 +20895,7 @@ password,
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -21084,7 +21084,7 @@ password,
 					<m_strTable>hris_user</m_strTable>
 					<m_strName>password</m_strName>
 					<m_strSQLExpression>password</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -21116,7 +21116,7 @@ password,
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -21305,7 +21305,7 @@ password,
 					<m_strTable>hris_user</m_strTable>
 					<m_strName>mode</m_strName>
 					<m_strSQLExpression>`mode`</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -21332,7 +21332,7 @@ password,
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -22327,7 +22327,7 @@ password,
 			</m_arrGroupsPerPage>
 			<m_bHighlightSearchResults>1</m_bHighlightSearchResults>
 			<m_bFlexibleSearch>1</m_bFlexibleSearch>
-			<m_nPartialBuildState>0</m_nPartialBuildState>
+			<m_nPartialBuildState>1</m_nPartialBuildState>
 			<m_bSaveSearches>0</m_bSaveSearches>
 			<m_bWarnLeavingPages>1</m_bWarnLeavingPages>
 			<m_pDashboard>
@@ -22385,14 +22385,14 @@ email,
 password, 
 `mode`</m_strFieldList>
 				<m_strFrom>FROM hris_user</m_strFrom>
-				<m_strWhere />
-				<m_strOrderBy />
-				<m_strTail />
+				<m_strWhere></m_strWhere>
+				<m_strOrderBy></m_strOrderBy>
+				<m_strTail></m_strTail>
 				<m_where>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>1</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -22401,10 +22401,10 @@ password,
 					<m_contained />
 				</m_where>
 				<m_having>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -22417,9 +22417,9 @@ password,
 						<m_sql>ID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_user</m_strTable>
@@ -22430,9 +22430,9 @@ password,
 						<m_sql>name</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_user</m_strTable>
@@ -22443,9 +22443,9 @@ password,
 						<m_sql>email</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_user</m_strTable>
@@ -22456,9 +22456,9 @@ password,
 						<m_sql>password</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_user</m_strTable>
@@ -22469,9 +22469,9 @@ password,
 						<m_sql>`mode`</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_user</m_strTable>
@@ -22486,7 +22486,7 @@ password,
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>hris_user</m_strName>
@@ -22498,12 +22498,12 @@ password,
 								<val>mode</val>
 							</m_columns>
 						</m_table>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_joinon>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase />
+							<m_strCase></m_strCase>
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -22574,9 +22574,9 @@ hris_personnel.civilstatus</m_sqlHead>
 			<m_sqlFrom>FROM hris_personnel
 , hris_job</m_sqlFrom>
 			<m_sqlWhere>hris_personnel.ID =hris_job.personnelID AND hris_job.empstatus ='active'</m_sqlWhere>
-			<m_sqlTail />
+			<m_sqlTail></m_sqlTail>
 			<m_bGroupBy>0</m_bGroupBy>
-			<m_strOrderBy />
+			<m_strOrderBy></m_strOrderBy>
 			<m_nType>1</m_nType>
 			<m_strConnectionID>hris_at_localhost</m_strConnectionID>
 			<m_strOriginalTable>hris_personnel</m_strOriginalTable>
@@ -22721,7 +22721,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>ID</m_strName>
 					<m_strSQLExpression>hris_personnel.ID</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -22753,7 +22753,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>3</m_nDataType>
 					<m_bAutoInc>1</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -22939,7 +22939,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 				<v>
-					<m_strTable />
+					<m_strTable></m_strTable>
 					<m_strName>fullName</m_strName>
 					<m_strSQLExpression>concat(upper(hris_personnel.lastname), ", ", hris_personnel.firstname)</m_strSQLExpression>
 					<m_strSQLAlias>fullName</m_strSQLAlias>
@@ -23163,7 +23163,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>department</m_strName>
 					<m_strSQLExpression>hris_job.department</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -23195,7 +23195,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>3</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -23384,7 +23384,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>unit</m_strName>
 					<m_strSQLExpression>hris_job.unit</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -23416,7 +23416,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>4</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -23605,7 +23605,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>jobtitle</m_strName>
 					<m_strSQLExpression>hris_job.jobtitle</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -23637,7 +23637,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>2</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -23826,7 +23826,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>firstname</m_strName>
 					<m_strSQLExpression>hris_personnel.firstname</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -23858,7 +23858,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -24047,7 +24047,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>middlename</m_strName>
 					<m_strSQLExpression>hris_personnel.middlename</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -24079,7 +24079,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -24268,7 +24268,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>lastname</m_strName>
 					<m_strSQLExpression>hris_personnel.lastname</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -24300,7 +24300,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -24489,7 +24489,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>gender</m_strName>
 					<m_strSQLExpression>hris_personnel.gender</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -24521,7 +24521,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>5</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -24710,7 +24710,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>currentaddress</m_strName>
 					<m_strSQLExpression>hris_personnel.currentaddress</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -24742,7 +24742,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>6</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -24931,7 +24931,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>permanentaddress</m_strName>
 					<m_strSQLExpression>hris_personnel.permanentaddress</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -24963,7 +24963,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>7</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -25152,7 +25152,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>sss</m_strName>
 					<m_strSQLExpression>hris_personnel.sss</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -25184,7 +25184,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>8</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -25373,7 +25373,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>tin</m_strName>
 					<m_strSQLExpression>hris_personnel.tin</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -25405,7 +25405,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>9</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -25594,7 +25594,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>pagibig</m_strName>
 					<m_strSQLExpression>hris_personnel.pagibig</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -25626,7 +25626,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>10</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -25815,7 +25815,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>philhealth</m_strName>
 					<m_strSQLExpression>hris_personnel.philhealth</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -25847,7 +25847,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>11</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -26036,7 +26036,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>emailaddress</m_strName>
 					<m_strSQLExpression>hris_personnel.emailaddress</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -26068,7 +26068,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>12</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -26257,7 +26257,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>telephone</m_strName>
 					<m_strSQLExpression>hris_personnel.telephone</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -26289,7 +26289,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>13</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -26478,7 +26478,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>dateofbirth</m_strName>
 					<m_strSQLExpression>hris_personnel.dateofbirth</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -26510,7 +26510,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>7</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -26699,7 +26699,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>skills</m_strName>
 					<m_strSQLExpression>hris_personnel.skills</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -26731,7 +26731,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -26920,7 +26920,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>civilstatus</m_strName>
 					<m_strSQLExpression>hris_personnel.civilstatus</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -26952,7 +26952,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -27532,7 +27532,7 @@ hris_personnel.civilstatus</m_sqlHead>
 			</m_arrGroupsPerPage>
 			<m_bHighlightSearchResults>1</m_bHighlightSearchResults>
 			<m_bFlexibleSearch>1</m_bFlexibleSearch>
-			<m_nPartialBuildState>0</m_nPartialBuildState>
+			<m_nPartialBuildState>1</m_nPartialBuildState>
 			<m_bSaveSearches>0</m_bSaveSearches>
 			<m_bWarnLeavingPages>1</m_bWarnLeavingPages>
 			<m_pDashboard>
@@ -27626,13 +27626,13 @@ hris_personnel.civilstatus</m_strFieldList>
 				<m_strFrom>FROM hris_personnel
 , hris_job</m_strFrom>
 				<m_strWhere>hris_personnel.ID =hris_job.personnelID AND hris_job.empstatus ='active'</m_strWhere>
-				<m_strOrderBy />
-				<m_strTail />
+				<m_strOrderBy></m_strOrderBy>
+				<m_strTail></m_strTail>
 				<m_where>
 					<m_sql>hris_personnel.ID =hris_job.personnelID AND hris_job.empstatus ='active'</m_sql>
 					<m_parsed>1</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -27648,7 +27648,7 @@ hris_personnel.civilstatus</m_strFieldList>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
 							<m_column>
-								<m_sql />
+								<m_sql></m_sql>
 								<m_parsed>0</m_parsed>
 								<type>SQL::SQLField</type>
 								<m_strTable>hris_personnel</m_strTable>
@@ -27666,7 +27666,7 @@ hris_personnel.civilstatus</m_strFieldList>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
 							<m_column>
-								<m_sql />
+								<m_sql></m_sql>
 								<m_parsed>0</m_parsed>
 								<type>SQL::SQLField</type>
 								<m_strTable>hris_job</m_strTable>
@@ -27678,10 +27678,10 @@ hris_personnel.civilstatus</m_strFieldList>
 					</m_contained>
 				</m_where>
 				<m_having>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -27694,9 +27694,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.ID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -27737,9 +27737,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_job.department</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -27750,9 +27750,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_job.unit</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -27763,9 +27763,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_job.jobtitle</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -27776,9 +27776,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.firstname</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -27789,9 +27789,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.middlename</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -27802,9 +27802,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.lastname</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -27815,9 +27815,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.gender</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -27828,9 +27828,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.currentaddress</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -27841,9 +27841,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.permanentaddress</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -27854,9 +27854,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.sss</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -27867,9 +27867,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.tin</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -27880,9 +27880,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.pagibig</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -27893,9 +27893,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.philhealth</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -27906,9 +27906,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.emailaddress</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -27919,9 +27919,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.telephone</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -27932,9 +27932,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.dateofbirth</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -27945,9 +27945,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.skills</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -27958,9 +27958,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.civilstatus</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -27975,7 +27975,7 @@ hris_personnel.civilstatus</m_strFieldList>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>hris_personnel</m_strName>
@@ -27998,12 +27998,12 @@ hris_personnel.civilstatus</m_strFieldList>
 								<val>civilstatus</val>
 							</m_columns>
 						</m_table>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_joinon>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase />
+							<m_strCase></m_strCase>
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -28018,7 +28018,7 @@ hris_personnel.civilstatus</m_strFieldList>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_CROSSJOIN</m_link>
 						<m_table>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>hris_job</m_strName>
@@ -28038,12 +28038,12 @@ hris_personnel.civilstatus</m_strFieldList>
 								<val>personnelID</val>
 							</m_columns>
 						</m_table>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_joinon>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase />
+							<m_strCase></m_strCase>
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -28114,9 +28114,9 @@ hris_personnel.civilstatus</m_sqlHead>
 			<m_sqlFrom>FROM hris_personnel
 , hris_job</m_sqlFrom>
 			<m_sqlWhere>hris_personnel.ID =hris_job.personnelID AND hris_job.empstatus !='active'</m_sqlWhere>
-			<m_sqlTail />
+			<m_sqlTail></m_sqlTail>
 			<m_bGroupBy>0</m_bGroupBy>
-			<m_strOrderBy />
+			<m_strOrderBy></m_strOrderBy>
 			<m_nType>1</m_nType>
 			<m_strConnectionID>hris_at_localhost</m_strConnectionID>
 			<m_strOriginalTable>hris_personnel</m_strOriginalTable>
@@ -28261,7 +28261,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>ID</m_strName>
 					<m_strSQLExpression>hris_personnel.ID</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -28293,7 +28293,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>3</m_nDataType>
 					<m_bAutoInc>1</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -28479,7 +28479,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 				<v>
-					<m_strTable />
+					<m_strTable></m_strTable>
 					<m_strName>fullName</m_strName>
 					<m_strSQLExpression>concat(upper(hris_personnel.lastname), ", ", hris_personnel.firstname)</m_strSQLExpression>
 					<m_strSQLAlias>fullName</m_strSQLAlias>
@@ -28703,7 +28703,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>department</m_strName>
 					<m_strSQLExpression>hris_job.department</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -28735,7 +28735,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -28924,7 +28924,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>unit</m_strName>
 					<m_strSQLExpression>hris_job.unit</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -28956,7 +28956,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -29145,7 +29145,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>jobtitle</m_strName>
 					<m_strSQLExpression>hris_job.jobtitle</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -29177,7 +29177,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -29366,7 +29366,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>firstname</m_strName>
 					<m_strSQLExpression>hris_personnel.firstname</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -29398,7 +29398,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -29587,7 +29587,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>middlename</m_strName>
 					<m_strSQLExpression>hris_personnel.middlename</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -29619,7 +29619,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -29808,7 +29808,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>lastname</m_strName>
 					<m_strSQLExpression>hris_personnel.lastname</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -29840,7 +29840,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -30029,7 +30029,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>gender</m_strName>
 					<m_strSQLExpression>hris_personnel.gender</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -30061,7 +30061,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>2</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -30250,7 +30250,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>currentaddress</m_strName>
 					<m_strSQLExpression>hris_personnel.currentaddress</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -30282,7 +30282,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>3</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -30471,7 +30471,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>permanentaddress</m_strName>
 					<m_strSQLExpression>hris_personnel.permanentaddress</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -30503,7 +30503,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>4</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -30692,7 +30692,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>sss</m_strName>
 					<m_strSQLExpression>hris_personnel.sss</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -30724,7 +30724,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>5</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -30913,7 +30913,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>tin</m_strName>
 					<m_strSQLExpression>hris_personnel.tin</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -30945,7 +30945,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>6</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -31134,7 +31134,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>pagibig</m_strName>
 					<m_strSQLExpression>hris_personnel.pagibig</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -31166,7 +31166,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>7</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -31355,7 +31355,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>philhealth</m_strName>
 					<m_strSQLExpression>hris_personnel.philhealth</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -31387,7 +31387,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>8</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -31576,7 +31576,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>emailaddress</m_strName>
 					<m_strSQLExpression>hris_personnel.emailaddress</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -31608,7 +31608,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>9</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -31797,7 +31797,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>telephone</m_strName>
 					<m_strSQLExpression>hris_personnel.telephone</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -31829,7 +31829,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>10</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -32018,7 +32018,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>dateofbirth</m_strName>
 					<m_strSQLExpression>hris_personnel.dateofbirth</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -32050,7 +32050,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>7</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -32239,7 +32239,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>skills</m_strName>
 					<m_strSQLExpression>hris_personnel.skills</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -32271,7 +32271,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -32460,7 +32460,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>civilstatus</m_strName>
 					<m_strSQLExpression>hris_personnel.civilstatus</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -32492,7 +32492,7 @@ hris_personnel.civilstatus</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -33072,7 +33072,7 @@ hris_personnel.civilstatus</m_sqlHead>
 			</m_arrGroupsPerPage>
 			<m_bHighlightSearchResults>1</m_bHighlightSearchResults>
 			<m_bFlexibleSearch>1</m_bFlexibleSearch>
-			<m_nPartialBuildState>0</m_nPartialBuildState>
+			<m_nPartialBuildState>1</m_nPartialBuildState>
 			<m_bSaveSearches>0</m_bSaveSearches>
 			<m_bWarnLeavingPages>1</m_bWarnLeavingPages>
 			<m_pDashboard>
@@ -33166,13 +33166,13 @@ hris_personnel.civilstatus</m_strFieldList>
 				<m_strFrom>FROM hris_personnel
 , hris_job</m_strFrom>
 				<m_strWhere>hris_personnel.ID =hris_job.personnelID AND hris_job.empstatus !='active'</m_strWhere>
-				<m_strOrderBy />
-				<m_strTail />
+				<m_strOrderBy></m_strOrderBy>
+				<m_strTail></m_strTail>
 				<m_where>
 					<m_sql>hris_personnel.ID =hris_job.personnelID AND hris_job.empstatus !='active'</m_sql>
 					<m_parsed>1</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -33188,7 +33188,7 @@ hris_personnel.civilstatus</m_strFieldList>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
 							<m_column>
-								<m_sql />
+								<m_sql></m_sql>
 								<m_parsed>0</m_parsed>
 								<type>SQL::SQLField</type>
 								<m_strTable>hris_personnel</m_strTable>
@@ -33206,7 +33206,7 @@ hris_personnel.civilstatus</m_strFieldList>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
 							<m_column>
-								<m_sql />
+								<m_sql></m_sql>
 								<m_parsed>0</m_parsed>
 								<type>SQL::SQLField</type>
 								<m_strTable>hris_job</m_strTable>
@@ -33218,10 +33218,10 @@ hris_personnel.civilstatus</m_strFieldList>
 					</m_contained>
 				</m_where>
 				<m_having>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -33234,9 +33234,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.ID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -33277,9 +33277,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_job.department</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -33290,9 +33290,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_job.unit</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -33303,9 +33303,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_job.jobtitle</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -33316,9 +33316,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.firstname</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -33329,9 +33329,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.middlename</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -33342,9 +33342,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.lastname</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -33355,9 +33355,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.gender</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -33368,9 +33368,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.currentaddress</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -33381,9 +33381,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.permanentaddress</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -33394,9 +33394,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.sss</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -33407,9 +33407,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.tin</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -33420,9 +33420,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.pagibig</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -33433,9 +33433,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.philhealth</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -33446,9 +33446,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.emailaddress</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -33459,9 +33459,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.telephone</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -33472,9 +33472,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.dateofbirth</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -33485,9 +33485,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.skills</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -33498,9 +33498,9 @@ hris_personnel.civilstatus</m_strFieldList>
 						<m_sql>hris_personnel.civilstatus</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -33515,7 +33515,7 @@ hris_personnel.civilstatus</m_strFieldList>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>hris_personnel</m_strName>
@@ -33538,12 +33538,12 @@ hris_personnel.civilstatus</m_strFieldList>
 								<val>civilstatus</val>
 							</m_columns>
 						</m_table>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_joinon>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase />
+							<m_strCase></m_strCase>
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -33558,7 +33558,7 @@ hris_personnel.civilstatus</m_strFieldList>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_CROSSJOIN</m_link>
 						<m_table>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>hris_job</m_strName>
@@ -33578,12 +33578,12 @@ hris_personnel.civilstatus</m_strFieldList>
 								<val>personnelID</val>
 							</m_columns>
 						</m_table>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_joinon>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase />
+							<m_strCase></m_strCase>
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -33632,8 +33632,8 @@ validity,
 title,
 `file`</m_sqlHead>
 			<m_sqlFrom>FROM hris_journey</m_sqlFrom>
-			<m_sqlWhere />
-			<m_sqlTail />
+			<m_sqlWhere></m_sqlWhere>
+			<m_sqlTail></m_sqlTail>
 			<m_bGroupBy>0</m_bGroupBy>
 			<m_strOrderBy>ORDER BY dateIssued DESC</m_strOrderBy>
 			<m_nType>0</m_nType>
@@ -33802,7 +33802,7 @@ title,
 					<m_strTable>hris_journey</m_strTable>
 					<m_strName>ID</m_strName>
 					<m_strSQLExpression>ID</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -33834,7 +33834,7 @@ title,
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>3</m_nDataType>
 					<m_bAutoInc>1</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>1</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -34023,7 +34023,7 @@ title,
 					<m_strTable>hris_journey</m_strTable>
 					<m_strName>personnelID</m_strName>
 					<m_strSQLExpression>personnelID</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -34055,7 +34055,7 @@ title,
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>2</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -34244,7 +34244,7 @@ title,
 					<m_strTable>hris_journey</m_strTable>
 					<m_strName>memoType</m_strName>
 					<m_strSQLExpression>memoType</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -34276,7 +34276,7 @@ title,
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>3</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -34471,7 +34471,7 @@ title,
 					<m_strTable>hris_journey</m_strTable>
 					<m_strName>dateIssued</m_strName>
 					<m_strSQLExpression>dateIssued</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -34503,7 +34503,7 @@ title,
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>7</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>4</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -34692,7 +34692,7 @@ title,
 					<m_strTable>hris_journey</m_strTable>
 					<m_strName>validity</m_strName>
 					<m_strSQLExpression>validity</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -34724,7 +34724,7 @@ title,
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>7</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>5</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -34913,7 +34913,7 @@ title,
 					<m_strTable>hris_journey</m_strTable>
 					<m_strName>title</m_strName>
 					<m_strSQLExpression>title</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -34945,7 +34945,7 @@ title,
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>6</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -35134,7 +35134,7 @@ title,
 					<m_strTable>hris_journey</m_strTable>
 					<m_strName>file</m_strName>
 					<m_strSQLExpression>`file`</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -35166,7 +35166,7 @@ title,
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>201</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>7</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -35750,7 +35750,7 @@ $this-&gt;settings["option2"] = 0;</m_pluginInitString>
 			</m_arrGroupsPerPage>
 			<m_bHighlightSearchResults>1</m_bHighlightSearchResults>
 			<m_bFlexibleSearch>1</m_bFlexibleSearch>
-			<m_nPartialBuildState>0</m_nPartialBuildState>
+			<m_nPartialBuildState>1</m_nPartialBuildState>
 			<m_bSaveSearches>0</m_bSaveSearches>
 			<m_bWarnLeavingPages>1</m_bWarnLeavingPages>
 			<m_pDashboard>
@@ -35815,14 +35815,14 @@ validity,
 title,
 `file`</m_strFieldList>
 				<m_strFrom>FROM hris_journey</m_strFrom>
-				<m_strWhere />
+				<m_strWhere></m_strWhere>
 				<m_strOrderBy>ORDER BY dateIssued DESC</m_strOrderBy>
-				<m_strTail />
+				<m_strTail></m_strTail>
 				<m_where>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>1</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -35831,10 +35831,10 @@ title,
 					<m_contained />
 				</m_where>
 				<m_having>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -35847,9 +35847,9 @@ title,
 						<m_sql>ID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_journey</m_strTable>
@@ -35860,9 +35860,9 @@ title,
 						<m_sql>personnelID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_journey</m_strTable>
@@ -35873,9 +35873,9 @@ title,
 						<m_sql>memoType</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_journey</m_strTable>
@@ -35886,9 +35886,9 @@ title,
 						<m_sql>dateIssued</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_journey</m_strTable>
@@ -35899,9 +35899,9 @@ title,
 						<m_sql>validity</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_journey</m_strTable>
@@ -35912,9 +35912,9 @@ title,
 						<m_sql>title</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_journey</m_strTable>
@@ -35925,9 +35925,9 @@ title,
 						<m_sql>`file`</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_journey</m_strTable>
@@ -35942,7 +35942,7 @@ title,
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>hris_journey</m_strName>
@@ -35956,12 +35956,12 @@ title,
 								<val>file</val>
 							</m_columns>
 						</m_table>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_joinon>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase />
+							<m_strCase></m_strCase>
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -35978,7 +35978,7 @@ title,
 						<m_parsed>1</m_parsed>
 						<type>SQL::OrderByItem</type>
 						<m_column>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_journey</m_strTable>
@@ -36021,8 +36021,8 @@ jobdesc,
 deptunit,
 validity</m_sqlHead>
 			<m_sqlFrom>FROM hris_vacancy</m_sqlFrom>
-			<m_sqlWhere />
-			<m_sqlTail />
+			<m_sqlWhere></m_sqlWhere>
+			<m_sqlTail></m_sqlTail>
 			<m_bGroupBy>0</m_bGroupBy>
 			<m_strOrderBy>ORDER BY validity</m_strOrderBy>
 			<m_nType>0</m_nType>
@@ -36169,7 +36169,7 @@ validity</m_sqlHead>
 					<m_strTable>hris_vacancy</m_strTable>
 					<m_strName>ID</m_strName>
 					<m_strSQLExpression>ID</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -36201,7 +36201,7 @@ validity</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>3</m_nDataType>
 					<m_bAutoInc>1</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>1</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -36390,7 +36390,7 @@ validity</m_sqlHead>
 					<m_strTable>hris_vacancy</m_strTable>
 					<m_strName>jobtitle</m_strName>
 					<m_strSQLExpression>jobtitle</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -36422,7 +36422,7 @@ validity</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>2</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -36611,7 +36611,7 @@ validity</m_sqlHead>
 					<m_strTable>hris_vacancy</m_strTable>
 					<m_strName>jobdesc</m_strName>
 					<m_strSQLExpression>jobdesc</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -36643,7 +36643,7 @@ validity</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>201</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>2</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -36832,7 +36832,7 @@ validity</m_sqlHead>
 					<m_strTable>hris_vacancy</m_strTable>
 					<m_strName>deptunit</m_strName>
 					<m_strSQLExpression>deptunit</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -36864,7 +36864,7 @@ validity</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>3</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -37053,7 +37053,7 @@ validity</m_sqlHead>
 					<m_strTable>hris_vacancy</m_strTable>
 					<m_strName>validity</m_strName>
 					<m_strSQLExpression>validity</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -37085,7 +37085,7 @@ validity</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>7</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>4</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -37406,7 +37406,7 @@ validity</m_sqlHead>
 			</m_arrGroupsPerPage>
 			<m_bHighlightSearchResults>1</m_bHighlightSearchResults>
 			<m_bFlexibleSearch>1</m_bFlexibleSearch>
-			<m_nPartialBuildState>0</m_nPartialBuildState>
+			<m_nPartialBuildState>1</m_nPartialBuildState>
 			<m_bSaveSearches>0</m_bSaveSearches>
 			<m_bWarnLeavingPages>1</m_bWarnLeavingPages>
 			<m_pDashboard>
@@ -37467,14 +37467,14 @@ jobdesc,
 deptunit,
 validity</m_strFieldList>
 				<m_strFrom>FROM hris_vacancy</m_strFrom>
-				<m_strWhere />
+				<m_strWhere></m_strWhere>
 				<m_strOrderBy>ORDER BY validity</m_strOrderBy>
-				<m_strTail />
+				<m_strTail></m_strTail>
 				<m_where>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>1</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -37483,10 +37483,10 @@ validity</m_strFieldList>
 					<m_contained />
 				</m_where>
 				<m_having>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -37499,9 +37499,9 @@ validity</m_strFieldList>
 						<m_sql>ID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_vacancy</m_strTable>
@@ -37512,9 +37512,9 @@ validity</m_strFieldList>
 						<m_sql>jobtitle</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_vacancy</m_strTable>
@@ -37525,9 +37525,9 @@ validity</m_strFieldList>
 						<m_sql>jobdesc</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_vacancy</m_strTable>
@@ -37538,9 +37538,9 @@ validity</m_strFieldList>
 						<m_sql>deptunit</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_vacancy</m_strTable>
@@ -37551,9 +37551,9 @@ validity</m_strFieldList>
 						<m_sql>validity</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_vacancy</m_strTable>
@@ -37568,7 +37568,7 @@ validity</m_strFieldList>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>hris_vacancy</m_strName>
@@ -37580,12 +37580,12 @@ validity</m_strFieldList>
 								<val>validity</val>
 							</m_columns>
 						</m_table>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_joinon>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase />
+							<m_strCase></m_strCase>
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -37602,7 +37602,7 @@ validity</m_strFieldList>
 						<m_parsed>1</m_parsed>
 						<type>SQL::OrderByItem</type>
 						<m_column>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_vacancy</m_strTable>
@@ -37629,10 +37629,10 @@ FROM hris_job
 </m_strSQL>
 			<m_sqlHead>SELECT Distinct concat(department, '-', unit) AS `Dept Unit`</m_sqlHead>
 			<m_sqlFrom>FROM hris_job</m_sqlFrom>
-			<m_sqlWhere />
-			<m_sqlTail />
+			<m_sqlWhere></m_sqlWhere>
+			<m_sqlTail></m_sqlTail>
 			<m_bGroupBy>0</m_bGroupBy>
-			<m_strOrderBy />
+			<m_strOrderBy></m_strOrderBy>
 			<m_nType>1</m_nType>
 			<m_strConnectionID>hris_at_localhost</m_strConnectionID>
 			<m_strOriginalTable>hris_job</m_strOriginalTable>
@@ -37772,7 +37772,7 @@ FROM hris_job
 			<m_arrDetailTablesEx />
 			<m_arrFieldObj>
 				<v>
-					<m_strTable />
+					<m_strTable></m_strTable>
 					<m_strName>Dept Unit</m_strName>
 					<m_strSQLExpression>concat(department, '-', unit)</m_strSQLExpression>
 					<m_strSQLAlias>Dept Unit</m_strSQLAlias>
@@ -40890,7 +40890,7 @@ FROM hris_job
 			</m_arrGroupsPerPage>
 			<m_bHighlightSearchResults>1</m_bHighlightSearchResults>
 			<m_bFlexibleSearch>1</m_bFlexibleSearch>
-			<m_nPartialBuildState>0</m_nPartialBuildState>
+			<m_nPartialBuildState>1</m_nPartialBuildState>
 			<m_bSaveSearches>0</m_bSaveSearches>
 			<m_bWarnLeavingPages>1</m_bWarnLeavingPages>
 			<m_pDashboard>
@@ -40942,14 +40942,14 @@ FROM hris_job
 				<m_strHead>SELECT Distinct</m_strHead>
 				<m_strFieldList>concat(department, '-', unit) AS `Dept Unit`</m_strFieldList>
 				<m_strFrom>FROM hris_job</m_strFrom>
-				<m_strWhere />
-				<m_strOrderBy />
-				<m_strTail />
+				<m_strWhere></m_strWhere>
+				<m_strOrderBy></m_strOrderBy>
+				<m_strTail></m_strTail>
 				<m_where>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>1</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -40958,10 +40958,10 @@ FROM hris_job
 					<m_contained />
 				</m_where>
 				<m_having>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -41008,7 +41008,7 @@ FROM hris_job
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>hris_job</m_strName>
@@ -41028,12 +41028,12 @@ FROM hris_job
 								<val>personnelID</val>
 							</m_columns>
 						</m_table>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_joinon>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase />
+							<m_strCase></m_strCase>
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -41056,7 +41056,7 @@ FROM hris_job
 				<y2>620</y2>
 			</DiagramCoordinates>
 			<m_arrOrderIndexes />
-			<m_strSQL />
+			<m_strSQL></m_strSQL>
 			<m_sqlHead>SELECT ID,
 	name,
 	`type`,
@@ -43120,9 +43120,9 @@ hris_personnel.emailaddress</m_sqlHead>
 			<m_sqlFrom>FROM hris_personnel
 , hris_job</m_sqlFrom>
 			<m_sqlWhere>hris_personnel.ID =hris_job.personnelID AND hris_job.empstatus ='active'</m_sqlWhere>
-			<m_sqlTail />
+			<m_sqlTail></m_sqlTail>
 			<m_bGroupBy>0</m_bGroupBy>
-			<m_strOrderBy />
+			<m_strOrderBy></m_strOrderBy>
 			<m_nType>1</m_nType>
 			<m_strConnectionID>hris_at_localhost</m_strConnectionID>
 			<m_strOriginalTable>hris_personnel</m_strOriginalTable>
@@ -43279,7 +43279,7 @@ hris_personnel.emailaddress</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>ID</m_strName>
 					<m_strSQLExpression>hris_personnel.ID</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -43311,7 +43311,7 @@ hris_personnel.emailaddress</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>3</m_nDataType>
 					<m_bAutoInc>1</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -43497,7 +43497,7 @@ hris_personnel.emailaddress</m_sqlHead>
 					<m_arrListOfDevicesWithHiddenFields />
 				</v>
 				<v>
-					<m_strTable />
+					<m_strTable></m_strTable>
 					<m_strName>fullName</m_strName>
 					<m_strSQLExpression>concat(upper(hris_personnel.lastname), ", ", hris_personnel.firstname)</m_strSQLExpression>
 					<m_strSQLAlias>fullName</m_strSQLAlias>
@@ -43721,7 +43721,7 @@ hris_personnel.emailaddress</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>department</m_strName>
 					<m_strSQLExpression>hris_job.department</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -43753,7 +43753,7 @@ hris_personnel.emailaddress</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>3</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -43942,7 +43942,7 @@ hris_personnel.emailaddress</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>unit</m_strName>
 					<m_strSQLExpression>hris_job.unit</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -43974,7 +43974,7 @@ hris_personnel.emailaddress</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>4</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -44163,7 +44163,7 @@ hris_personnel.emailaddress</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>jobtitle</m_strName>
 					<m_strSQLExpression>hris_job.jobtitle</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>0</m_bAddPage>
 					<m_bEditPage>0</m_bEditPage>
@@ -44195,7 +44195,7 @@ hris_personnel.emailaddress</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>2</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -44384,7 +44384,7 @@ hris_personnel.emailaddress</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>firstname</m_strName>
 					<m_strSQLExpression>hris_personnel.firstname</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -44416,7 +44416,7 @@ hris_personnel.emailaddress</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -44605,7 +44605,7 @@ hris_personnel.emailaddress</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>middlename</m_strName>
 					<m_strSQLExpression>hris_personnel.middlename</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -44637,7 +44637,7 @@ hris_personnel.emailaddress</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -44826,7 +44826,7 @@ hris_personnel.emailaddress</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>lastname</m_strName>
 					<m_strSQLExpression>hris_personnel.lastname</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -44858,7 +44858,7 @@ hris_personnel.emailaddress</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>0</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -45047,7 +45047,7 @@ hris_personnel.emailaddress</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>gender</m_strName>
 					<m_strSQLExpression>hris_personnel.gender</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -45079,7 +45079,7 @@ hris_personnel.emailaddress</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>5</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -45268,7 +45268,7 @@ hris_personnel.emailaddress</m_sqlHead>
 					<m_strTable>hris_personnel</m_strTable>
 					<m_strName>emailaddress</m_strName>
 					<m_strSQLExpression>hris_personnel.emailaddress</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -45300,7 +45300,7 @@ hris_personnel.emailaddress</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>12</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -47861,7 +47861,7 @@ hris_personnel.emailaddress</m_sqlHead>
 			</m_arrGroupsPerPage>
 			<m_bHighlightSearchResults>1</m_bHighlightSearchResults>
 			<m_bFlexibleSearch>1</m_bFlexibleSearch>
-			<m_nPartialBuildState>0</m_nPartialBuildState>
+			<m_nPartialBuildState>1</m_nPartialBuildState>
 			<m_bSaveSearches>0</m_bSaveSearches>
 			<m_bWarnLeavingPages>1</m_bWarnLeavingPages>
 			<m_pDashboard>
@@ -47935,13 +47935,13 @@ hris_personnel.emailaddress</m_strFieldList>
 				<m_strFrom>FROM hris_personnel
 , hris_job</m_strFrom>
 				<m_strWhere>hris_personnel.ID =hris_job.personnelID AND hris_job.empstatus ='active'</m_strWhere>
-				<m_strOrderBy />
-				<m_strTail />
+				<m_strOrderBy></m_strOrderBy>
+				<m_strTail></m_strTail>
 				<m_where>
 					<m_sql>hris_personnel.ID =hris_job.personnelID AND hris_job.empstatus ='active'</m_sql>
 					<m_parsed>1</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -47957,7 +47957,7 @@ hris_personnel.emailaddress</m_strFieldList>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
 							<m_column>
-								<m_sql />
+								<m_sql></m_sql>
 								<m_parsed>0</m_parsed>
 								<type>SQL::SQLField</type>
 								<m_strTable>hris_personnel</m_strTable>
@@ -47975,7 +47975,7 @@ hris_personnel.emailaddress</m_strFieldList>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
 							<m_column>
-								<m_sql />
+								<m_sql></m_sql>
 								<m_parsed>0</m_parsed>
 								<type>SQL::SQLField</type>
 								<m_strTable>hris_job</m_strTable>
@@ -47987,10 +47987,10 @@ hris_personnel.emailaddress</m_strFieldList>
 					</m_contained>
 				</m_where>
 				<m_having>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -48003,9 +48003,9 @@ hris_personnel.emailaddress</m_strFieldList>
 						<m_sql>hris_personnel.ID</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -48046,9 +48046,9 @@ hris_personnel.emailaddress</m_strFieldList>
 						<m_sql>hris_job.department</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -48059,9 +48059,9 @@ hris_personnel.emailaddress</m_strFieldList>
 						<m_sql>hris_job.unit</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -48072,9 +48072,9 @@ hris_personnel.emailaddress</m_strFieldList>
 						<m_sql>hris_job.jobtitle</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -48085,9 +48085,9 @@ hris_personnel.emailaddress</m_strFieldList>
 						<m_sql>hris_personnel.firstname</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -48098,9 +48098,9 @@ hris_personnel.emailaddress</m_strFieldList>
 						<m_sql>hris_personnel.middlename</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -48111,9 +48111,9 @@ hris_personnel.emailaddress</m_strFieldList>
 						<m_sql>hris_personnel.lastname</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -48124,9 +48124,9 @@ hris_personnel.emailaddress</m_strFieldList>
 						<m_sql>hris_personnel.gender</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -48137,9 +48137,9 @@ hris_personnel.emailaddress</m_strFieldList>
 						<m_sql>hris_personnel.emailaddress</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_personnel</m_strTable>
@@ -48154,7 +48154,7 @@ hris_personnel.emailaddress</m_strFieldList>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>hris_personnel</m_strName>
@@ -48177,12 +48177,12 @@ hris_personnel.emailaddress</m_strFieldList>
 								<val>civilstatus</val>
 							</m_columns>
 						</m_table>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_joinon>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase />
+							<m_strCase></m_strCase>
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -48197,7 +48197,7 @@ hris_personnel.emailaddress</m_strFieldList>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_CROSSJOIN</m_link>
 						<m_table>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>hris_job</m_strName>
@@ -48217,12 +48217,12 @@ hris_personnel.emailaddress</m_strFieldList>
 								<val>personnelID</val>
 							</m_columns>
 						</m_table>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_joinon>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase />
+							<m_strCase></m_strCase>
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -48269,8 +48269,8 @@ ORDER BY department, unit
 unit,
 jobtitle</m_sqlHead>
 			<m_sqlFrom>FROM hris_job</m_sqlFrom>
-			<m_sqlWhere />
-			<m_sqlTail />
+			<m_sqlWhere></m_sqlWhere>
+			<m_sqlTail></m_sqlTail>
 			<m_bGroupBy>0</m_bGroupBy>
 			<m_strOrderBy>ORDER BY department, unit</m_strOrderBy>
 			<m_nType>1</m_nType>
@@ -48431,7 +48431,7 @@ jobtitle</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>department</m_strName>
 					<m_strSQLExpression>department</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -48463,7 +48463,7 @@ jobtitle</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>4</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -48652,7 +48652,7 @@ jobtitle</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>unit</m_strName>
 					<m_strSQLExpression>unit</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -48684,7 +48684,7 @@ jobtitle</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>5</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -48873,7 +48873,7 @@ jobtitle</m_sqlHead>
 					<m_strTable>hris_job</m_strTable>
 					<m_strName>jobtitle</m_strName>
 					<m_strSQLExpression>jobtitle</m_strSQLExpression>
-					<m_strSQLAlias />
+					<m_strSQLAlias></m_strSQLAlias>
 					<m_strTotalsType />
 					<m_bAddPage>1</m_bAddPage>
 					<m_bEditPage>1</m_bEditPage>
@@ -48905,7 +48905,7 @@ jobtitle</m_sqlHead>
 					<m_nFilterOrder>0</m_nFilterOrder>
 					<m_nDataType>200</m_nDataType>
 					<m_bAutoInc>0</m_bAutoInc>
-					<m_strOraSequenceName />
+					<m_strOraSequenceName></m_strOraSequenceName>
 					<m_bReportPage>1</m_bReportPage>
 					<m_nReportPageOrder>6</m_nReportPageOrder>
 					<m_bMin>0</m_bMin>
@@ -51389,7 +51389,7 @@ jobtitle</m_sqlHead>
 			</m_arrGroupsPerPage>
 			<m_bHighlightSearchResults>1</m_bHighlightSearchResults>
 			<m_bFlexibleSearch>1</m_bFlexibleSearch>
-			<m_nPartialBuildState>0</m_nPartialBuildState>
+			<m_nPartialBuildState>1</m_nPartialBuildState>
 			<m_bSaveSearches>0</m_bSaveSearches>
 			<m_bWarnLeavingPages>1</m_bWarnLeavingPages>
 			<m_pDashboard>
@@ -51446,14 +51446,14 @@ ORDER BY department, unit
 unit,
 jobtitle</m_strFieldList>
 				<m_strFrom>FROM hris_job</m_strFrom>
-				<m_strWhere />
+				<m_strWhere></m_strWhere>
 				<m_strOrderBy>ORDER BY department, unit</m_strOrderBy>
-				<m_strTail />
+				<m_strTail></m_strTail>
 				<m_where>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>1</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -51462,10 +51462,10 @@ jobtitle</m_strFieldList>
 					<m_contained />
 				</m_where>
 				<m_having>
-					<m_sql />
+					<m_sql></m_sql>
 					<m_parsed>0</m_parsed>
 					<type>SQL::LogicalExpr</type>
-					<m_strCase />
+					<m_strCase></m_strCase>
 					<m_havingmode>0</m_havingmode>
 					<m_inBrackets>0</m_inBrackets>
 					<m_useAlias>0</m_useAlias>
@@ -51478,9 +51478,9 @@ jobtitle</m_strFieldList>
 						<m_sql>department</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -51491,9 +51491,9 @@ jobtitle</m_strFieldList>
 						<m_sql>unit</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -51504,9 +51504,9 @@ jobtitle</m_strFieldList>
 						<m_sql>jobtitle</m_sql>
 						<m_parsed>0</m_parsed>
 						<type>SQL::FieldListItem</type>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_expr>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -51521,7 +51521,7 @@ jobtitle</m_strFieldList>
 						<type>SQL::FromListItem</type>
 						<m_link>SQLL_MAIN</m_link>
 						<m_table>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::Table</type>
 							<m_strName>hris_job</m_strName>
@@ -51541,12 +51541,12 @@ jobtitle</m_strFieldList>
 								<val>personnelID</val>
 							</m_columns>
 						</m_table>
-						<m_alias />
+						<m_alias></m_alias>
 						<m_joinon>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::LogicalExpr</type>
-							<m_strCase />
+							<m_strCase></m_strCase>
 							<m_havingmode>0</m_havingmode>
 							<m_inBrackets>0</m_inBrackets>
 							<m_useAlias>0</m_useAlias>
@@ -51563,7 +51563,7 @@ jobtitle</m_strFieldList>
 						<m_parsed>1</m_parsed>
 						<type>SQL::OrderByItem</type>
 						<m_column>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -51577,7 +51577,7 @@ jobtitle</m_strFieldList>
 						<m_parsed>1</m_parsed>
 						<type>SQL::OrderByItem</type>
 						<m_column>
-							<m_sql />
+							<m_sql></m_sql>
 							<m_parsed>0</m_parsed>
 							<type>SQL::SQLField</type>
 							<m_strTable>hris_job</m_strTable>
@@ -67031,7 +67031,7 @@ hris_orgsetup.memberID</m_strFieldList>
 			<m_nDatabaseType>0</m_nDatabaseType>
 			<m_cLeftWrap>`</m_cLeftWrap>
 			<m_cRightWrap>`</m_cRightWrap>
-			<m_lastDbSyncTime>1642576023</m_lastDbSyncTime>
+			<m_lastDbSyncTime>1643011470</m_lastDbSyncTime>
 			<m_strDBPath>db</m_strDBPath>
 			<m_bUseServerMapPath>1</m_bUseServerMapPath>
 			<m_strCustomDBConnection />
@@ -73324,7 +73324,7 @@ $_SESSION['FISCAL_YR']=$fiscalyr;
 			</v>
 			<v>
 				<filename>D:\UAP-PHP Runner V8\HRIS - PHPRv8\output\styles\FusionOffice</filename>
-				<source></source>
+				<source />
 			</v>
 			<v>
 				<filename>D:\UAP-PHP Runner V8\HRIS - PHPRv8\output\templates\hris_tito_list.htm</filename>
@@ -73619,19 +73619,7 @@ $_SESSION['FISCAL_YR']=$fiscalyr;
 				<source>C:\Program Files (x86)\PHPRunner8.0\source\include\common\runnerJS\RunnerAll.js</source>
 			</v>
 		</builtFiles>
-		<m_builtDBTables>
-			<v>hris_affiliation</v>
-			<v>hris_educationprofile</v>
-			<v>hris_files</v>
-			<v>hris_job</v>
-			<v>hris_journey</v>
-			<v>hris_licert</v>
-			<v>hris_personnel</v>
-			<v>hris_tito</v>
-			<v>hris_trainings</v>
-			<v>hris_user</v>
-			<v>hris_vacancy</v>
-		</m_builtDBTables>
+		<m_builtDBTables />
 	</BuildInfo>
 	<m_strAppUser />
 	<m_controlLinks>

@@ -21,7 +21,7 @@ $xt = new Xtempl();
 
 
 
-$layout = new TLayout("detailspreview", "FusionOffice", "MobileOffice");
+$layout = new TLayout("detailspreview", "FusionFire", "MobileFire");
 $layout->version = 2;
 $layout->blocks["bare"] = array();
 $layout->containers["dcount"] = array();

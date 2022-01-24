@@ -22,7 +22,7 @@ InitLookupLinks();
 
 
 
-$layout = new TLayout("list2", "FusionOffice", "MobileOffice");
+$layout = new TLayout("list2", "FusionFire", "MobileFire");
 $layout->version = 2;
 $layout->blocks["center"] = array();
 $layout->containers["recordcontrols"] = array();
@@ -146,7 +146,7 @@ $layout->skinsparams["3"] = array("button"=>"button1");
 
 
 
-$layout = new TLayout("masterlist", "FusionOffice", "MobileOffice");
+$layout = new TLayout("masterlist", "FusionFire", "MobileFire");
 $layout->version = 2;
 $layout->blocks["bare"] = array();
 $layout->containers["masterlistheader"] = array();

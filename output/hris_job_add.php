@@ -19,7 +19,7 @@ AddPage::handleBrokenRequest();
 
 
 
-$layout = new TLayout("add2", "FusionOffice", "MobileOffice");
+$layout = new TLayout("add2", "FusionFire", "MobileFire");
 $layout->version = 2;
 $layout->blocks["top"] = array();
 $layout->containers["all"] = array();

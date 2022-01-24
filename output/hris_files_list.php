@@ -22,7 +22,7 @@ InitLookupLinks();
 
 
 
-$layout = new TLayout("list2", "FusionOffice", "MobileOffice");
+$layout = new TLayout("list2", "FusionAqua", "MobileAqua");
 $layout->version = 2;
 $layout->blocks["center"] = array();
 $layout->containers["recordcontrols"] = array();

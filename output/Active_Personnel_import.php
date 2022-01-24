@@ -14,7 +14,7 @@ require_once('classes/importpage.php');
 
 
 
-$layout = new TLayout("import2", "FusionOffice", "MobileOffice");
+$layout = new TLayout("import2", "FusionAqua", "MobileAqua");
 $layout->version = 2;
 $layout->blocks["top"] = array();
 $layout->containers["import"] = array();

@@ -15,7 +15,7 @@ require_once("include/Job_Titles_variables.php");
 
 
 
-$layout = new TLayout("print", "FusionOffice", "MobileOffice");
+$layout = new TLayout("print", "FusionAqua", "MobileAqua");
 $layout->version = 2;
 $layout->blocks["center"] = array();
 $layout->containers["pageheader"] = array();

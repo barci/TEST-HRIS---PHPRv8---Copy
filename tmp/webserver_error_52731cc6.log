@@ -1,0 +1,10 @@
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 192.168.56.1 for ServerName
+[Mon Jan 24 16:08:44 2022] [notice] Apache/2.2.22 (Win32) PHP/5.4.10 configured -- resuming normal operations
+[Mon Jan 24 16:08:44 2022] [notice] Server built: Jan 28 2012 11:16:39
+[Mon Jan 24 16:08:44 2022] [notice] Parent: Created child process 12304
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 192.168.56.1 for ServerName
+httpd.exe: Could not reliably determine the server's fully qualified domain name, using 192.168.56.1 for ServerName
+[Mon Jan 24 16:08:53 2022] [notice] Child 12304: Child process is running
+[Mon Jan 24 16:08:53 2022] [notice] Child 12304: Acquired the start mutex.
+[Mon Jan 24 16:08:53 2022] [notice] Child 12304: Starting 64 worker threads.
+[Mon Jan 24 16:08:53 2022] [notice] Child 12304: Starting thread to listen on port 8085.

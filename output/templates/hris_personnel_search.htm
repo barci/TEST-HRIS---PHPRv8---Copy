@@ -1,0 +1,445 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-search" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_search}
+<div class="rnr-c rnr-cv rnr-c-search">
+
+{BEGIN searchheader}
+<div  class="rnr-brickcontents style2 rnr-b-srchheader {$brickclass_srchheader}"><span>	<h1>{$pagetitlelabel hris_personnel search}</h1>
+</span></div>{END searchheader}
+
+
+{BEGIN conditions_block}
+<div  class="rnr-brickcontents style1 rnr-b-srchconditions {$brickclass_srchconditions}">	<center>
+	<span class=fieldname>Criteria:&nbsp;</span>	
+	<input type="radio" class="rnr-radio-button" name="srchType{$id}" {$all_checkbox}><label for="all_checkbox"> All conditions</label>
+	&nbsp;&nbsp;&nbsp;
+	<input type="radio" class="rnr-radio-button" name="srchType{$id}" {$any_checkbox}><label for="any_checkbox"> Any condition</label>
+	</center></div>{END conditions_block}
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_fields} rnr-wrapper rnr-cbw-fields">
+
+{BEGIN container_fields}
+<div class="rnr-c rnr-cv rnr-c-fields">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-srchfields {$brickclass_srchfields}"><table class="fieldGrid">
+	<tr>
+		<td>&nbsp;</td>
+		<td>NOT</td>
+		<td colspan=3>&nbsp; </td>
+	</tr>
+	<tr class="{$fielddispclass_firstname}">
+	{BEGIN firstname_fieldblock}		
+	<td>
+		{$label hris_personnel firstname}
+	</td>
+	<td>
+		<input type="checkbox" {$firstname_notbox}>
+	</td>
+	<td>
+		{$searchtype_firstname}
+	</td>
+	<td>
+		{$firstname_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$firstname_editcontrol1}&nbsp;
+	</td>
+{END firstname_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_ID}">
+	{BEGIN ID_fieldblock}		
+	<td>
+		{$label hris_personnel ID}
+	</td>
+	<td>
+		<input type="checkbox" {$ID_notbox}>
+	</td>
+	<td>
+		{$searchtype_ID}
+	</td>
+	<td>
+		{$ID_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$ID_editcontrol1}&nbsp;
+	</td>
+{END ID_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_middlename}">
+	{BEGIN middlename_fieldblock}		
+	<td>
+		{$label hris_personnel middlename}
+	</td>
+	<td>
+		<input type="checkbox" {$middlename_notbox}>
+	</td>
+	<td>
+		{$searchtype_middlename}
+	</td>
+	<td>
+		{$middlename_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$middlename_editcontrol1}&nbsp;
+	</td>
+{END middlename_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_fullName}">
+	{BEGIN fullName_fieldblock}		
+	<td>
+		{$label hris_personnel fullName}
+	</td>
+	<td>
+		<input type="checkbox" {$fullName_notbox}>
+	</td>
+	<td>
+		{$searchtype_fullName}
+	</td>
+	<td>
+		{$fullName_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$fullName_editcontrol1}&nbsp;
+	</td>
+{END fullName_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_lastname}">
+	{BEGIN lastname_fieldblock}		
+	<td>
+		{$label hris_personnel lastname}
+	</td>
+	<td>
+		<input type="checkbox" {$lastname_notbox}>
+	</td>
+	<td>
+		{$searchtype_lastname}
+	</td>
+	<td>
+		{$lastname_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$lastname_editcontrol1}&nbsp;
+	</td>
+{END lastname_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_age}">
+	{BEGIN age_fieldblock}		
+	<td>
+		{$label hris_personnel age}
+	</td>
+	<td>
+		<input type="checkbox" {$age_notbox}>
+	</td>
+	<td>
+		{$searchtype_age}
+	</td>
+	<td>
+		{$age_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$age_editcontrol1}&nbsp;
+	</td>
+{END age_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_dateofbirth}">
+	{BEGIN dateofbirth_fieldblock}		
+	<td>
+		{$label hris_personnel dateofbirth}
+	</td>
+	<td>
+		<input type="checkbox" {$dateofbirth_notbox}>
+	</td>
+	<td>
+		{$searchtype_dateofbirth}
+	</td>
+	<td>
+		{$dateofbirth_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$dateofbirth_editcontrol1}&nbsp;
+	</td>
+{END dateofbirth_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_skills}">
+	{BEGIN skills_fieldblock}		
+	<td>
+		{$label hris_personnel skills}
+	</td>
+	<td>
+		<input type="checkbox" {$skills_notbox}>
+	</td>
+	<td>
+		{$searchtype_skills}
+	</td>
+	<td>
+		{$skills_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$skills_editcontrol1}&nbsp;
+	</td>
+{END skills_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_civilstatus}">
+	{BEGIN civilstatus_fieldblock}		
+	<td>
+		{$label hris_personnel civilstatus}
+	</td>
+	<td>
+		<input type="checkbox" {$civilstatus_notbox}>
+	</td>
+	<td>
+		{$searchtype_civilstatus}
+	</td>
+	<td>
+		{$civilstatus_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$civilstatus_editcontrol1}&nbsp;
+	</td>
+{END civilstatus_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_gender}">
+	{BEGIN gender_fieldblock}		
+	<td>
+		{$label hris_personnel gender}
+	</td>
+	<td>
+		<input type="checkbox" {$gender_notbox}>
+	</td>
+	<td>
+		{$searchtype_gender}
+	</td>
+	<td>
+		{$gender_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$gender_editcontrol1}&nbsp;
+	</td>
+{END gender_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_currentaddress}">
+	{BEGIN currentaddress_fieldblock}		
+	<td>
+		{$label hris_personnel currentaddress}
+	</td>
+	<td>
+		<input type="checkbox" {$currentaddress_notbox}>
+	</td>
+	<td>
+		{$searchtype_currentaddress}
+	</td>
+	<td>
+		{$currentaddress_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$currentaddress_editcontrol1}&nbsp;
+	</td>
+{END currentaddress_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_sss}">
+	{BEGIN sss_fieldblock}		
+	<td>
+		{$label hris_personnel sss}
+	</td>
+	<td>
+		<input type="checkbox" {$sss_notbox}>
+	</td>
+	<td>
+		{$searchtype_sss}
+	</td>
+	<td>
+		{$sss_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$sss_editcontrol1}&nbsp;
+	</td>
+{END sss_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_permanentaddress}">
+	{BEGIN permanentaddress_fieldblock}		
+	<td>
+		{$label hris_personnel permanentaddress}
+	</td>
+	<td>
+		<input type="checkbox" {$permanentaddress_notbox}>
+	</td>
+	<td>
+		{$searchtype_permanentaddress}
+	</td>
+	<td>
+		{$permanentaddress_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$permanentaddress_editcontrol1}&nbsp;
+	</td>
+{END permanentaddress_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_tin}">
+	{BEGIN tin_fieldblock}		
+	<td>
+		{$label hris_personnel tin}
+	</td>
+	<td>
+		<input type="checkbox" {$tin_notbox}>
+	</td>
+	<td>
+		{$searchtype_tin}
+	</td>
+	<td>
+		{$tin_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$tin_editcontrol1}&nbsp;
+	</td>
+{END tin_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_pagibig}">
+	{BEGIN pagibig_fieldblock}		
+	<td>
+		{$label hris_personnel pagibig}
+	</td>
+	<td>
+		<input type="checkbox" {$pagibig_notbox}>
+	</td>
+	<td>
+		{$searchtype_pagibig}
+	</td>
+	<td>
+		{$pagibig_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$pagibig_editcontrol1}&nbsp;
+	</td>
+{END pagibig_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_emailaddress}">
+	{BEGIN emailaddress_fieldblock}		
+	<td>
+		{$label hris_personnel emailaddress}
+	</td>
+	<td>
+		<input type="checkbox" {$emailaddress_notbox}>
+	</td>
+	<td>
+		{$searchtype_emailaddress}
+	</td>
+	<td>
+		{$emailaddress_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$emailaddress_editcontrol1}&nbsp;
+	</td>
+{END emailaddress_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_philhealth}">
+	{BEGIN philhealth_fieldblock}		
+	<td>
+		{$label hris_personnel philhealth}
+	</td>
+	<td>
+		<input type="checkbox" {$philhealth_notbox}>
+	</td>
+	<td>
+		{$searchtype_philhealth}
+	</td>
+	<td>
+		{$philhealth_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$philhealth_editcontrol1}&nbsp;
+	</td>
+{END philhealth_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_telephone}">
+	{BEGIN telephone_fieldblock}		
+	<td>
+		{$label hris_personnel telephone}
+	</td>
+	<td>
+		<input type="checkbox" {$telephone_notbox}>
+	</td>
+	<td>
+		{$searchtype_telephone}
+	</td>
+	<td>
+		{$telephone_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$telephone_editcontrol1}&nbsp;
+	</td>
+{END telephone_fieldblock}
+	</tr>
+
+</table></div>
+
+
+{BEGIN searchbuttons}
+<div  class="rnr-brickcontents style2 rnr-b-srchbuttons {$brickclass_srchbuttons}">{BEGIN search_button}
+<a href="#" class="rnr-button main" {$searchbutton_attrs}>Search</a>
+{END search_button} 
+{BEGIN reset_button}
+<a href="#" class="rnr-button" {$resetbutton_attrs}>Reset</a>
+{END reset_button}
+{BEGIN back_button}
+<a href="#" class="rnr-button" {$backbutton_attrs}>Back to list</a>
+{END back_button}</div>{END searchbuttons}
+
+
+</div>
+{END container_fields}
+
+</div>
+
+
+</div>
+{END container_search}
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			<!--%%bottom%%-->
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

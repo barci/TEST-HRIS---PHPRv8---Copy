@@ -1,0 +1,255 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-view" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_all}
+<div class="rnr-c rnr-cv rnr-c-all">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_main} rnr-wrapper rnr-cbw-main">
+
+{BEGIN container_main}
+<div class="rnr-c rnr-cv rnr-c-main">
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_view} rnr-wrapper rnr-cbw-view">
+
+{BEGIN container_view}
+<div class="rnr-c rnr-cv rnr-c-view">
+
+{BEGIN viewheader}
+<div  class="rnr-brickcontents style2 rnr-b-viewheader {$brickclass_viewheader}"><span>	<h1>{$pagetitlelabel hris_job view}</h1>
+</span></div>{END viewheader}
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_fields} rnr-wrapper rnr-cbw-fields">
+
+{BEGIN container_fields}
+<div class="rnr-c rnr-cv rnr-c-fields">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-viewfields {$brickclass_viewfields}"><table class="fieldGrid">
+	{BEGIN ID_fieldblock}
+<tr class="{$fielddispclass_ID}" data-fieldname="ID">
+	<td class="rnr-label">
+		{$label hris_job ID}
+	</td>
+	<td class="rnr-control style3">
+		{$ID_value}&nbsp;
+	</td>
+</tr>
+{END ID_fieldblock}
+	{BEGIN personnelID_fieldblock}
+<tr class="{$fielddispclass_personnelID}" data-fieldname="personnelID">
+	<td class="rnr-label">
+		{$label hris_job personnelID}
+	</td>
+	<td class="rnr-control style3">
+		{$personnelID_value}&nbsp;
+	</td>
+</tr>
+{END personnelID_fieldblock}
+	{BEGIN empID_fieldblock}
+<tr class="{$fielddispclass_empID}" data-fieldname="empID">
+	<td class="rnr-label">
+		{$label hris_job empID}
+	</td>
+	<td class="rnr-control style3">
+		{$empID_value}&nbsp;
+	</td>
+</tr>
+{END empID_fieldblock}
+	{BEGIN department_fieldblock}
+<tr class="{$fielddispclass_department}" data-fieldname="department">
+	<td class="rnr-label">
+		{$label hris_job department}
+	</td>
+	<td class="rnr-control style3">
+		{$department_value}&nbsp;
+	</td>
+</tr>
+{END department_fieldblock}
+	{BEGIN unit_fieldblock}
+<tr class="{$fielddispclass_unit}" data-fieldname="unit">
+	<td class="rnr-label">
+		{$label hris_job unit}
+	</td>
+	<td class="rnr-control style3">
+		{$unit_value}&nbsp;
+	</td>
+</tr>
+{END unit_fieldblock}
+	{BEGIN jobtitle_fieldblock}
+<tr class="{$fielddispclass_jobtitle}" data-fieldname="jobtitle">
+	<td class="rnr-label">
+		{$label hris_job jobtitle}
+	</td>
+	<td class="rnr-control style3">
+		{$jobtitle_value}&nbsp;
+	</td>
+</tr>
+{END jobtitle_fieldblock}
+	{BEGIN jobdescription_fieldblock}
+<tr class="{$fielddispclass_jobdescription}" data-fieldname="jobdescription">
+	<td class="rnr-label">
+		{$label hris_job jobdescription}
+	</td>
+	<td class="rnr-control style3">
+		{$jobdescription_value}&nbsp;
+	</td>
+</tr>
+{END jobdescription_fieldblock}
+	{BEGIN datehired_fieldblock}
+<tr class="{$fielddispclass_datehired}" data-fieldname="datehired">
+	<td class="rnr-label">
+		{$label hris_job datehired}
+	</td>
+	<td class="rnr-control style3">
+		{$datehired_value}&nbsp;
+	</td>
+</tr>
+{END datehired_fieldblock}
+	{BEGIN reference_fieldblock}
+<tr class="{$fielddispclass_reference}" data-fieldname="reference">
+	<td class="rnr-label">
+		{$label hris_job reference}
+	</td>
+	<td class="rnr-control style3">
+		{$reference_value}&nbsp;
+	</td>
+</tr>
+{END reference_fieldblock}
+	{BEGIN dateend_fieldblock}
+<tr class="{$fielddispclass_dateend}" data-fieldname="dateend">
+	<td class="rnr-label">
+		{$label hris_job dateend}
+	</td>
+	<td class="rnr-control style3">
+		{$dateend_value}&nbsp;
+	</td>
+</tr>
+{END dateend_fieldblock}
+	{BEGIN type_fieldblock}
+<tr class="{$fielddispclass_type}" data-fieldname="type">
+	<td class="rnr-label">
+		{$label hris_job type}
+	</td>
+	<td class="rnr-control style3">
+		{$type_value}&nbsp;
+	</td>
+</tr>
+{END type_fieldblock}
+	{BEGIN category_fieldblock}
+<tr class="{$fielddispclass_category}" data-fieldname="category">
+	<td class="rnr-label">
+		{$label hris_job category}
+	</td>
+	<td class="rnr-control style3">
+		{$category_value}&nbsp;
+	</td>
+</tr>
+{END category_fieldblock}
+	{BEGIN empstatus_fieldblock}
+<tr class="{$fielddispclass_empstatus}" data-fieldname="empstatus">
+	<td class="rnr-label">
+		{$label hris_job empstatus}
+	</td>
+	<td class="rnr-control style3">
+		{$empstatus_value}&nbsp;
+	</td>
+</tr>
+{END empstatus_fieldblock}
+</table></div>
+
+
+{BEGIN viewbuttons}
+<div  class="rnr-brickcontents style2 rnr-b-viewbuttons {$brickclass_viewbuttons}"><div class="rnr-buttons-right">
+{BEGIN prev_button}
+<a href="#" class="rnr-button {$prevbutton_class}" {$prevbutton_attrs}>&lt;&lt;&lt;</a>
+{END prev_button}
+{BEGIN next_button}
+<a href="#" class="rnr-button {$nextbutton_class}" {$nextbutton_attrs}>&gt;&gt;&gt;</a>
+{END next_button}
+</div>
+<div class="rnr-buttons-left">
+{BEGIN back_button}
+<a href="#" class="rnr-button" {$backbutton_attrs}>Back to list</a>
+{END back_button}
+{BEGIN close_button}
+<a href="#" class="rnr-button" {$closebutton_attrs}>Close window</a>
+{END close_button}
+{BEGIN edit_page_button}
+<a href="#" class="rnr-button" {$edit_page_button_attrs}>Edit</a>
+{END edit_page_button}
+</div>
+</div>{END viewbuttons}
+
+
+</div>
+{END container_fields}
+
+</div>
+
+
+</div>
+{END container_view}
+
+</div>
+
+
+</div>
+{END container_main}
+
+</div>
+
+
+
+</div>
+{END container_all}
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			<!--%%bottom%%-->
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

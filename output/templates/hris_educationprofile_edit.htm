@@ -1,0 +1,182 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-edit" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_all}
+<div class="rnr-c rnr-cv rnr-c-all">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_edit} rnr-wrapper rnr-cbw-edit">
+
+{BEGIN container_edit}
+<div class="rnr-c rnr-cv rnr-c-edit">
+
+{BEGIN editheader}
+<div  class="rnr-brickcontents style2 rnr-b-editheader {$brickclass_editheader}"><span>	<h1>{$pagetitlelabel hris_educationprofile edit}</h1>
+</span></div>{END editheader}
+
+
+{BEGIN message_block}
+<div  class="rnr-brickcontents style1 rnr-b-message {$brickclass_message}"><div class="rnr-message">{$message}</div></div>{END message_block}
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_fields} rnr-wrapper rnr-cbw-fields">
+
+{BEGIN container_fields}
+<div class="rnr-c rnr-cv rnr-c-fields">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-editfields {$brickclass_editfields}"><table class="fieldGrid">
+	{BEGIN personelID_fieldblock}
+<tr class="{$fielddispclass_personelID}" data-fieldname="personelID">
+	<td class="rnr-label">
+		{BEGIN personelID_label}{$label hris_educationprofile personelID}{END personelID_label}
+	</td>
+	<td class="rnr-control style3">
+		{$personelID_editcontrol}&nbsp;
+	</td>
+</tr>
+{END personelID_fieldblock}
+	{BEGIN schoolname_fieldblock}
+<tr class="{$fielddispclass_schoolname}" data-fieldname="schoolname">
+	<td class="rnr-label">
+		{BEGIN schoolname_label}{$label hris_educationprofile schoolname}{END schoolname_label}
+	</td>
+	<td class="rnr-control style3">
+		{$schoolname_editcontrol}&nbsp;
+	</td>
+</tr>
+{END schoolname_fieldblock}
+	{BEGIN schooladd_fieldblock}
+<tr class="{$fielddispclass_schooladd}" data-fieldname="schooladd">
+	<td class="rnr-label">
+		{BEGIN schooladd_label}{$label hris_educationprofile schooladd}{END schooladd_label}
+	</td>
+	<td class="rnr-control style3">
+		{$schooladd_editcontrol}&nbsp;
+	</td>
+</tr>
+{END schooladd_fieldblock}
+	{BEGIN educationlevel_fieldblock}
+<tr class="{$fielddispclass_educationlevel}" data-fieldname="educationlevel">
+	<td class="rnr-label">
+		{BEGIN educationlevel_label}{$label hris_educationprofile educationlevel}{END educationlevel_label}
+	</td>
+	<td class="rnr-control style3">
+		{$educationlevel_editcontrol}&nbsp;
+	</td>
+</tr>
+{END educationlevel_fieldblock}
+	{BEGIN yearstarted_fieldblock}
+<tr class="{$fielddispclass_yearstarted}" data-fieldname="yearstarted">
+	<td class="rnr-label">
+		{BEGIN yearstarted_label}{$label hris_educationprofile yearstarted}{END yearstarted_label}
+	</td>
+	<td class="rnr-control style3">
+		{$yearstarted_editcontrol}&nbsp;
+	</td>
+</tr>
+{END yearstarted_fieldblock}
+	{BEGIN yeargraduated_fieldblock}
+<tr class="{$fielddispclass_yeargraduated}" data-fieldname="yeargraduated">
+	<td class="rnr-label">
+		{BEGIN yeargraduated_label}{$label hris_educationprofile yeargraduated}{END yeargraduated_label}
+	</td>
+	<td class="rnr-control style3">
+		{$yeargraduated_editcontrol}&nbsp;
+	</td>
+</tr>
+{END yeargraduated_fieldblock}
+</table></div>
+
+
+{BEGIN editbuttons}
+<div  class="rnr-brickcontents style2 rnr-b-editbuttons {$brickclass_editbuttons}"><div class="rnr-buttons-right">
+{BEGIN prev_button}
+<a href="#" class="rnr-button {$prevbutton_class}" {$prevbutton_attrs}>&lt;&lt;&lt;</a>
+{END prev_button}
+{BEGIN next_button}
+<a href="#" class="rnr-button  {$nextbutton_class}" {$nextbutton_attrs}>&gt;&gt;&gt;</a>
+{END next_button}
+</div>
+<div class="rnr-buttons-left">
+{BEGIN save_button}
+<a href="#" class="rnr-button main" {$savebutton_attrs}>Save</a>
+{END save_button}
+{BEGIN reset_button}
+<a href="#" class="rnr-button" {$resetbutton_attrs}>Reset</a>
+{END reset_button}
+{BEGIN back_button}
+<a href="#" class="rnr-button" {$backbutton_attrs}>Back to list</a>
+{END back_button}
+{BEGIN close_button}
+<a href="#" class="rnr-button" {$closebutton_attrs}>Close window</a>
+{END close_button}
+{BEGIN view_page_button}
+<a href="#" class="rnr-button" {$view_page_button_attrs}>View</a>
+{END view_page_button}
+</div>
+</div>{END editbuttons}
+
+
+</div>
+{END container_fields}
+
+</div>
+
+
+</div>
+{END container_edit}
+
+</div>
+
+
+
+</div>
+{END container_all}
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			<!--%%bottom%%-->
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

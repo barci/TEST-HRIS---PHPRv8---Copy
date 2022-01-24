@@ -1,0 +1,242 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-edit" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_all}
+<div class="rnr-c rnr-cv rnr-c-all">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_edit} rnr-wrapper rnr-cbw-edit">
+
+{BEGIN container_edit}
+<div class="rnr-c rnr-cv rnr-c-edit">
+
+{BEGIN editheader}
+<div  class="rnr-brickcontents style2 rnr-b-editheader {$brickclass_editheader}"><span>	<h1>{$pagetitlelabel hris_job edit}</h1>
+</span></div>{END editheader}
+
+
+{BEGIN message_block}
+<div  class="rnr-brickcontents style1 rnr-b-message {$brickclass_message}"><div class="rnr-message">{$message}</div></div>{END message_block}
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_fields} rnr-wrapper rnr-cbw-fields">
+
+{BEGIN container_fields}
+<div class="rnr-c rnr-cv rnr-c-fields">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-editfields {$brickclass_editfields}"><table class="fieldGrid">
+	{BEGIN personnelID_fieldblock}
+<tr class="{$fielddispclass_personnelID}" data-fieldname="personnelID">
+	<td class="rnr-label">
+		{BEGIN personnelID_label}{$label hris_job personnelID}{END personnelID_label}
+	</td>
+	<td class="rnr-control style3">
+		{$personnelID_editcontrol}&nbsp;
+	</td>
+</tr>
+{END personnelID_fieldblock}
+	{BEGIN empID_fieldblock}
+<tr class="{$fielddispclass_empID}" data-fieldname="empID">
+	<td class="rnr-label">
+		{BEGIN empID_label}{$label hris_job empID}{END empID_label}
+	</td>
+	<td class="rnr-control style3">
+		{$empID_editcontrol}&nbsp;
+	</td>
+</tr>
+{END empID_fieldblock}
+	{BEGIN department_fieldblock}
+<tr class="{$fielddispclass_department}" data-fieldname="department">
+	<td class="rnr-label">
+		{BEGIN department_label}{$label hris_job department}{END department_label}
+	</td>
+	<td class="rnr-control style3">
+		{$department_editcontrol}&nbsp;
+	</td>
+</tr>
+{END department_fieldblock}
+	{BEGIN unit_fieldblock}
+<tr class="{$fielddispclass_unit}" data-fieldname="unit">
+	<td class="rnr-label">
+		{BEGIN unit_label}{$label hris_job unit}{END unit_label}
+	</td>
+	<td class="rnr-control style3">
+		{$unit_editcontrol}&nbsp;
+	</td>
+</tr>
+{END unit_fieldblock}
+	{BEGIN jobtitle_fieldblock}
+<tr class="{$fielddispclass_jobtitle}" data-fieldname="jobtitle">
+	<td class="rnr-label">
+		{BEGIN jobtitle_label}{$label hris_job jobtitle}{END jobtitle_label}
+	</td>
+	<td class="rnr-control style3">
+		{$jobtitle_editcontrol}&nbsp;
+	</td>
+</tr>
+{END jobtitle_fieldblock}
+	{BEGIN jobdescription_fieldblock}
+<tr class="{$fielddispclass_jobdescription}" data-fieldname="jobdescription">
+	<td class="rnr-label">
+		{BEGIN jobdescription_label}{$label hris_job jobdescription}{END jobdescription_label}
+	</td>
+	<td class="rnr-control style3">
+		{$jobdescription_editcontrol}&nbsp;
+	</td>
+</tr>
+{END jobdescription_fieldblock}
+	{BEGIN datehired_fieldblock}
+<tr class="{$fielddispclass_datehired}" data-fieldname="datehired">
+	<td class="rnr-label">
+		{BEGIN datehired_label}{$label hris_job datehired}{END datehired_label}
+	</td>
+	<td class="rnr-control style3">
+		{$datehired_editcontrol}&nbsp;
+	</td>
+</tr>
+{END datehired_fieldblock}
+	{BEGIN reference_fieldblock}
+<tr class="{$fielddispclass_reference}" data-fieldname="reference">
+	<td class="rnr-label">
+		{BEGIN reference_label}{$label hris_job reference}{END reference_label}
+	</td>
+	<td class="rnr-control style3">
+		{$reference_editcontrol}&nbsp;
+	</td>
+</tr>
+{END reference_fieldblock}
+	{BEGIN dateend_fieldblock}
+<tr class="{$fielddispclass_dateend}" data-fieldname="dateend">
+	<td class="rnr-label">
+		{BEGIN dateend_label}{$label hris_job dateend}{END dateend_label}
+	</td>
+	<td class="rnr-control style3">
+		{$dateend_editcontrol}&nbsp;
+	</td>
+</tr>
+{END dateend_fieldblock}
+	{BEGIN type_fieldblock}
+<tr class="{$fielddispclass_type}" data-fieldname="type">
+	<td class="rnr-label">
+		{BEGIN type_label}{$label hris_job type}{END type_label}
+	</td>
+	<td class="rnr-control style3">
+		{$type_editcontrol}&nbsp;
+	</td>
+</tr>
+{END type_fieldblock}
+	{BEGIN category_fieldblock}
+<tr class="{$fielddispclass_category}" data-fieldname="category">
+	<td class="rnr-label">
+		{BEGIN category_label}{$label hris_job category}{END category_label}
+	</td>
+	<td class="rnr-control style3">
+		{$category_editcontrol}&nbsp;
+	</td>
+</tr>
+{END category_fieldblock}
+	{BEGIN empstatus_fieldblock}
+<tr class="{$fielddispclass_empstatus}" data-fieldname="empstatus">
+	<td class="rnr-label">
+		{BEGIN empstatus_label}{$label hris_job empstatus}{END empstatus_label}
+	</td>
+	<td class="rnr-control style3">
+		{$empstatus_editcontrol}&nbsp;
+	</td>
+</tr>
+{END empstatus_fieldblock}
+</table></div>
+
+
+{BEGIN editbuttons}
+<div  class="rnr-brickcontents style2 rnr-b-editbuttons {$brickclass_editbuttons}"><div class="rnr-buttons-right">
+{BEGIN prev_button}
+<a href="#" class="rnr-button {$prevbutton_class}" {$prevbutton_attrs}>&lt;&lt;&lt;</a>
+{END prev_button}
+{BEGIN next_button}
+<a href="#" class="rnr-button  {$nextbutton_class}" {$nextbutton_attrs}>&gt;&gt;&gt;</a>
+{END next_button}
+</div>
+<div class="rnr-buttons-left">
+{BEGIN save_button}
+<a href="#" class="rnr-button main" {$savebutton_attrs}>Save</a>
+{END save_button}
+{BEGIN reset_button}
+<a href="#" class="rnr-button" {$resetbutton_attrs}>Reset</a>
+{END reset_button}
+{BEGIN back_button}
+<a href="#" class="rnr-button" {$backbutton_attrs}>Back to list</a>
+{END back_button}
+{BEGIN close_button}
+<a href="#" class="rnr-button" {$closebutton_attrs}>Close window</a>
+{END close_button}
+{BEGIN view_page_button}
+<a href="#" class="rnr-button" {$view_page_button_attrs}>View</a>
+{END view_page_button}
+</div>
+</div>{END editbuttons}
+
+
+</div>
+{END container_fields}
+
+</div>
+
+
+</div>
+{END container_edit}
+
+</div>
+
+
+
+</div>
+{END container_all}
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			<!--%%bottom%%-->
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

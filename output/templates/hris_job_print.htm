@@ -1,0 +1,296 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-print" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_pdf}
+<div class="rnr-c rnr-ch rnr-c-pdf">
+
+{BEGIN printbuttons}
+<div  class="style1 rnr-bl rnr-b-printbuttons {$brickclass_printbuttons}">{BEGIN divideintopages_block}
+<a href="#" class="divideintopages rnr-button button" {$divideintopages_attrs}>Prepare for printing</a>
+{END divideintopages_block}
+</div>
+{END printbuttons}
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_pdf}
+
+
+
+{BEGIN container_master}
+<div class="rnr-c rnr-ch rnr-c-master">
+
+{BEGIN mastertable_block}
+<div  class="style1 rnr-bl rnr-b-masterinfoprint {$brickclass_masterinfoprint}">{$showmasterfile}
+</div>
+{END mastertable_block}
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_master}
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+
+{BEGIN container_pageheader}
+<div class="rnr-c rnr-cv rnr-c-pageheader">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-printheader {$brickclass_printheader}">	<h1>{$pagetitlelabel hris_job print}</h1>
+</div>
+
+
+{BEGIN page_number}
+<div  class="rnr-brickcontents style1 rnr-b-page_of_print {$brickclass_page_of_print}"><h1>Page <span class="rp-pageno">{$pageno}</span> of <span class="rp-pagecount">{$pagecount}</span></h1></div>{END page_number}
+
+
+</div>
+{END container_pageheader}
+
+
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+	<table class="rnr-c rnr-c-grid rnr-b-grid rnr-gridtable rp-maintable" cellpadding="0">
+	<thead>
+	{BEGIN grid_header}
+<tr class="rnr-toprow style1 {$gridHeader_class}" >
+{BEGIN record_header}
+		{BEGIN ID_fieldheadercolumn}
+<th class="runner-cc {$ID_class}" {$ID_style}>
+	{BEGIN ID_fieldheader}
+	<b>{$label hris_job ID}</b>
+	{END ID_fieldheader}
+</th>
+{END ID_fieldheadercolumn}
+	{BEGIN personnelID_fieldheadercolumn}
+<th class="runner-cc {$personnelID_class}" {$personnelID_style}>
+	{BEGIN personnelID_fieldheader}
+	<b>{$label hris_job personnelID}</b>
+	{END personnelID_fieldheader}
+</th>
+{END personnelID_fieldheadercolumn}
+	{BEGIN empID_fieldheadercolumn}
+<th class="runner-cc {$empID_class}" {$empID_style}>
+	{BEGIN empID_fieldheader}
+	<b>{$label hris_job empID}</b>
+	{END empID_fieldheader}
+</th>
+{END empID_fieldheadercolumn}
+	{BEGIN department_fieldheadercolumn}
+<th class="runner-cc {$department_class}" {$department_style}>
+	{BEGIN department_fieldheader}
+	<b>{$label hris_job department}</b>
+	{END department_fieldheader}
+</th>
+{END department_fieldheadercolumn}
+	{BEGIN unit_fieldheadercolumn}
+<th class="runner-cc {$unit_class}" {$unit_style}>
+	{BEGIN unit_fieldheader}
+	<b>{$label hris_job unit}</b>
+	{END unit_fieldheader}
+</th>
+{END unit_fieldheadercolumn}
+	{BEGIN jobtitle_fieldheadercolumn}
+<th class="runner-cc {$jobtitle_class}" {$jobtitle_style}>
+	{BEGIN jobtitle_fieldheader}
+	<b>{$label hris_job jobtitle}</b>
+	{END jobtitle_fieldheader}
+</th>
+{END jobtitle_fieldheadercolumn}
+	{BEGIN jobdescription_fieldheadercolumn}
+<th class="runner-cc {$jobdescription_class}" {$jobdescription_style}>
+	{BEGIN jobdescription_fieldheader}
+	<b>{$label hris_job jobdescription}</b>
+	{END jobdescription_fieldheader}
+</th>
+{END jobdescription_fieldheadercolumn}
+	{BEGIN datehired_fieldheadercolumn}
+<th class="runner-cc {$datehired_class}" {$datehired_style}>
+	{BEGIN datehired_fieldheader}
+	<b>{$label hris_job datehired}</b>
+	{END datehired_fieldheader}
+</th>
+{END datehired_fieldheadercolumn}
+	{BEGIN reference_fieldheadercolumn}
+<th class="runner-cc {$reference_class}" {$reference_style}>
+	{BEGIN reference_fieldheader}
+	<b>{$label hris_job reference}</b>
+	{END reference_fieldheader}
+</th>
+{END reference_fieldheadercolumn}
+	{BEGIN dateend_fieldheadercolumn}
+<th class="runner-cc {$dateend_class}" {$dateend_style}>
+	{BEGIN dateend_fieldheader}
+	<b>{$label hris_job dateend}</b>
+	{END dateend_fieldheader}
+</th>
+{END dateend_fieldheadercolumn}
+	{BEGIN type_fieldheadercolumn}
+<th class="runner-cc {$type_class}" {$type_style}>
+	{BEGIN type_fieldheader}
+	<b>{$label hris_job type}</b>
+	{END type_fieldheader}
+</th>
+{END type_fieldheadercolumn}
+	{BEGIN category_fieldheadercolumn}
+<th class="runner-cc {$category_class}" {$category_style}>
+	{BEGIN category_fieldheader}
+	<b>{$label hris_job category}</b>
+	{END category_fieldheader}
+</th>
+{END category_fieldheadercolumn}
+	{BEGIN empstatus_fieldheadercolumn}
+<th class="runner-cc {$empstatus_class}" {$empstatus_style}>
+	{BEGIN empstatus_fieldheader}
+	<b>{$label hris_job empstatus}</b>
+	{END empstatus_fieldheader}
+</th>
+{END empstatus_fieldheadercolumn}
+		
+	<th class="rnr-edge">&nbsp;</th>
+	{BEGIN endrecordheader_block}
+	<th class="rnr-cs">&nbsp;</th>
+	{END endrecordheader_block}
+	{END record_header}
+</tr>
+{END grid_header}
+
+	</thead>
+	<tbody>	
+	{BEGIN grid_row}
+	<tr class="rnr-row style1 {$rowclass}" {$rowattrs} {$rowstyle}>
+		{BEGIN grid_record}
+				{BEGIN ID_fieldcolumn}
+<td  class="runner-cc {$ID_class}" {$ID_style} {$recordattrs}>
+	{$ID_value}
+</td>
+{END ID_fieldcolumn}
+	{BEGIN personnelID_fieldcolumn}
+<td  class="runner-cc {$personnelID_class}" {$personnelID_style} {$recordattrs}>
+	{$personnelID_value}
+</td>
+{END personnelID_fieldcolumn}
+	{BEGIN empID_fieldcolumn}
+<td  class="runner-cc {$empID_class}" {$empID_style} {$recordattrs}>
+	{$empID_value}
+</td>
+{END empID_fieldcolumn}
+	{BEGIN department_fieldcolumn}
+<td  class="runner-cc {$department_class}" {$department_style} {$recordattrs}>
+	{$department_value}
+</td>
+{END department_fieldcolumn}
+	{BEGIN unit_fieldcolumn}
+<td  class="runner-cc {$unit_class}" {$unit_style} {$recordattrs}>
+	{$unit_value}
+</td>
+{END unit_fieldcolumn}
+	{BEGIN jobtitle_fieldcolumn}
+<td  class="runner-cc {$jobtitle_class}" {$jobtitle_style} {$recordattrs}>
+	{$jobtitle_value}
+</td>
+{END jobtitle_fieldcolumn}
+	{BEGIN jobdescription_fieldcolumn}
+<td  class="runner-cc {$jobdescription_class}" {$jobdescription_style} {$recordattrs}>
+	{$jobdescription_value}
+</td>
+{END jobdescription_fieldcolumn}
+	{BEGIN datehired_fieldcolumn}
+<td  class="runner-cc {$datehired_class}" {$datehired_style} {$recordattrs}>
+	{$datehired_value}
+</td>
+{END datehired_fieldcolumn}
+	{BEGIN reference_fieldcolumn}
+<td  class="runner-cc {$reference_class}" {$reference_style} {$recordattrs}>
+	{$reference_value}
+</td>
+{END reference_fieldcolumn}
+	{BEGIN dateend_fieldcolumn}
+<td  class="runner-cc {$dateend_class}" {$dateend_style} {$recordattrs}>
+	{$dateend_value}
+</td>
+{END dateend_fieldcolumn}
+	{BEGIN type_fieldcolumn}
+<td  class="runner-cc {$type_class}" {$type_style} {$recordattrs}>
+	{$type_value}
+</td>
+{END type_fieldcolumn}
+	{BEGIN category_fieldcolumn}
+<td  class="runner-cc {$category_class}" {$category_style} {$recordattrs}>
+	{$category_value}
+</td>
+{END category_fieldcolumn}
+	{BEGIN empstatus_fieldcolumn}
+<td  class="runner-cc {$empstatus_class}" {$empstatus_style} {$recordattrs}>
+	{$empstatus_value}
+</td>
+{END empstatus_fieldcolumn}
+
+		<td class="rnr-edge" {$recordattrs}>&nbsp;</td>
+		{BEGIN endrecord_block}
+		<td class="rnr-cs" {$endrecordblock_attrs}>&nbsp;</td>
+		{END endrecord_block}
+										
+		{END grid_record}
+
+	</tr>
+{END grid_row}
+
+
+	
+	</tbody>
+</table>
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			<!--%%bottom%%-->
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

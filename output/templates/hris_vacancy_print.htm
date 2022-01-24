@@ -1,0 +1,188 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-print" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_pdf}
+<div class="rnr-c rnr-ch rnr-c-pdf">
+
+{BEGIN printbuttons}
+<div  class="style1 rnr-bl rnr-b-printbuttons {$brickclass_printbuttons}">{BEGIN divideintopages_block}
+<a href="#" class="divideintopages rnr-button button" {$divideintopages_attrs}>Prepare for printing</a>
+{END divideintopages_block}
+</div>
+{END printbuttons}
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_pdf}
+
+
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+
+{BEGIN container_pageheader}
+<div class="rnr-c rnr-cv rnr-c-pageheader">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-printheader {$brickclass_printheader}">	<h1>{$pagetitlelabel hris_vacancy print}</h1>
+</div>
+
+
+{BEGIN page_number}
+<div  class="rnr-brickcontents style1 rnr-b-page_of_print {$brickclass_page_of_print}"><h1>Page <span class="rp-pageno">{$pageno}</span> of <span class="rp-pagecount">{$pagecount}</span></h1></div>{END page_number}
+
+
+</div>
+{END container_pageheader}
+
+
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+	<table class="rnr-c rnr-c-grid rnr-b-grid rnr-gridtable rp-maintable" cellpadding="0">
+	<thead>
+	{BEGIN grid_header}
+<tr class="rnr-toprow style1 {$gridHeader_class}" >
+{BEGIN record_header}
+		{BEGIN ID_fieldheadercolumn}
+<th class="runner-cc {$ID_class}" {$ID_style}>
+	{BEGIN ID_fieldheader}
+	<b>{$label hris_vacancy ID}</b>
+	{END ID_fieldheader}
+</th>
+{END ID_fieldheadercolumn}
+	{BEGIN jobdesc_fieldheadercolumn}
+<th class="runner-cc {$jobdesc_class}" {$jobdesc_style}>
+	{BEGIN jobdesc_fieldheader}
+	<b>{$label hris_vacancy jobdesc}</b>
+	{END jobdesc_fieldheader}
+</th>
+{END jobdesc_fieldheadercolumn}
+	{BEGIN jobtitle_fieldheadercolumn}
+<th class="runner-cc {$jobtitle_class}" {$jobtitle_style}>
+	{BEGIN jobtitle_fieldheader}
+	<b>{$label hris_vacancy jobtitle}</b>
+	{END jobtitle_fieldheader}
+</th>
+{END jobtitle_fieldheadercolumn}
+	{BEGIN deptunit_fieldheadercolumn}
+<th class="runner-cc {$deptunit_class}" {$deptunit_style}>
+	{BEGIN deptunit_fieldheader}
+	<b>{$label hris_vacancy deptunit}</b>
+	{END deptunit_fieldheader}
+</th>
+{END deptunit_fieldheadercolumn}
+	{BEGIN validity_fieldheadercolumn}
+<th class="runner-cc {$validity_class}" {$validity_style}>
+	{BEGIN validity_fieldheader}
+	<b>{$label hris_vacancy validity}</b>
+	{END validity_fieldheader}
+</th>
+{END validity_fieldheadercolumn}
+		
+	<th class="rnr-edge">&nbsp;</th>
+	{BEGIN endrecordheader_block}
+	<th class="rnr-cs">&nbsp;</th>
+	{END endrecordheader_block}
+	{END record_header}
+</tr>
+{END grid_header}
+
+	</thead>
+	<tbody>	
+	{BEGIN grid_row}
+	<tr class="rnr-row style1 {$rowclass}" {$rowattrs} {$rowstyle}>
+		{BEGIN grid_record}
+				{BEGIN ID_fieldcolumn}
+<td  class="runner-cc {$ID_class}" {$ID_style} {$recordattrs}>
+	{$ID_value}
+</td>
+{END ID_fieldcolumn}
+	{BEGIN jobdesc_fieldcolumn}
+<td  class="runner-cc {$jobdesc_class}" {$jobdesc_style} {$recordattrs}>
+	{$jobdesc_value}
+</td>
+{END jobdesc_fieldcolumn}
+	{BEGIN jobtitle_fieldcolumn}
+<td  class="runner-cc {$jobtitle_class}" {$jobtitle_style} {$recordattrs}>
+	{$jobtitle_value}
+</td>
+{END jobtitle_fieldcolumn}
+	{BEGIN deptunit_fieldcolumn}
+<td  class="runner-cc {$deptunit_class}" {$deptunit_style} {$recordattrs}>
+	{$deptunit_value}
+</td>
+{END deptunit_fieldcolumn}
+	{BEGIN validity_fieldcolumn}
+<td  class="runner-cc {$validity_class}" {$validity_style} {$recordattrs}>
+	{$validity_value}
+</td>
+{END validity_fieldcolumn}
+
+		<td class="rnr-edge" {$recordattrs}>&nbsp;</td>
+		{BEGIN endrecord_block}
+		<td class="rnr-cs" {$endrecordblock_attrs}>&nbsp;</td>
+		{END endrecord_block}
+										
+		{END grid_record}
+
+	</tr>
+{END grid_row}
+
+
+	
+	</tbody>
+</table>
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			<!--%%bottom%%-->
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

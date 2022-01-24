@@ -1,0 +1,1333 @@
+.AvenueFire.rnr-s-empty > .rnr-c
+{
+background:none;
+
+}
+.AvenueFire.rnr-s-empty > .rnr-c .rnr-leftbricks
+{
+margin-right: 10px;
+}
+.AvenueFire.rnr-s-empty > .rnr-c .rnr-rightbricks
+{
+margin-left: 10px;
+}
+.AvenueFire.rnr-s-empty > :not(.runner-c) > *.style1,
+.AvenueFire.rnr-s-empty > * > :not(.rnr-b-wrapper) .style1
+{
+color: #FF9900;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-empty > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.AvenueFire.rnr-s-empty > * > :not(.rnr-b-wrapper) .style1,
+.AvenueFire.rnr-s-empty > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.AvenueFire.rnr-s-empty > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.AvenueFire.rnr-s-empty > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.AvenueFire.rnr-s-empty > :not(.runner-c) > *.style2,
+.AvenueFire.rnr-s-empty > * > :not(.rnr-b-wrapper) .style2
+{
+color: #000000;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-empty > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.AvenueFire.rnr-s-empty > * > :not(.rnr-b-wrapper) .style2,
+.AvenueFire.rnr-s-empty > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.AvenueFire.rnr-s-empty > :not(.runner-c) > *.style3,
+.AvenueFire.rnr-s-empty > * > :not(.rnr-b-wrapper) .style3
+{
+color: #696969;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-empty > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.AvenueFire.rnr-s-empty > * > :not(.rnr-b-wrapper) .style3,
+.AvenueFire.rnr-s-empty > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.AvenueFire.rnr-s-menu > .rnr-c
+{
+border: solid #444444 1px;
+}
+.AvenueFire.rnr-s-menu > :not(.runner-c) > *.style1,
+.AvenueFire.rnr-s-menu > * > :not(.rnr-b-wrapper) .style1
+{
+background-image: none; background-color: #808080;color: #FF9900;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-menu > .rnr-c.rnr-ch
+{
+background-image: none; background-color: #808080;
+}
+.AvenueFire.rnr-s-menu > :not(.runner-c) > *.style2,
+.AvenueFire.rnr-s-menu > * > :not(.rnr-b-wrapper) .style2
+{
+background-color: #444444;
+background: -webkit-linear-gradient(top, #616161, #444444);
+background: -moz-linear-gradient(top, #616161, #444444);
+background: -ms-linear-gradient(top, #616161, #444444);
+background: -o-linear-gradient(top, #616161, #444444);
+;
+color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-menu > :not(.runner-c) > *.style3,
+.AvenueFire.rnr-s-menu > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #A9A9A9;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-menu > .rnr-c .rnr-leftbricks
+{
+margin-right: 0px;
+}
+.AvenueFire.rnr-s-menu > .rnr-c .rnr-rightbricks
+{
+margin-left: 0px;
+}
+.AvenueFire.rnr-s-menu > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.AvenueFire.rnr-s-menu > * > :not(.rnr-b-wrapper) .style1,
+.AvenueFire.rnr-s-menu > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 7px 4px;
+}
+.AvenueFire.rnr-s-menu > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 0px; background:transparent;
+}
+.AvenueFire.rnr-s-menu > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 0px; background:transparent;
+}
+.AvenueFire.rnr-s-menu > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.AvenueFire.rnr-s-menu > * > :not(.rnr-b-wrapper) .style2,
+.AvenueFire.rnr-s-menu > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.AvenueFire.rnr-s-menu > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.AvenueFire.rnr-s-menu > * > :not(.rnr-b-wrapper) .style3,
+.AvenueFire.rnr-s-menu > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.AvenueFire.rnr-s-hmenu > .rnr-c
+{
+background:none;
+
+}
+.AvenueFire.rnr-s-hmenu > .rnr-c .rnr-leftbricks
+{
+margin-right: 10px;
+}
+.AvenueFire.rnr-s-hmenu > .rnr-c .rnr-rightbricks
+{
+margin-left: 10px;
+}
+.AvenueFire.rnr-s-hmenu > :not(.runner-c) > *.style1,
+.AvenueFire.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style1
+{
+color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-hmenu > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.AvenueFire.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style1,
+.AvenueFire.rnr-s-hmenu > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.AvenueFire.rnr-s-hmenu > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.AvenueFire.rnr-s-hmenu > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.AvenueFire.rnr-s-hmenu > :not(.runner-c) > *.style2,
+.AvenueFire.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style2
+{
+color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-hmenu > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.AvenueFire.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style2,
+.AvenueFire.rnr-s-hmenu > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.AvenueFire.rnr-s-hmenu > :not(.runner-c) > *.style3,
+.AvenueFire.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style3
+{
+color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-hmenu > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.AvenueFire.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style3,
+.AvenueFire.rnr-s-hmenu > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.AvenueFire.rnr-s-undermenu > .rnr-c
+{
+border: solid #FFFF00 1px;
+}
+.AvenueFire.rnr-s-undermenu > :not(.runner-c) > *.style1,
+.AvenueFire.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style1
+{
+background-image: none; background-color: #444444;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-undermenu > .rnr-c.rnr-ch
+{
+background-image: none; background-color: #444444;
+}
+.AvenueFire.rnr-s-undermenu > :not(.runner-c) > *.style2,
+.AvenueFire.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #FFFF00;color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-undermenu > :not(.runner-c) > *.style3,
+.AvenueFire.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #FFFF00;color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-undermenu > .rnr-c .rnr-leftbricks
+{
+margin-right: 0px;
+}
+.AvenueFire.rnr-s-undermenu > .rnr-c .rnr-rightbricks
+{
+margin-left: 0px;
+}
+.AvenueFire.rnr-s-undermenu > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.AvenueFire.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style1,
+.AvenueFire.rnr-s-undermenu > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 8px 10px;
+}
+.AvenueFire.rnr-s-undermenu > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 0px; background:transparent;
+}
+.AvenueFire.rnr-s-undermenu > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 0px; background:transparent;
+}
+.AvenueFire.rnr-s-undermenu > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.AvenueFire.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style2,
+.AvenueFire.rnr-s-undermenu > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.AvenueFire.rnr-s-undermenu > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.AvenueFire.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style3,
+.AvenueFire.rnr-s-undermenu > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.AvenueFire.rnr-s-fields > .rnr-c
+{
+border-top-right-radius: 3px;border-top-left-radius: 3px;border-bottom-right-radius: 3px;border-bottom-left-radius: 3px;
+}
+.AvenueFire.rnr-s-fields > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-right-radius: 3px; padding-right: 1px;
+border-bottom-right-radius: 3px; padding-right: 1px;
+
+}
+.AvenueFire.rnr-s-fields > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-left-radius: 3px; padding-left: 1px;
+border-bottom-left-radius: 3px; padding-left: 1px;
+
+}
+.AvenueFire.rnr-s-fields > :not(.runner-c) > *.style1,
+.AvenueFire.rnr-s-fields > * > :not(.rnr-b-wrapper) .style1
+{
+background-image: none; background-color: #DCDCDC;color: #444444;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: bold; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-fields > .rnr-c.rnr-ch
+{
+background-image: none; background-color: #DCDCDC;
+}
+.AvenueFire.rnr-s-fields > :not(.runner-c) > *.style2,
+.AvenueFire.rnr-s-fields > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #FF9900;color: #444444;
+font-family: Avant Garde, sans-serif; font-size: 14px; font-weight: bold; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-fields > :not(.runner-c) > *.style3,
+.AvenueFire.rnr-s-fields > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #FF9900;color: #DDDDDD;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-fields > .rnr-c .rnr-leftbricks
+{
+margin-right: 3px;
+}
+.AvenueFire.rnr-s-fields > .rnr-c .rnr-rightbricks
+{
+margin-left: 3px;
+}
+.AvenueFire.rnr-s-fields > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.AvenueFire.rnr-s-fields > * > :not(.rnr-b-wrapper) .style1,
+.AvenueFire.rnr-s-fields > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.AvenueFire.rnr-s-fields > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 3px; background:transparent;
+}
+.AvenueFire.rnr-s-fields > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 3px; background:transparent;
+}
+.AvenueFire.rnr-s-fields > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.AvenueFire.rnr-s-fields > * > :not(.rnr-b-wrapper) .style2,
+.AvenueFire.rnr-s-fields > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 8px 11px;
+}
+.AvenueFire.rnr-s-fields > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.AvenueFire.rnr-s-fields > * > :not(.rnr-b-wrapper) .style3,
+.AvenueFire.rnr-s-fields > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.AvenueFire.rnr-s-form > .rnr-c
+{
+border-top-right-radius: 10px;border-top-left-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;
+}
+.AvenueFire.rnr-s-form > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-right-radius: 10px; padding-right: 5px;
+border-bottom-right-radius: 10px; padding-right: 5px;
+
+}
+.AvenueFire.rnr-s-form > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-left-radius: 10px; padding-left: 5px;
+border-bottom-left-radius: 10px; padding-left: 5px;
+
+}
+.AvenueFire.rnr-s-form > :not(.runner-c) > *.style1,
+.AvenueFire.rnr-s-form > * > :not(.rnr-b-wrapper) .style1
+{
+background-image: none; background-color: #A9A9A9;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-form > .rnr-c.rnr-ch
+{
+background-image: none; background-color: #A9A9A9;
+}
+.AvenueFire.rnr-s-form > :not(.runner-c) > *.style2,
+.AvenueFire.rnr-s-form > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #FF9900;color: #444444;
+font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-form > :not(.runner-c) > *.style3,
+.AvenueFire.rnr-s-form > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #444444;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-form > .rnr-c .rnr-leftbricks
+{
+margin-right: 10px;
+}
+.AvenueFire.rnr-s-form > .rnr-c .rnr-rightbricks
+{
+margin-left: 10px;
+}
+.AvenueFire.rnr-s-form > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.AvenueFire.rnr-s-form > * > :not(.rnr-b-wrapper) .style1,
+.AvenueFire.rnr-s-form > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.AvenueFire.rnr-s-form > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.AvenueFire.rnr-s-form > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.AvenueFire.rnr-s-form > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.AvenueFire.rnr-s-form > * > :not(.rnr-b-wrapper) .style2,
+.AvenueFire.rnr-s-form > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.AvenueFire.rnr-s-form > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.AvenueFire.rnr-s-form > * > :not(.rnr-b-wrapper) .style3,
+.AvenueFire.rnr-s-form > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.AvenueFire.rnr-s-1 > .rnr-c
+{
+border-top-right-radius: 3px;border-top-left-radius: 3px;border-bottom-right-radius: 3px;border-bottom-left-radius: 3px;
+}
+.AvenueFire.rnr-s-1 > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-right-radius: 3px; padding-right: 1px;
+border-bottom-right-radius: 3px; padding-right: 1px;
+
+}
+.AvenueFire.rnr-s-1 > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-left-radius: 3px; padding-left: 1px;
+border-bottom-left-radius: 3px; padding-left: 1px;
+
+}
+.AvenueFire.rnr-s-1 > :not(.runner-c) > *.style1,
+.AvenueFire.rnr-s-1 > * > :not(.rnr-b-wrapper) .style1
+{
+background-image: none; background-color: #A9A9A9;color: #696969;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-1 > .rnr-c.rnr-ch
+{
+background-image: none; background-color: #A9A9A9;
+}
+.AvenueFire.rnr-s-1 > :not(.runner-c) > *.style2,
+.AvenueFire.rnr-s-1 > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #FF9900;color: #FFFFFF;
+font-family: Avant Garde, sans-serif; font-size: 14px; font-weight: bold; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-1 > :not(.runner-c) > *.style3,
+.AvenueFire.rnr-s-1 > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #FF9900;color: #D1EEEE;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-1 > .rnr-c .rnr-leftbricks
+{
+margin-right: 3px;
+}
+.AvenueFire.rnr-s-1 > .rnr-c .rnr-rightbricks
+{
+margin-left: 3px;
+}
+.AvenueFire.rnr-s-1 > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.AvenueFire.rnr-s-1 > * > :not(.rnr-b-wrapper) .style1,
+.AvenueFire.rnr-s-1 > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 4px 4px;
+}
+.AvenueFire.rnr-s-1 > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 3px; background:transparent;
+}
+.AvenueFire.rnr-s-1 > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 3px; background:transparent;
+}
+.AvenueFire.rnr-s-1 > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.AvenueFire.rnr-s-1 > * > :not(.rnr-b-wrapper) .style2,
+.AvenueFire.rnr-s-1 > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 9px 10px;
+}
+.AvenueFire.rnr-s-1 > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.AvenueFire.rnr-s-1 > * > :not(.rnr-b-wrapper) .style3,
+.AvenueFire.rnr-s-1 > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.AvenueFire.rnr-s-2 > .rnr-c
+{
+border-top-right-radius: 3px;border-top-left-radius: 3px;border-bottom-right-radius: 3px;border-bottom-left-radius: 3px;
+}
+.AvenueFire.rnr-s-2 > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-right-radius: 3px; padding-right: 1px;
+border-bottom-right-radius: 3px; padding-right: 1px;
+
+}
+.AvenueFire.rnr-s-2 > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-left-radius: 3px; padding-left: 1px;
+border-bottom-left-radius: 3px; padding-left: 1px;
+
+}
+.AvenueFire.rnr-s-2 > :not(.runner-c) > *.style1,
+.AvenueFire.rnr-s-2 > * > :not(.rnr-b-wrapper) .style1
+{
+background-color: #FF9900;
+background: -webkit-linear-gradient(top, #FFCC7F, #FF9900);
+background: -moz-linear-gradient(top, #FFCC7F, #FF9900);
+background: -ms-linear-gradient(top, #FFCC7F, #FF9900);
+background: -o-linear-gradient(top, #FFCC7F, #FF9900);
+;
+color: #444444;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-2 > .rnr-c.rnr-ch
+{
+background-color: #FF9900;
+background: -webkit-linear-gradient(top, #FFCC7F, #FF9900);
+background: -moz-linear-gradient(top, #FFCC7F, #FF9900);
+background: -ms-linear-gradient(top, #FFCC7F, #FF9900);
+background: -o-linear-gradient(top, #FFCC7F, #FF9900);
+;
+
+}
+.AvenueFire.rnr-s-2 > :not(.runner-c) > *.style2,
+.AvenueFire.rnr-s-2 > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #808080;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-2 > :not(.runner-c) > *.style3,
+.AvenueFire.rnr-s-2 > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #A9A9A9;color: #404040;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-2 > .rnr-c .rnr-leftbricks
+{
+margin-right: 3px;
+}
+.AvenueFire.rnr-s-2 > .rnr-c .rnr-rightbricks
+{
+margin-left: 3px;
+}
+.AvenueFire.rnr-s-2 > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.AvenueFire.rnr-s-2 > * > :not(.rnr-b-wrapper) .style1,
+.AvenueFire.rnr-s-2 > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 7px 4px;
+}
+.AvenueFire.rnr-s-2 > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 3px; background:transparent;
+}
+.AvenueFire.rnr-s-2 > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 3px; background:transparent;
+}
+.AvenueFire.rnr-s-2 > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.AvenueFire.rnr-s-2 > * > :not(.rnr-b-wrapper) .style2,
+.AvenueFire.rnr-s-2 > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.AvenueFire.rnr-s-2 > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.AvenueFire.rnr-s-2 > * > :not(.rnr-b-wrapper) .style3,
+.AvenueFire.rnr-s-2 > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.AvenueFire.rnr-s-3 > .rnr-c
+{
+border-top-right-radius: 3px;border-top-left-radius: 3px;border-bottom-right-radius: 3px;border-bottom-left-radius: 3px;
+}
+.AvenueFire.rnr-s-3 > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-right-radius: 3px; padding-right: 1px;
+border-bottom-right-radius: 3px; padding-right: 1px;
+
+}
+.AvenueFire.rnr-s-3 > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-left-radius: 3px; padding-left: 1px;
+border-bottom-left-radius: 3px; padding-left: 1px;
+
+}
+.AvenueFire.rnr-s-3 > :not(.runner-c) > *.style1,
+.AvenueFire.rnr-s-3 > * > :not(.rnr-b-wrapper) .style1
+{
+background-image: none; background-color: #A9A9A9;color: #444444;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-3 > .rnr-c.rnr-ch
+{
+background-image: none; background-color: #A9A9A9;
+}
+.AvenueFire.rnr-s-3 > :not(.runner-c) > *.style2,
+.AvenueFire.rnr-s-3 > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #444444;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-3 > :not(.runner-c) > *.style3,
+.AvenueFire.rnr-s-3 > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #FF9900;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.rnr-s-3 > .rnr-c .rnr-leftbricks
+{
+margin-right: 3px;
+}
+.AvenueFire.rnr-s-3 > .rnr-c .rnr-rightbricks
+{
+margin-left: 3px;
+}
+.AvenueFire.rnr-s-3 > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.AvenueFire.rnr-s-3 > * > :not(.rnr-b-wrapper) .style1,
+.AvenueFire.rnr-s-3 > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.AvenueFire.rnr-s-3 > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 3px; background:transparent;
+}
+.AvenueFire.rnr-s-3 > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 3px; background:transparent;
+}
+.AvenueFire.rnr-s-3 > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.AvenueFire.rnr-s-3 > * > :not(.rnr-b-wrapper) .style2,
+.AvenueFire.rnr-s-3 > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.AvenueFire.rnr-s-3 > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.AvenueFire.rnr-s-3 > * > :not(.rnr-b-wrapper) .style3,
+.AvenueFire.rnr-s-3 > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-toprow:first-child > th:not(.rnr-cs),
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-toprow:first-child > th:not(.rnr-cs),
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-toprow:first-child > td:not(.rnr-cs),
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-toprow:first-child > td:not(.rnr-cs)
+{
+border-top: solid #DCDCDC 1px;
+
+}
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > tbody > tr:last-child > td:not(.rnr-cs),
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > tbody > tr:last-child > td:not(.rnr-cs)
+{
+border-bottom: solid #DCDCDC 1px;
+
+}
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > * > td:first-child,
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > * > td:first-child,
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > * > th:first-child,
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > * > th:first-child,
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > * > *.rnr-cs + td,
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > * > *.rnr-cs + td,
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > * > *.rnr-cs + th,
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > * > *.rnr-cs + th
+{
+border-right: solid #DCDCDC 1px;
+
+}
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > * > *.rnr-edge,
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > * > *.rnr-edge
+{
+border-left: solid #DCDCDC 1px;
+
+}
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-toprow:first-child > td:first-child,
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-toprow:first-child > td:first-child,
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-toprow:first-child > th:first-child,
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-toprow:first-child > th:first-child,
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-toprow:first-child > *.rnr-cs + td,
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-toprow:first-child > *.rnr-cs + td,
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-toprow:first-child > *.rnr-cs + th,
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-toprow:first-child > *.rnr-cs + th
+{
+border-top-right-radius: 2px;
+}
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > tbody > tr:last-child > td:first-child,
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > tbody > tr:last-child > td:first-child,
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > tbody > tr:last-child > th:first-child,
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > tbody > tr:last-child > th:first-child,
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > tbody > tr:last-child > *.rnr-cs + td,
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > tbody > tr:last-child > *.rnr-cs + td,
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > tbody > tr:last-child > *.rnr-cs + th,
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > tbody > tr:last-child > *.rnr-cs + th
+{
+border-bottom-right-radius: 2px;
+}
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-toprow:first-child > .rnr-edge,
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-toprow:first-child > .rnr-edge
+{
+border-top-left-radius: 2px;
+}
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > tbody > tr:last-child > .rnr-edge,
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > tbody > tr:last-child > .rnr-edge
+{
+border-bottom-left-radius: 2px;
+}
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > tbody > * > .rnr-edge,
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > tbody > * > .rnr-edge
+{
+min-width: 2px;
+
+}
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-toprow > th:not(.rnr-cs),
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-toprow > th:not(.rnr-cs),
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-toprow > td:not(.rnr-cs),
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-toprow > td:not(.rnr-cs)
+{
+background-color: #FF9900;
+background: -webkit-linear-gradient(top, #FFA928, #FF9900);
+background: -moz-linear-gradient(top, #FFA928, #FF9900);
+background: -ms-linear-gradient(top, #FFA928, #FF9900);
+background: -o-linear-gradient(top, #FFA928, #FF9900);
+;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;color: #404040;padding: 5px 7px;
+}
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-bottomrow > td:not(.rnr-cs),
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-bottomrow > td:not(.rnr-cs)
+{
+background-color: #FF9900; background-image: none;font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;color: #404040;padding: 5px 4px;
+}
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-row > td:not(.rnr-cs),
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-row > td:not(.rnr-cs)
+{
+background-color: #DCDCDC; background-image: none;font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;color: #333333;color: #333333;padding: 5px 4px;
+}
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-row:nth-last-child(2n+1) > td:not(.rnr-cs),
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-row:nth-last-child(2n+1) > td:not(.rnr-cs)
+{
+background-color: #696969; background-image: none;color: #FF9900;
+}
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical).hoverable > * > .rnr-row:hover > td:not(.rnr-cs),
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord.hoverable > * > .rnr-row:hover > td:not(.rnr-cs),
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-row > td.rnr-selected,
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-row > td.rnr-selected
+{
+background-color: #444444; background-image: none;color: #FF9900;
+}
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical).hoverable > * > .rnr-row:hover:nth-last-child(2n+1) > td:not(.rnr-cs),
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord.hoverable > * > .rnr-row:hover:nth-last-child(2n+1) > td:not(.rnr-cs),
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-row:nth-last-child(2n+1) > td.rnr-selected,
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-row:nth-last-child(2n+1) > td.rnr-selected
+{
+background-color: #FF9900; background-image: none;color: #FFFFFF;
+}
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > thead > tr:last-child > th:not(.rnr-cs),
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > thead > tr:last-child > th:not(.rnr-cs)
+{
+border-bottom: solid #DCDCDC 1px;
+
+}
+.AvenueFire.rnr-s-grid > table:not(.runner-c):not(.vertical) > tbody > tr:not(.rnr-bottomrow) + .rnr-bottomrow > td:not(.rnr-cs),
+.AvenueFire.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > tbody > tr:not(.rnr-bottomrow) + .rnr-bottomrow > td:not(.rnr-cs)
+{
+border-top: solid #DCDCDC 1px;
+
+}
+.AvenueFire .rnr-search-highlight
+{
+color: #FF0000; background-color: transparent;
+}
+.AvenueFire .rnr-b-vmenu.simple.main > *,
+.AvenueFire .rnr-b-vmenu.tree.main > *:not(.subitem)
+{
+background-image:none; background-color: #444444;color:#FFFFFF;font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-vmenu.simple.main > * > hr,
+.AvenueFire .rnr-b-vmenu.tree.main > *:not(.subitem) > hr
+{
+border-color:#FFFFFF;
+}
+.AvenueFire .rnr-b-vmenu.simple.main > *:hover:not(.expanded):not(.menuSeparator),
+.AvenueFire .rnr-b-vmenu.tree.main > *:not(.subitem):not(.manage):hover:not(.menuSeparator)
+{
+background-image:none; background-color: #DDDDDD;color:#444444;font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-vmenu.simple.main > *.current.current.current,
+.AvenueFire .rnr-b-vmenu.tree.main > *:not(.subitem).current.current.current
+{
+background-image:none; background-color: #FF9900;color:#FFFFFF;font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-vmenu.simple.main > *:hover:hover:hover.expanded
+{
+background-image:none; background-color: #DDDDDD;color:#444444;font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-vmenu.simple.main > * > ul li,
+.AvenueFire .rnr-b-vmenu.tree.main > *.subitem
+{
+background-image:none; background-color: #444444;color:#FFFFFF;font-family: Arial, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-vmenu.simple.main > * > ul li > hr,
+.AvenueFire .rnr-b-vmenu.tree.main > *.subitem > hr
+{
+border-color:#FFFFFF;
+}
+.AvenueFire .rnr-b-vmenu.simple.main > * > ul li:hover:not(.expanded):not(.menuSeparator),
+.AvenueFire .rnr-b-vmenu.tree.main > *.subitem:hover:not(.menuSeparator)
+{
+background-image:none; background-color: #DCDCDC;color:#FFFFFF;font-family: Arial, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-vmenu.simple.main > * > ul li.current.current.current,
+.AvenueFire .rnr-b-vmenu.tree.main > *.subitem.current.current.current
+{
+background-image:none; background-color: #FF9900;color:#FFFFFF;font-family: Arial, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-vmenu.simple.main > * > ul li:hover:hover:hover.expanded
+{
+background-image:none; background-color: #DCDCDC;color:#FFFFFF;font-family: Arial, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-vmenu.tree.main > *:not(.subitem) > div
+{
+padding: 9px 7px; margin:1px 3px;
+}
+.AvenueFire .rnr-b-vmenu.simple.main > * > :not(ul) > *
+{
+padding: 9px 7px; margin:1px 3px;
+}
+.AvenueFire .rnr-b-vmenu.tree.main > *.subitem > div
+{
+padding: 9px 7px; margin:1px 3px;
+}
+.AvenueFire .rnr-b-vmenu.simple.main > * > ul li > :not(ul) > *
+{
+padding: 9px 7px; margin:1px 3px;
+}
+.AvenueFire .rnr-b-vmenu.simple.main >  * ul
+{
+border: solid #000000 1px;
+}
+.AvenueFire .rnr-b-vmenu.simple.main >  * ul > li:not(:first-child)
+{
+border-top: solid #000000 1px;
+}
+.AvenueFire .rnr-b-vmenu.simple.main > *:not(:first-child),
+.AvenueFire .rnr-b-vmenu.tree.main > *:not(.subitem):not(:first-child)
+{
+border-top:solid #000000 1px;
+}
+.AvenueFire .rnr-b-vmenu.tree.main > *.subitem:not(:first-child)
+{
+border-top: solid #000000 1px;
+}
+.AvenueFire .rnr-b-vmenu.simple.second > *,
+.AvenueFire .rnr-b-vmenu.tree.second > *:not(.subitem)
+{
+background-image:none; background-color: #444444;color:#FFFFFF;font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-vmenu.simple.second > * > hr,
+.AvenueFire .rnr-b-vmenu.tree.second > *:not(.subitem) > hr
+{
+border-color:#FFFFFF;
+}
+.AvenueFire .rnr-b-vmenu.simple.second > *:hover:not(.expanded):not(.menuSeparator),
+.AvenueFire .rnr-b-vmenu.tree.second > *:not(.subitem):not(.manage):hover:not(.menuSeparator)
+{
+background-image:none; background-color: #DDDDDD;color:#444444;font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-vmenu.simple.second > *.current.current.current,
+.AvenueFire .rnr-b-vmenu.tree.second > *:not(.subitem).current.current.current
+{
+background-image:none; background-color: #FF9900;color:#FFFFFF;font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-vmenu.simple.second > *:hover:hover:hover.expanded
+{
+background-image:none; background-color: #DDDDDD;color:#444444;font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-vmenu.simple.second > * > ul li,
+.AvenueFire .rnr-b-vmenu.tree.second > *.subitem
+{
+background-image:none; background-color: #444444;color:#FFFFFF;font-family: Arial, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-vmenu.simple.second > * > ul li > hr,
+.AvenueFire .rnr-b-vmenu.tree.second > *.subitem > hr
+{
+border-color:#FFFFFF;
+}
+.AvenueFire .rnr-b-vmenu.simple.second > * > ul li:hover:not(.expanded):not(.menuSeparator),
+.AvenueFire .rnr-b-vmenu.tree.second > *.subitem:hover:not(.menuSeparator)
+{
+background-image:none; background-color: #DCDCDC;color:#FFFFFF;font-family: Arial, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-vmenu.simple.second > * > ul li.current.current.current,
+.AvenueFire .rnr-b-vmenu.tree.second > *.subitem.current.current.current
+{
+background-image:none; background-color: #FF9900;color:#FFFFFF;font-family: Arial, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-vmenu.simple.second > * > ul li:hover:hover:hover.expanded
+{
+background-image:none; background-color: #DCDCDC;color:#FFFFFF;font-family: Arial, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-vmenu.tree.second > *:not(.subitem) > div
+{
+padding: 9px 7px; margin:1px 3px;
+}
+.AvenueFire .rnr-b-vmenu.simple.second > * > :not(ul) > *
+{
+padding: 9px 7px; margin:1px 3px;
+}
+.AvenueFire .rnr-b-vmenu.tree.second > *.subitem > div
+{
+padding: 9px 7px; margin:1px 3px;
+}
+.AvenueFire .rnr-b-vmenu.simple.second > * > ul li > :not(ul) > *
+{
+padding: 9px 7px; margin:1px 3px;
+}
+.AvenueFire .rnr-b-vmenu.simple.second >  * ul
+{
+border: solid #000000 1px;
+}
+.AvenueFire .rnr-b-vmenu.simple.second >  * ul > li:not(:first-child)
+{
+border-top: solid #000000 1px;
+}
+.AvenueFire .rnr-b-vmenu.simple.second > *:not(:first-child),
+.AvenueFire .rnr-b-vmenu.tree.second > *:not(.subitem):not(:first-child)
+{
+border-top:solid #000000 1px;
+}
+.AvenueFire .rnr-b-vmenu.tree.second > *.subitem:not(:first-child)
+{
+border-top: solid #000000 1px;
+}
+.AvenueFire .rnr-b-hmenu.main > div:not(.rnr-hseparator)
+{
+background: transparent;color:#FFFFFF;font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;padding: 20px 10px;border: none;
+}
+.AvenueFire .rnr-b-hmenu.main
+{
+background-image:none; background-color: #444444;
+}
+.AvenueFire .rnr-b-hmenu.main > div:not(.rnr-hseparator) > hr
+{
+border-color:#FFFFFF;
+}
+.AvenueFire .rnr-b-hmenu.main:hover:not(.expanded) > div:not(.rnr-hseparator)
+{
+background: transparent;color:#696969;font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-hmenu.main:hover:not(.expanded)
+{
+background-image:none; background-color: #FF9900;
+}
+.AvenueFire .rnr-b-hmenu.main.current.current > div:not(.rnr-hseparator)
+{
+background: transparent;color:#FFFFFF;font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-hmenu.main.current.current
+{
+background-image:none; background-color: #333333;
+}
+.AvenueFire .rnr-b-hmenu.main:hover.expanded > div:not(.rnr-hseparator)
+{
+background: transparent;color:#696969;font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-hmenu.main:hover.expanded
+{
+background-image:none; background-color: #FF9900;
+}
+.AvenueFire .rnr-b-hmenu.main > ul li
+{
+background-image:none; background-color: #404040;color:#FFFFFF;font-family: Arial, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-hmenu.main > ul li > hr
+{
+border-color:#FFFFFF;
+}
+.AvenueFire .rnr-b-hmenu.main > ul li:hover:not(.expanded):not(.menuSeparator)
+{
+background-image:none; background-color: #FF9900;color:#696969;font-family: Arial, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-hmenu.main > ul li.current.current
+{
+background-image:none; background-color: #404040;color:#FFFFFF;font-family: Arial, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-hmenu.main > ul li:hover.expanded
+{
+background-image:none; background-color: #FF9900;color:#696969;font-family: Arial, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-hmenu.main > ul li > div > div
+{
+padding: 9px 7px; margin:1px 3px;
+}
+.AvenueFire .rnr-b-hmenu.main ul
+{
+border: solid #000000 1px;
+}
+.AvenueFire .rnr-b-hmenu.main ul > li:not(:first-child)
+{
+border-top: solid #000000 1px;
+}
+.AvenueFire .rnr-b-hmenu.main:not(:last-child)
+{
+border-right: solid #444444 1px;
+}
+.AvenueFire :not(.rnr-b-hmenu):not(.main) + .rnr-b-hmenu.main
+{
+border-left: solid #444444 1px;
+}
+.AvenueFire .rnr-b-hmenu.second > div:not(.rnr-hseparator)
+{
+background: transparent;color:#FFFFFF;font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;padding: 20px 10px;border: none;
+}
+.AvenueFire .rnr-b-hmenu.second
+{
+background-image:none; background-color: #444444;
+}
+.AvenueFire .rnr-b-hmenu.second > div:not(.rnr-hseparator) > hr
+{
+border-color:#FFFFFF;
+}
+.AvenueFire .rnr-b-hmenu.second:hover:not(.expanded) > div:not(.rnr-hseparator)
+{
+background: transparent;color:#696969;font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-hmenu.second:hover:not(.expanded)
+{
+background-image:none; background-color: #FF9900;
+}
+.AvenueFire .rnr-b-hmenu.second.current.current > div:not(.rnr-hseparator)
+{
+background: transparent;color:#FFFFFF;font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-hmenu.second.current.current
+{
+background-image:none; background-color: #333333;
+}
+.AvenueFire .rnr-b-hmenu.second:hover.expanded > div:not(.rnr-hseparator)
+{
+background: transparent;color:#696969;font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-hmenu.second:hover.expanded
+{
+background-image:none; background-color: #FF9900;
+}
+.AvenueFire .rnr-b-hmenu.second > ul li
+{
+background-image:none; background-color: #404040;color:#FFFFFF;font-family: Arial, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-hmenu.second > ul li > hr
+{
+border-color:#FFFFFF;
+}
+.AvenueFire .rnr-b-hmenu.second > ul li:hover:not(.expanded):not(.menuSeparator)
+{
+background-image:none; background-color: #FF9900;color:#696969;font-family: Arial, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-hmenu.second > ul li.current.current
+{
+background-image:none; background-color: #404040;color:#FFFFFF;font-family: Arial, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-hmenu.second > ul li:hover.expanded
+{
+background-image:none; background-color: #FF9900;color:#696969;font-family: Arial, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-b-hmenu.second > ul li > div > div
+{
+padding: 9px 7px; margin:1px 3px;
+}
+.AvenueFire .rnr-b-hmenu.second ul
+{
+border: solid #000000 1px;
+}
+.AvenueFire .rnr-b-hmenu.second ul > li:not(:first-child)
+{
+border-top: solid #000000 1px;
+}
+.AvenueFire .rnr-b-hmenu.second:not(:last-child)
+{
+border-right: solid #444444 10px;
+}
+.AvenueFire :not(.rnr-b-hmenu):not(.second) + .rnr-b-hmenu.second
+{
+border-left: solid #444444 10px;
+}
+body.AvenueFire
+{
+
+background-color:#FFF1EA;
+}
+.AvenueFire .rnr-list
+{
+color: #333333;background-color: #DCDCDC;font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;border: solid #333333 1px;box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+}
+.AvenueFire .rnr-tab.selected
+{
+background-color:#0000FF;
+border-top-right-radius:3px;
+border-top-left-radius:3px;
+
+}
+.AvenueFire .rnr-tab
+{
+background-color:#C0C0C0;
+border-top-right-radius:3px;
+border-top-left-radius:3px;
+border: solid #000000 1px; border-bottom-width:0;
+}
+.AvenueFire .rnr-tab.selected > a
+{
+color: #FFFFFF;
+
+}
+.AvenueFire .rnr-tab > a
+{
+color: #000000;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .yui-navset .yui-content
+{
+border: solid #0000FF 1px;border-top-width: 5px;
+}
+.AvenueFire  .rnr-message
+{
+background-color: #A9A9A9;border: solid #444444 1px;color: #006600;font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire  .rnr-error.rnr-error
+{
+color: #A80000;font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .yui3-panel-content.yui3-panel-content
+{
+border-radius: 3px;
+}
+.AvenueFire  .yui3-panel .yui3-widget-hd.yui3-widget-hd.yui3-widget-hd
+{
+background-color: #FF9900; background-image: none;font-family: Avant Garde, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;color: #FFFFFF;
+}
+.AvenueFire  .yui3-widget-ft
+{
+background-color: #FF9900; background-image: none;font-family: Avant Garde, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;color: #444444;
+}
+.AvenueFire .rnr-dbbordered
+{
+border-radius: 3px;
+}
+.AvenueFire  .rnr-dbelemheader
+{
+background-color: #FF9900; background-image: none;font-family: Avant Garde, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;color: #FFFFFF;
+}
+.AvenueFire  .rnr-dbelemfooter
+{
+background-color: #D8D8D8; background-image: none;font-family: Avant Garde, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;color: #000000;
+}
+.AvenueFire  .rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow
+{
+background-color: #FFFACD; background-image: none;font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;color: #4C4951;
+}
+.AvenueFire .rnr-dashboard
+{
+background-color: #FFFFFF;
+}
+.AvenueFire .rnr-button.rnr-button,
+.AvenueFire.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+.AvenueFire .button.button.button.rnr-button.rnr-button,
+ .rnr-pagewrapper .AvenueFire .rnr-button.rnr-button,
+ .rnr-pagewrapper .AvenueFire.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+ .rnr-pagewrapper .AvenueFire .button.button.button.rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire .rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire .button.button.button.rnr-button.rnr-button
+{
+border: solid 1px;border-radius: 3px;padding: 3px 10px 4px;background-color: #696969;
+background: -webkit-linear-gradient(top, #848484, #696969);
+background: -moz-linear-gradient(top, #848484, #696969);
+background: -ms-linear-gradient(top, #848484, #696969);
+background: -o-linear-gradient(top, #848484, #696969);
+;
+border-color: #696969;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire .rnr-button.rnr-button.img,
+.AvenueFire.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+.AvenueFire .button.button.button.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .AvenueFire .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .AvenueFire.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .AvenueFire .button.button.button.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire .button.button.button.rnr-button.rnr-button.img
+{
+padding: 3px;
+
+}
+.AvenueFire .rnr-button:hover,
+.AvenueFire.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:hover,
+.AvenueFire .button.button.button.rnr-button:hover,
+ .rnr-pagewrapper .AvenueFire .rnr-button:hover,
+ .rnr-pagewrapper .AvenueFire.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:hover,
+ .rnr-pagewrapper .AvenueFire .button.button.button.rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire .rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire .button.button.button.rnr-button:hover
+{
+background-color: #DCDCDC;
+background: -webkit-linear-gradient(top, #E2E2E2, #DCDCDC);
+background: -moz-linear-gradient(top, #E2E2E2, #DCDCDC);
+background: -ms-linear-gradient(top, #E2E2E2, #DCDCDC);
+background: -o-linear-gradient(top, #E2E2E2, #DCDCDC);
+;
+border-color: #FF9900;color: #FF9900;
+
+}
+.AvenueFire .rnr-button:active,
+.AvenueFire.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:active,
+.AvenueFire .button.button.button.rnr-button:active,
+ .rnr-pagewrapper .AvenueFire .rnr-button:active,
+ .rnr-pagewrapper .AvenueFire.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:active,
+ .rnr-pagewrapper .AvenueFire .button.button.button.rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire .rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire .button.button.button.rnr-button:active
+{
+background-color: #DDDDDD;
+background: -webkit-linear-gradient(top, #E3E3E3, #DDDDDD);
+background: -moz-linear-gradient(top, #E3E3E3, #DDDDDD);
+background: -ms-linear-gradient(top, #E3E3E3, #DDDDDD);
+background: -o-linear-gradient(top, #E3E3E3, #DDDDDD);
+;
+border-color: #696969;color: #808080;
+
+}
+.AvenueFire .rnr-button.disabled,
+.AvenueFire.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+.AvenueFire .button.button.button.rnr-button.disabled,
+ .rnr-pagewrapper .AvenueFire .rnr-button.disabled,
+ .rnr-pagewrapper .AvenueFire.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+ .rnr-pagewrapper .AvenueFire .button.button.button.rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire .rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire .button.button.button.rnr-button.disabled
+{
+background-color: #333333;
+background: -webkit-linear-gradient(top, #575757, #333333);
+background: -moz-linear-gradient(top, #575757, #333333);
+background: -ms-linear-gradient(top, #575757, #333333);
+background: -o-linear-gradient(top, #575757, #333333);
+;
+border-color: #FF9900;color: #FFFFFF;
+
+}
+.AvenueFire.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+.AvenueFire .link.link.link.rnr-button.rnr-button,
+ .rnr-pagewrapper .AvenueFire.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+ .rnr-pagewrapper .AvenueFire .link.link.link.rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire .link.link.link.rnr-button.rnr-button
+{
+background: none; border: none; ;
+border: none;border-radius: 0px;padding: 4px 8px 4px;color: #404040;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.AvenueFire.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+.AvenueFire .link.link.link.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .AvenueFire.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .AvenueFire .link.link.link.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire .link.link.link.rnr-button.rnr-button.img
+{
+padding: 4px;
+
+}
+.AvenueFire.aslinks > * > *:not(.rnr-wrapper) .rnr-button:hover,
+.AvenueFire .link.link.link.rnr-button:hover,
+ .rnr-pagewrapper .AvenueFire.aslinks > * > *:not(.rnr-wrapper) .rnr-button:hover,
+ .rnr-pagewrapper .AvenueFire .link.link.link.rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire.aslinks > * > *:not(.rnr-wrapper) .rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire .link.link.link.rnr-button:hover
+{
+color: #FF9900;
+
+}
+.AvenueFire.aslinks > * > *:not(.rnr-wrapper) .rnr-button:active,
+.AvenueFire .link.link.link.rnr-button:active,
+ .rnr-pagewrapper .AvenueFire.aslinks > * > *:not(.rnr-wrapper) .rnr-button:active,
+ .rnr-pagewrapper .AvenueFire .link.link.link.rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire.aslinks > * > *:not(.rnr-wrapper) .rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire .link.link.link.rnr-button:active
+{
+color: #404040;
+
+}
+.AvenueFire.aslinks > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+.AvenueFire .link.link.link.rnr-button.disabled,
+ .rnr-pagewrapper .AvenueFire.aslinks > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+ .rnr-pagewrapper .AvenueFire .link.link.link.rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire.aslinks > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire .link.link.link.rnr-button.disabled
+{
+color: #696969;
+
+}
+.AvenueFire .main.main.main.rnr-button.rnr-button,
+ .rnr-pagewrapper .AvenueFire .main.main.main.rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire .main.main.main.rnr-button.rnr-button
+{
+border: solid 2px;border-radius: 3px;padding: 3px 10px 4px;background-color: #696969;
+background: -webkit-linear-gradient(top, #848484, #696969);
+background: -moz-linear-gradient(top, #848484, #696969);
+background: -ms-linear-gradient(top, #848484, #696969);
+background: -o-linear-gradient(top, #848484, #696969);
+;
+border-color: #696969;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; font-style: normal; text-decoration: none;
+}
+.AvenueFire .main.main.main.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .AvenueFire .main.main.main.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire .main.main.main.rnr-button.rnr-button.img
+{
+padding: 3px;
+
+}
+.AvenueFire .main.main.main.rnr-button:hover,
+ .rnr-pagewrapper .AvenueFire .main.main.main.rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire .main.main.main.rnr-button:hover
+{
+background-color: #DCDCDC;
+background: -webkit-linear-gradient(top, #E2E2E2, #DCDCDC);
+background: -moz-linear-gradient(top, #E2E2E2, #DCDCDC);
+background: -ms-linear-gradient(top, #E2E2E2, #DCDCDC);
+background: -o-linear-gradient(top, #E2E2E2, #DCDCDC);
+;
+border-color: #FF9900;color: #FF9900;
+
+}
+.AvenueFire .main.main.main.rnr-button:active,
+ .rnr-pagewrapper .AvenueFire .main.main.main.rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire .main.main.main.rnr-button:active
+{
+background-color: #DDDDDD;
+background: -webkit-linear-gradient(top, #E3E3E3, #DDDDDD);
+background: -moz-linear-gradient(top, #E3E3E3, #DDDDDD);
+background: -ms-linear-gradient(top, #E3E3E3, #DDDDDD);
+background: -o-linear-gradient(top, #E3E3E3, #DDDDDD);
+;
+border-color: #696969;color: #808080;
+
+}
+.AvenueFire .main.main.main.rnr-button.disabled,
+ .rnr-pagewrapper .AvenueFire .main.main.main.rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .AvenueFire .main.main.main.rnr-button.disabled
+{
+background-color: #333333;
+background: -webkit-linear-gradient(top, #575757, #333333);
+background: -moz-linear-gradient(top, #575757, #333333);
+background: -ms-linear-gradient(top, #575757, #333333);
+background: -o-linear-gradient(top, #575757, #333333);
+;
+border-color: #FF9900;color: #FFFFFF;
+
+}
+.rnr-left, .rnr-center{
+    background-color:#ffffff;
+}

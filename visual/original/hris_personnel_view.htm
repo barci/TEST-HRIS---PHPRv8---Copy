@@ -1,0 +1,355 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+	</head>
+
+	<body class="{$stylename} function-view" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		<DIV class="bs-top">
+        
+
+{BEGIN container_viewpage}
+<div {$viewpage_chiddenattr} data-pageid="{$pageid}" data-container="viewpage" class="container    "> 
+
+
+
+
+{BEGIN container_header}
+<div {$header_chiddenattr} data-pageid="{$pageid}" data-container="header" class="   col-md-12 "> 
+
+{BEGIN viewheader}
+	<h2 {$viewheader_hiddenattr} data-pageid="{$pageid}" data-brick="viewheader" >{$pagetitlelabel hris_personnel view}</h2>
+
+{END viewheader}
+
+
+
+</div>
+{END container_header}
+
+
+
+
+
+
+</div>
+{END container_viewpage}
+
+
+
+{BEGIN container_fields}
+<div {$fields_chiddenattr} data-pageid="{$pageid}" data-container="fields" class=" form-horizontal  col-md-12 "> 
+
+
+<div {$viewfields_hiddenattr} data-pageid="{$pageid}" data-brick="viewfields" >
+
+	<div class="container">
+					{BEGIN firstname_fieldblock}
+	<div class="{$fielddispclass_firstname} col-md-6 bs-viewcontrolgroup" data-fieldname="firstname">
+		<label class="control-label" for="{$labelfor_firstname}">
+			{$label hris_personnel firstname}
+		</label>
+		<div class="" >
+			{$firstname_value}&nbsp;
+		</div>
+	</div>
+{END firstname_fieldblock}
+					{BEGIN middlename_fieldblock}
+	<div class="{$fielddispclass_middlename} col-md-6 bs-viewcontrolgroup" data-fieldname="middlename">
+		<label class="control-label" for="{$labelfor_middlename}">
+			{$label hris_personnel middlename}
+		</label>
+		<div class="" >
+			{$middlename_value}&nbsp;
+		</div>
+	</div>
+{END middlename_fieldblock}
+					{BEGIN lastname_fieldblock}
+	<div class="{$fielddispclass_lastname} col-md-6 bs-viewcontrolgroup" data-fieldname="lastname">
+		<label class="control-label" for="{$labelfor_lastname}">
+			{$label hris_personnel lastname}
+		</label>
+		<div class="" >
+			{$lastname_value}&nbsp;
+		</div>
+	</div>
+{END lastname_fieldblock}
+					{BEGIN dateofbirth_fieldblock}
+	<div class="{$fielddispclass_dateofbirth} col-md-6 bs-viewcontrolgroup" data-fieldname="dateofbirth">
+		<label class="control-label" for="{$labelfor_dateofbirth}">
+			{$label hris_personnel dateofbirth}
+		</label>
+		<div class="" >
+			{$dateofbirth_value}&nbsp;
+		</div>
+	</div>
+{END dateofbirth_fieldblock}
+					{BEGIN skills_fieldblock}
+	<div class="{$fielddispclass_skills} col-md-6 bs-viewcontrolgroup" data-fieldname="skills">
+		<label class="control-label" for="{$labelfor_skills}">
+			{$label hris_personnel skills}
+		</label>
+		<div class="" >
+			{$skills_value}&nbsp;
+		</div>
+	</div>
+{END skills_fieldblock}
+					{BEGIN civilstatus_fieldblock}
+	<div class="{$fielddispclass_civilstatus} col-md-6 bs-viewcontrolgroup" data-fieldname="civilstatus">
+		<label class="control-label" for="{$labelfor_civilstatus}">
+			{$label hris_personnel civilstatus}
+		</label>
+		<div class="" >
+			{$civilstatus_value}&nbsp;
+		</div>
+	</div>
+{END civilstatus_fieldblock}
+					{BEGIN ID_fieldblock}
+	<div class="{$fielddispclass_ID} col-md-6 bs-viewcontrolgroup" data-fieldname="ID">
+		<label class="control-label" for="{$labelfor_ID}">
+			{$label hris_personnel ID}
+		</label>
+		<div class="" >
+			{$ID_value}&nbsp;
+		</div>
+	</div>
+{END ID_fieldblock}
+					{BEGIN fullName_fieldblock}
+	<div class="{$fielddispclass_fullName} col-md-6 bs-viewcontrolgroup" data-fieldname="fullName">
+		<label class="control-label" for="{$labelfor_fullName}">
+			{$label hris_personnel fullName}
+		</label>
+		<div class="" >
+			{$fullName_value}&nbsp;
+		</div>
+	</div>
+{END fullName_fieldblock}
+					{BEGIN age_fieldblock}
+	<div class="{$fielddispclass_age} col-md-6 bs-viewcontrolgroup" data-fieldname="age">
+		<label class="control-label" for="{$labelfor_age}">
+			{$label hris_personnel age}
+		</label>
+		<div class="" >
+			{$age_value}&nbsp;
+		</div>
+	</div>
+{END age_fieldblock}
+					{BEGIN gender_fieldblock}
+	<div class="{$fielddispclass_gender} col-md-6 bs-viewcontrolgroup" data-fieldname="gender">
+		<label class="control-label" for="{$labelfor_gender}">
+			{$label hris_personnel gender}
+		</label>
+		<div class="" >
+			{$gender_value}&nbsp;
+		</div>
+	</div>
+{END gender_fieldblock}
+					{BEGIN sss_fieldblock}
+	<div class="{$fielddispclass_sss} col-md-6 bs-viewcontrolgroup" data-fieldname="sss">
+		<label class="control-label" for="{$labelfor_sss}">
+			{$label hris_personnel sss}
+		</label>
+		<div class="" >
+			{$sss_value}&nbsp;
+		</div>
+	</div>
+{END sss_fieldblock}
+					{BEGIN currentaddress_fieldblock}
+	<div class="{$fielddispclass_currentaddress} col-md-6 bs-viewcontrolgroup" data-fieldname="currentaddress">
+		<label class="control-label" for="{$labelfor_currentaddress}">
+			{$label hris_personnel currentaddress}
+		</label>
+		<div class="" >
+			{$currentaddress_value}&nbsp;
+		</div>
+	</div>
+{END currentaddress_fieldblock}
+					{BEGIN tin_fieldblock}
+	<div class="{$fielddispclass_tin} col-md-6 bs-viewcontrolgroup" data-fieldname="tin">
+		<label class="control-label" for="{$labelfor_tin}">
+			{$label hris_personnel tin}
+		</label>
+		<div class="" >
+			{$tin_value}&nbsp;
+		</div>
+	</div>
+{END tin_fieldblock}
+					{BEGIN permanentaddress_fieldblock}
+	<div class="{$fielddispclass_permanentaddress} col-md-6 bs-viewcontrolgroup" data-fieldname="permanentaddress">
+		<label class="control-label" for="{$labelfor_permanentaddress}">
+			{$label hris_personnel permanentaddress}
+		</label>
+		<div class="" >
+			{$permanentaddress_value}&nbsp;
+		</div>
+	</div>
+{END permanentaddress_fieldblock}
+					{BEGIN emailaddress_fieldblock}
+	<div class="{$fielddispclass_emailaddress} col-md-6 bs-viewcontrolgroup" data-fieldname="emailaddress">
+		<label class="control-label" for="{$labelfor_emailaddress}">
+			{$label hris_personnel emailaddress}
+		</label>
+		<div class="" >
+			{$emailaddress_value}&nbsp;
+		</div>
+	</div>
+{END emailaddress_fieldblock}
+					{BEGIN pagibig_fieldblock}
+	<div class="{$fielddispclass_pagibig} col-md-6 bs-viewcontrolgroup" data-fieldname="pagibig">
+		<label class="control-label" for="{$labelfor_pagibig}">
+			{$label hris_personnel pagibig}
+		</label>
+		<div class="" >
+			{$pagibig_value}&nbsp;
+		</div>
+	</div>
+{END pagibig_fieldblock}
+					{BEGIN telephone_fieldblock}
+	<div class="{$fielddispclass_telephone} col-md-6 bs-viewcontrolgroup" data-fieldname="telephone">
+		<label class="control-label" for="{$labelfor_telephone}">
+			{$label hris_personnel telephone}
+		</label>
+		<div class="" >
+			{$telephone_value}&nbsp;
+		</div>
+	</div>
+{END telephone_fieldblock}
+					{BEGIN philhealth_fieldblock}
+	<div class="{$fielddispclass_philhealth} col-md-6 bs-viewcontrolgroup" data-fieldname="philhealth">
+		<label class="control-label" for="{$labelfor_philhealth}">
+			{$label hris_personnel philhealth}
+		</label>
+		<div class="" >
+			{$philhealth_value}&nbsp;
+		</div>
+	</div>
+{END philhealth_fieldblock}
+	</div>
+</div>
+
+
+
+
+</div>
+{END container_fields}
+
+
+
+{BEGIN container_bottombuttons}
+<div {$bottombuttons_chiddenattr} data-pageid="{$pageid}" data-container="bottombuttons" class="container    "> 
+
+
+
+
+{BEGIN container_buttons}
+<div {$buttons_chiddenattr} data-pageid="{$pageid}" data-container="buttons" class=" form-group   "> 
+
+
+
+
+{BEGIN container_leftbuttons}
+<div {$leftbuttons_chiddenattr} data-pageid="{$pageid}" data-container="leftbuttons" class="   col-md-6 "> 
+
+{BEGIN viewbuttons}
+{BEGIN back_button}
+<button class="btn btn-primary" {$backbutton_attrs}>Back to list</button>
+{END back_button}
+{BEGIN close_button}
+<button href="#" class="btn btn-primary" {$closebutton_attrs}>Close window</button>
+{END close_button}
+{END viewbuttons}
+
+
+
+</div>
+{END container_leftbuttons}
+
+
+
+
+
+
+
+
+{BEGIN container_leftbuttons_1}
+<div {$leftbuttons_1_chiddenattr} data-pageid="{$pageid}" data-container="leftbuttons_1" class="   col-md-4 "> 
+
+{BEGIN rightviewbuttons}
+<div class="btn-group" role="group">
+		{BEGIN prev_button}
+	<button class="btn btn-default {$prevbutton_class}" {$prevbutton_attrs}><span class="glyphicon glyphicon-chevron-left"></span></button>
+	{END prev_button}
+	{BEGIN next_button}
+	<button class="btn btn-default {$nextbutton_class}" {$nextbutton_attrs}><span class="glyphicon glyphicon-chevron-right"></span></button>
+	{END next_button}
+	<div class="btn-group dropup" role="group">
+		<button class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" ><span class="glyphicon glyphicon-menu-hamburger"></span></button>
+		<ul class="dropdown-menu dropdown-left">
+									{BEGIN edit_page_button}
+				<li><a href=# {$edit_page_button_attrs}>Edit</a></li>
+			{END edit_page_button}
+		</ul>
+	</div>
+</div>
+{END rightviewbuttons}
+
+
+
+</div>
+{END container_leftbuttons_1}
+
+
+
+
+
+
+</div>
+{END container_buttons}
+
+
+
+
+
+
+</div>
+{END container_bottombuttons}
+
+
+		</div>
+		<div class="bs-middle ">
+			<div class="bs-topmiddle">
+				
+			</div>
+			<div class="bs-left" {$blockattr_left}>
+				
+			</div>
+			<div class="bs-center">
+				
+			</div>
+			<div class="bs-right">
+				
+			</div>
+		</div>
+		<DIV class="bs-bottom">
+        
+		</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

@@ -1,0 +1,450 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+	</head>
+
+	<body class="{$stylename} function-add" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		<DIV class="bs-top">
+        
+
+{BEGIN container_editpage}
+<div {$editpage_chiddenattr} data-pageid="{$pageid}" data-container="editpage" class="container    "> 
+
+
+
+
+{BEGIN container_header}
+<div {$header_chiddenattr} data-pageid="{$pageid}" data-container="header" class="   col-md-9 col-md-offset-3"> 
+
+{BEGIN addheader}
+	<h2 {$addheader_hiddenattr} data-pageid="{$pageid}" data-brick="addheader" >{$pagetitlelabel hris_personnel add}</h2>
+
+{END addheader}
+
+
+
+</div>
+{END container_header}
+
+
+
+
+
+
+
+
+{BEGIN container_message}
+<div {$message_chiddenattr} data-pageid="{$pageid}" data-container="message" class="   col-md-6 col-md-offset-3"> 
+
+{BEGIN message_block}
+<div {$message_hiddenattr} data-pageid="{$pageid}" data-brick="message" class="alert {$message_class}" role="alert">
+<h5>{$message}</h5>
+<div>
+{BEGIN back_button}
+		<button class="btn btn-sm btn-default" {$backbutton_attrs}>Back to list</button>
+{END back_button}
+{BEGIN view_page_button}
+	<button class="btn btn-sm btn-default" {$view_page_button_attrs}>View</button>
+{END view_page_button}
+{BEGIN edit_page_button}
+	<button class="btn btn-sm btn-default" {$edit_page_button_attrs}>Edit</button>
+{END edit_page_button}
+</div>
+</div>
+
+{END message_block}
+
+
+
+</div>
+{END container_message}
+
+
+
+
+
+
+
+</div>
+{END container_editpage}
+
+
+
+{BEGIN container_fields}
+<div {$fields_chiddenattr} data-pageid="{$pageid}" data-container="fields" class="   col-md-12 "> 
+
+
+<div {$addfields_hiddenattr} data-pageid="{$pageid}" data-brick="addfields" class="form-horizontal" role="form">
+			{BEGIN firstname_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_firstname}" data-fieldname="firstname" data-signal-error-for="firstname{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_firstname}">
+		{BEGIN firstname_label}{$label hris_personnel firstname}{END firstname_label}
+	</label>
+	<div class="col-md-6" >
+		{$firstname_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="firstname">
+		<div class="text-muted" >
+		{$tooltip hris_personnel firstname}
+		</div>
+	</div>
+</div>
+</div>
+{END firstname_fieldblock}
+
+			{BEGIN middlename_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_middlename}" data-fieldname="middlename" data-signal-error-for="middlename{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_middlename}">
+		{BEGIN middlename_label}{$label hris_personnel middlename}{END middlename_label}
+	</label>
+	<div class="col-md-6" >
+		{$middlename_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="middlename">
+		<div class="text-muted" >
+		{$tooltip hris_personnel middlename}
+		</div>
+	</div>
+</div>
+</div>
+{END middlename_fieldblock}
+
+			{BEGIN lastname_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_lastname}" data-fieldname="lastname" data-signal-error-for="lastname{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_lastname}">
+		{BEGIN lastname_label}{$label hris_personnel lastname}{END lastname_label}
+	</label>
+	<div class="col-md-6" >
+		{$lastname_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="lastname">
+		<div class="text-muted" >
+		{$tooltip hris_personnel lastname}
+		</div>
+	</div>
+</div>
+</div>
+{END lastname_fieldblock}
+
+			{BEGIN dateofbirth_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_dateofbirth}" data-fieldname="dateofbirth" data-signal-error-for="dateofbirth{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_dateofbirth}">
+		{BEGIN dateofbirth_label}{$label hris_personnel dateofbirth}{END dateofbirth_label}
+	</label>
+	<div class="col-md-6" >
+		{$dateofbirth_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="dateofbirth">
+		<div class="text-muted" >
+		{$tooltip hris_personnel dateofbirth}
+		</div>
+	</div>
+</div>
+</div>
+{END dateofbirth_fieldblock}
+
+			{BEGIN skills_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_skills}" data-fieldname="skills" data-signal-error-for="skills{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_skills}">
+		{BEGIN skills_label}{$label hris_personnel skills}{END skills_label}
+	</label>
+	<div class="col-md-6" >
+		{$skills_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="skills">
+		<div class="text-muted" >
+		{$tooltip hris_personnel skills}
+		</div>
+	</div>
+</div>
+</div>
+{END skills_fieldblock}
+
+			{BEGIN civilstatus_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_civilstatus}" data-fieldname="civilstatus" data-signal-error-for="civilstatus{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_civilstatus}">
+		{BEGIN civilstatus_label}{$label hris_personnel civilstatus}{END civilstatus_label}
+	</label>
+	<div class="col-md-6" >
+		{$civilstatus_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="civilstatus">
+		<div class="text-muted" >
+		{$tooltip hris_personnel civilstatus}
+		</div>
+	</div>
+</div>
+</div>
+{END civilstatus_fieldblock}
+
+			{BEGIN gender_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_gender}" data-fieldname="gender" data-signal-error-for="gender{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_gender}">
+		{BEGIN gender_label}{$label hris_personnel gender}{END gender_label}
+	</label>
+	<div class="col-md-6" >
+		{$gender_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="gender">
+		<div class="text-muted" >
+		{$tooltip hris_personnel gender}
+		</div>
+	</div>
+</div>
+</div>
+{END gender_fieldblock}
+
+			{BEGIN currentaddress_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_currentaddress}" data-fieldname="currentaddress" data-signal-error-for="currentaddress{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_currentaddress}">
+		{BEGIN currentaddress_label}{$label hris_personnel currentaddress}{END currentaddress_label}
+	</label>
+	<div class="col-md-6" >
+		{$currentaddress_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="currentaddress">
+		<div class="text-muted" >
+		{$tooltip hris_personnel currentaddress}
+		</div>
+	</div>
+</div>
+</div>
+{END currentaddress_fieldblock}
+
+			{BEGIN sss_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_sss}" data-fieldname="sss" data-signal-error-for="sss{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_sss}">
+		{BEGIN sss_label}{$label hris_personnel sss}{END sss_label}
+	</label>
+	<div class="col-md-6" >
+		{$sss_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="sss">
+		<div class="text-muted" >
+		{$tooltip hris_personnel sss}
+		</div>
+	</div>
+</div>
+</div>
+{END sss_fieldblock}
+
+			{BEGIN permanentaddress_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_permanentaddress}" data-fieldname="permanentaddress" data-signal-error-for="permanentaddress{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_permanentaddress}">
+		{BEGIN permanentaddress_label}{$label hris_personnel permanentaddress}{END permanentaddress_label}
+	</label>
+	<div class="col-md-6" >
+		{$permanentaddress_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="permanentaddress">
+		<div class="text-muted" >
+		{$tooltip hris_personnel permanentaddress}
+		</div>
+	</div>
+</div>
+</div>
+{END permanentaddress_fieldblock}
+
+			{BEGIN tin_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_tin}" data-fieldname="tin" data-signal-error-for="tin{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_tin}">
+		{BEGIN tin_label}{$label hris_personnel tin}{END tin_label}
+	</label>
+	<div class="col-md-6" >
+		{$tin_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="tin">
+		<div class="text-muted" >
+		{$tooltip hris_personnel tin}
+		</div>
+	</div>
+</div>
+</div>
+{END tin_fieldblock}
+
+			{BEGIN pagibig_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_pagibig}" data-fieldname="pagibig" data-signal-error-for="pagibig{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_pagibig}">
+		{BEGIN pagibig_label}{$label hris_personnel pagibig}{END pagibig_label}
+	</label>
+	<div class="col-md-6" >
+		{$pagibig_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="pagibig">
+		<div class="text-muted" >
+		{$tooltip hris_personnel pagibig}
+		</div>
+	</div>
+</div>
+</div>
+{END pagibig_fieldblock}
+
+			{BEGIN emailaddress_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_emailaddress}" data-fieldname="emailaddress" data-signal-error-for="emailaddress{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_emailaddress}">
+		{BEGIN emailaddress_label}{$label hris_personnel emailaddress}{END emailaddress_label}
+	</label>
+	<div class="col-md-6" >
+		{$emailaddress_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="emailaddress">
+		<div class="text-muted" >
+		{$tooltip hris_personnel emailaddress}
+		</div>
+	</div>
+</div>
+</div>
+{END emailaddress_fieldblock}
+
+			{BEGIN philhealth_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_philhealth}" data-fieldname="philhealth" data-signal-error-for="philhealth{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_philhealth}">
+		{BEGIN philhealth_label}{$label hris_personnel philhealth}{END philhealth_label}
+	</label>
+	<div class="col-md-6" >
+		{$philhealth_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="philhealth">
+		<div class="text-muted" >
+		{$tooltip hris_personnel philhealth}
+		</div>
+	</div>
+</div>
+</div>
+{END philhealth_fieldblock}
+
+			{BEGIN telephone_fieldblock}
+<div class=container>
+<div class="form-group {$fielddispclass_telephone}" data-fieldname="telephone" data-signal-error-for="telephone{$id}" >
+	<label class="col-md-3 control-label" for="{$labelfor_telephone}">
+		{BEGIN telephone_label}{$label hris_personnel telephone}{END telephone_label}
+	</label>
+	<div class="col-md-6" >
+		{$telephone_editcontrol}
+	</div>
+	<div class="col-md-3 help-block" data-helpfor="telephone">
+		<div class="text-muted" >
+		{$tooltip hris_personnel telephone}
+		</div>
+	</div>
+</div>
+</div>
+{END telephone_fieldblock}
+
+
+</div>
+
+
+
+
+</div>
+{END container_fields}
+
+
+
+{BEGIN container_bottombuttons}
+<div {$bottombuttons_chiddenattr} data-pageid="{$pageid}" data-container="bottombuttons" class="container    "> 
+
+
+
+
+{BEGIN container_buttons}
+<div {$buttons_chiddenattr} data-pageid="{$pageid}" data-container="buttons" class=" form-group   "> 
+
+
+
+
+{BEGIN container_leftbuttons}
+<div {$leftbuttons_chiddenattr} data-pageid="{$pageid}" data-container="leftbuttons" class="   col-md-3 col-md-offset-3"> 
+
+{BEGIN addbuttons}
+	{BEGIN save_button}
+	<button class="btn btn-primary" {$savebutton_attrs}>Save</button>
+	{END save_button}
+	{BEGIN reset_button}
+	<button class="btn btn-default" id="resetButton{$id}">Reset</button>
+	{END reset_button}
+	{BEGIN back_button}
+		<button class="btn btn-default" id="backButton{$id}">Back to list</button>
+	{END back_button}
+	{BEGIN cancel_button}
+	<a href="#" class="btn btn-default" id="cancelButton{$id}">Cancel</a>
+	{END cancel_button}
+
+{END addbuttons}
+
+
+
+</div>
+{END container_leftbuttons}
+
+
+
+
+
+
+</div>
+{END container_buttons}
+
+
+
+
+
+
+</div>
+{END container_bottombuttons}
+
+
+		</div>
+		<div class="bs-middle ">
+			<div class="bs-topmiddle">
+				
+			</div>
+			<div class="bs-left" {$blockattr_left}>
+				
+			</div>
+			<div class="bs-center">
+				
+			</div>
+			<div class="bs-right">
+				
+			</div>
+		</div>
+		<DIV class="bs-bottom">
+        
+		</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

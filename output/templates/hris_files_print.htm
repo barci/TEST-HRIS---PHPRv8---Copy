@@ -1,0 +1,212 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-print" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_pdf}
+<div class="rnr-c rnr-ch rnr-c-pdf">
+
+{BEGIN printbuttons}
+<div  class="style1 rnr-bl rnr-b-printbuttons {$brickclass_printbuttons}">{BEGIN divideintopages_block}
+<a href="#" class="divideintopages rnr-button button" {$divideintopages_attrs}>Prepare for printing</a>
+{END divideintopages_block}
+</div>
+{END printbuttons}
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_pdf}
+
+
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+
+{BEGIN container_pageheader}
+<div class="rnr-c rnr-cv rnr-c-pageheader">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-printheader {$brickclass_printheader}">	<h1>{$pagetitlelabel hris_files print}</h1>
+</div>
+
+
+{BEGIN page_number}
+<div  class="rnr-brickcontents style1 rnr-b-page_of_print {$brickclass_page_of_print}"><h1>Page <span class="rp-pageno">{$pageno}</span> of <span class="rp-pagecount">{$pagecount}</span></h1></div>{END page_number}
+
+
+</div>
+{END container_pageheader}
+
+
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+	<table class="rnr-c rnr-c-grid rnr-b-grid rnr-gridtable rp-maintable" cellpadding="0">
+	<thead>
+	{BEGIN grid_header}
+<tr class="rnr-toprow style1 {$gridHeader_class}" >
+{BEGIN record_header}
+		{BEGIN ID_fieldheadercolumn}
+<th class="runner-cc {$ID_class}" {$ID_style}>
+	{BEGIN ID_fieldheader}
+	<b>{$label hris_files ID}</b>
+	{END ID_fieldheader}
+</th>
+{END ID_fieldheadercolumn}
+	{BEGIN name_fieldheadercolumn}
+<th class="runner-cc {$name_class}" {$name_style}>
+	{BEGIN name_fieldheader}
+	<b>{$label hris_files name}</b>
+	{END name_fieldheader}
+</th>
+{END name_fieldheadercolumn}
+	{BEGIN type_fieldheadercolumn}
+<th class="runner-cc {$type_class}" {$type_style}>
+	{BEGIN type_fieldheader}
+	<b>{$label hris_files type}</b>
+	{END type_fieldheader}
+</th>
+{END type_fieldheadercolumn}
+	{BEGIN area_fieldheadercolumn}
+<th class="runner-cc {$area_class}" {$area_style}>
+	{BEGIN area_fieldheader}
+	<b>{$label hris_files area}</b>
+	{END area_fieldheader}
+</th>
+{END area_fieldheadercolumn}
+	{BEGIN category_fieldheadercolumn}
+<th class="runner-cc {$category_class}" {$category_style}>
+	{BEGIN category_fieldheader}
+	<b>{$label hris_files category}</b>
+	{END category_fieldheader}
+</th>
+{END category_fieldheadercolumn}
+	{BEGIN file_fieldheadercolumn}
+<th class="runner-cc {$file_class}" {$file_style}>
+	{BEGIN file_fieldheader}
+	<b>{$label hris_files file}</b>
+	{END file_fieldheader}
+</th>
+{END file_fieldheadercolumn}
+	{BEGIN url_fieldheadercolumn}
+<th class="runner-cc {$url_class}" {$url_style}>
+	{BEGIN url_fieldheader}
+	<b>{$label hris_files url}</b>
+	{END url_fieldheader}
+</th>
+{END url_fieldheadercolumn}
+		
+	<th class="rnr-edge">&nbsp;</th>
+	{BEGIN endrecordheader_block}
+	<th class="rnr-cs">&nbsp;</th>
+	{END endrecordheader_block}
+	{END record_header}
+</tr>
+{END grid_header}
+
+	</thead>
+	<tbody>	
+	{BEGIN grid_row}
+	<tr class="rnr-row style1 {$rowclass}" {$rowattrs} {$rowstyle}>
+		{BEGIN grid_record}
+				{BEGIN ID_fieldcolumn}
+<td  class="runner-cc {$ID_class}" {$ID_style} {$recordattrs}>
+	{$ID_value}
+</td>
+{END ID_fieldcolumn}
+	{BEGIN name_fieldcolumn}
+<td  class="runner-cc {$name_class}" {$name_style} {$recordattrs}>
+	{$name_value}
+</td>
+{END name_fieldcolumn}
+	{BEGIN type_fieldcolumn}
+<td  class="runner-cc {$type_class}" {$type_style} {$recordattrs}>
+	{$type_value}
+</td>
+{END type_fieldcolumn}
+	{BEGIN area_fieldcolumn}
+<td  class="runner-cc {$area_class}" {$area_style} {$recordattrs}>
+	{$area_value}
+</td>
+{END area_fieldcolumn}
+	{BEGIN category_fieldcolumn}
+<td  class="runner-cc {$category_class}" {$category_style} {$recordattrs}>
+	{$category_value}
+</td>
+{END category_fieldcolumn}
+	{BEGIN file_fieldcolumn}
+<td  class="runner-cc {$file_class}" {$file_style} {$recordattrs}>
+	{$file_value}
+</td>
+{END file_fieldcolumn}
+	{BEGIN url_fieldcolumn}
+<td  class="runner-cc {$url_class}" {$url_style} {$recordattrs}>
+	{$url_value}
+</td>
+{END url_fieldcolumn}
+
+		<td class="rnr-edge" {$recordattrs}>&nbsp;</td>
+		{BEGIN endrecord_block}
+		<td class="rnr-cs" {$endrecordblock_attrs}>&nbsp;</td>
+		{END endrecord_block}
+										
+		{END grid_record}
+
+	</tr>
+{END grid_row}
+
+
+	
+	</tbody>
+</table>
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			<!--%%bottom%%-->
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

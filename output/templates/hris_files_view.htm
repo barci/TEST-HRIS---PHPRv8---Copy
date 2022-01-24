@@ -1,0 +1,192 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-view" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_all}
+<div class="rnr-c rnr-cv rnr-c-all">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_main} rnr-wrapper rnr-cbw-main">
+
+{BEGIN container_main}
+<div class="rnr-c rnr-cv rnr-c-main">
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_view} rnr-wrapper rnr-cbw-view">
+
+{BEGIN container_view}
+<div class="rnr-c rnr-cv rnr-c-view">
+
+{BEGIN viewheader}
+<div  class="rnr-brickcontents style2 rnr-b-viewheader {$brickclass_viewheader}"><span>	<h1>{$pagetitlelabel hris_files view}</h1>
+</span></div>{END viewheader}
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_fields} rnr-wrapper rnr-cbw-fields">
+
+{BEGIN container_fields}
+<div class="rnr-c rnr-cv rnr-c-fields">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-viewfields {$brickclass_viewfields}"><table class="fieldGrid">
+	{BEGIN ID_fieldblock}
+<tr class="{$fielddispclass_ID}" data-fieldname="ID">
+	<td class="rnr-label">
+		{$label hris_files ID}
+	</td>
+	<td class="rnr-control style3">
+		{$ID_value}&nbsp;
+	</td>
+</tr>
+{END ID_fieldblock}
+	{BEGIN name_fieldblock}
+<tr class="{$fielddispclass_name}" data-fieldname="name">
+	<td class="rnr-label">
+		{$label hris_files name}
+	</td>
+	<td class="rnr-control style3">
+		{$name_value}&nbsp;
+	</td>
+</tr>
+{END name_fieldblock}
+	{BEGIN type_fieldblock}
+<tr class="{$fielddispclass_type}" data-fieldname="type">
+	<td class="rnr-label">
+		{$label hris_files type}
+	</td>
+	<td class="rnr-control style3">
+		{$type_value}&nbsp;
+	</td>
+</tr>
+{END type_fieldblock}
+	{BEGIN area_fieldblock}
+<tr class="{$fielddispclass_area}" data-fieldname="area">
+	<td class="rnr-label">
+		{$label hris_files area}
+	</td>
+	<td class="rnr-control style3">
+		{$area_value}&nbsp;
+	</td>
+</tr>
+{END area_fieldblock}
+	{BEGIN category_fieldblock}
+<tr class="{$fielddispclass_category}" data-fieldname="category">
+	<td class="rnr-label">
+		{$label hris_files category}
+	</td>
+	<td class="rnr-control style3">
+		{$category_value}&nbsp;
+	</td>
+</tr>
+{END category_fieldblock}
+	{BEGIN file_fieldblock}
+<tr class="{$fielddispclass_file}" data-fieldname="file">
+	<td class="rnr-label">
+		{$label hris_files file}
+	</td>
+	<td class="rnr-control style3">
+		{$file_value}&nbsp;
+	</td>
+</tr>
+{END file_fieldblock}
+	{BEGIN url_fieldblock}
+<tr class="{$fielddispclass_url}" data-fieldname="url">
+	<td class="rnr-label">
+		{$label hris_files url}
+	</td>
+	<td class="rnr-control style3">
+		{$url_value}&nbsp;
+	</td>
+</tr>
+{END url_fieldblock}
+</table></div>
+
+
+{BEGIN viewbuttons}
+<div  class="rnr-brickcontents style2 rnr-b-viewbuttons {$brickclass_viewbuttons}"><div class="rnr-buttons-right">
+{BEGIN prev_button}
+<a href="#" class="rnr-button {$prevbutton_class}" {$prevbutton_attrs}>&lt;&lt;&lt;</a>
+{END prev_button}
+{BEGIN next_button}
+<a href="#" class="rnr-button {$nextbutton_class}" {$nextbutton_attrs}>&gt;&gt;&gt;</a>
+{END next_button}
+</div>
+<div class="rnr-buttons-left">
+{BEGIN back_button}
+<a href="#" class="rnr-button" {$backbutton_attrs}>Back to list</a>
+{END back_button}
+{BEGIN close_button}
+<a href="#" class="rnr-button" {$closebutton_attrs}>Close window</a>
+{END close_button}
+</div>
+</div>{END viewbuttons}
+
+
+</div>
+{END container_fields}
+
+</div>
+
+
+</div>
+{END container_view}
+
+</div>
+
+
+</div>
+{END container_main}
+
+</div>
+
+
+
+</div>
+{END container_all}
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			<!--%%bottom%%-->
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

@@ -1,0 +1,4 @@
+Modified tables ("-" means deleted field):
+	● hris_user:
+		 - fullname
+		 - role

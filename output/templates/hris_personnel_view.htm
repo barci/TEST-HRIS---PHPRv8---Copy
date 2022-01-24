@@ -1,0 +1,305 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-view" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_all}
+<div class="rnr-c rnr-cv rnr-c-all">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_main} rnr-wrapper rnr-cbw-main">
+
+{BEGIN container_main}
+<div class="rnr-c rnr-cv rnr-c-main">
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_view} rnr-wrapper rnr-cbw-view">
+
+{BEGIN container_view}
+<div class="rnr-c rnr-cv rnr-c-view">
+
+{BEGIN viewheader}
+<div  class="rnr-brickcontents style2 rnr-b-viewheader {$brickclass_viewheader}"><span>	<h1>{$pagetitlelabel hris_personnel view}</h1>
+</span></div>{END viewheader}
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_fields} rnr-wrapper rnr-cbw-fields">
+
+{BEGIN container_fields}
+<div class="rnr-c rnr-cv rnr-c-fields">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-viewfields {$brickclass_viewfields}"><table class="fieldGrid">
+	{BEGIN ID_fieldblock}
+<tr class="{$fielddispclass_ID}" data-fieldname="ID">
+	<td class="rnr-label">
+		{$label hris_personnel ID}
+	</td>
+	<td class="rnr-control style3">
+		{$ID_value}&nbsp;
+	</td>
+</tr>
+{END ID_fieldblock}
+	{BEGIN firstname_fieldblock}
+<tr class="{$fielddispclass_firstname}" data-fieldname="firstname">
+	<td class="rnr-label">
+		{$label hris_personnel firstname}
+	</td>
+	<td class="rnr-control style3">
+		{$firstname_value}&nbsp;
+	</td>
+</tr>
+{END firstname_fieldblock}
+	{BEGIN fullName_fieldblock}
+<tr class="{$fielddispclass_fullName}" data-fieldname="fullName">
+	<td class="rnr-label">
+		{$label hris_personnel fullName}
+	</td>
+	<td class="rnr-control style3">
+		{$fullName_value}&nbsp;
+	</td>
+</tr>
+{END fullName_fieldblock}
+	{BEGIN middlename_fieldblock}
+<tr class="{$fielddispclass_middlename}" data-fieldname="middlename">
+	<td class="rnr-label">
+		{$label hris_personnel middlename}
+	</td>
+	<td class="rnr-control style3">
+		{$middlename_value}&nbsp;
+	</td>
+</tr>
+{END middlename_fieldblock}
+	{BEGIN lastname_fieldblock}
+<tr class="{$fielddispclass_lastname}" data-fieldname="lastname">
+	<td class="rnr-label">
+		{$label hris_personnel lastname}
+	</td>
+	<td class="rnr-control style3">
+		{$lastname_value}&nbsp;
+	</td>
+</tr>
+{END lastname_fieldblock}
+	{BEGIN age_fieldblock}
+<tr class="{$fielddispclass_age}" data-fieldname="age">
+	<td class="rnr-label">
+		{$label hris_personnel age}
+	</td>
+	<td class="rnr-control style3">
+		{$age_value}&nbsp;
+	</td>
+</tr>
+{END age_fieldblock}
+	{BEGIN dateofbirth_fieldblock}
+<tr class="{$fielddispclass_dateofbirth}" data-fieldname="dateofbirth">
+	<td class="rnr-label">
+		{$label hris_personnel dateofbirth}
+	</td>
+	<td class="rnr-control style3">
+		{$dateofbirth_value}&nbsp;
+	</td>
+</tr>
+{END dateofbirth_fieldblock}
+	{BEGIN skills_fieldblock}
+<tr class="{$fielddispclass_skills}" data-fieldname="skills">
+	<td class="rnr-label">
+		{$label hris_personnel skills}
+	</td>
+	<td class="rnr-control style3">
+		{$skills_value}&nbsp;
+	</td>
+</tr>
+{END skills_fieldblock}
+	{BEGIN civilstatus_fieldblock}
+<tr class="{$fielddispclass_civilstatus}" data-fieldname="civilstatus">
+	<td class="rnr-label">
+		{$label hris_personnel civilstatus}
+	</td>
+	<td class="rnr-control style3">
+		{$civilstatus_value}&nbsp;
+	</td>
+</tr>
+{END civilstatus_fieldblock}
+	{BEGIN gender_fieldblock}
+<tr class="{$fielddispclass_gender}" data-fieldname="gender">
+	<td class="rnr-label">
+		{$label hris_personnel gender}
+	</td>
+	<td class="rnr-control style3">
+		{$gender_value}&nbsp;
+	</td>
+</tr>
+{END gender_fieldblock}
+	{BEGIN currentaddress_fieldblock}
+<tr class="{$fielddispclass_currentaddress}" data-fieldname="currentaddress">
+	<td class="rnr-label">
+		{$label hris_personnel currentaddress}
+	</td>
+	<td class="rnr-control style3">
+		{$currentaddress_value}&nbsp;
+	</td>
+</tr>
+{END currentaddress_fieldblock}
+	{BEGIN sss_fieldblock}
+<tr class="{$fielddispclass_sss}" data-fieldname="sss">
+	<td class="rnr-label">
+		{$label hris_personnel sss}
+	</td>
+	<td class="rnr-control style3">
+		{$sss_value}&nbsp;
+	</td>
+</tr>
+{END sss_fieldblock}
+	{BEGIN permanentaddress_fieldblock}
+<tr class="{$fielddispclass_permanentaddress}" data-fieldname="permanentaddress">
+	<td class="rnr-label">
+		{$label hris_personnel permanentaddress}
+	</td>
+	<td class="rnr-control style3">
+		{$permanentaddress_value}&nbsp;
+	</td>
+</tr>
+{END permanentaddress_fieldblock}
+	{BEGIN tin_fieldblock}
+<tr class="{$fielddispclass_tin}" data-fieldname="tin">
+	<td class="rnr-label">
+		{$label hris_personnel tin}
+	</td>
+	<td class="rnr-control style3">
+		{$tin_value}&nbsp;
+	</td>
+</tr>
+{END tin_fieldblock}
+	{BEGIN pagibig_fieldblock}
+<tr class="{$fielddispclass_pagibig}" data-fieldname="pagibig">
+	<td class="rnr-label">
+		{$label hris_personnel pagibig}
+	</td>
+	<td class="rnr-control style3">
+		{$pagibig_value}&nbsp;
+	</td>
+</tr>
+{END pagibig_fieldblock}
+	{BEGIN emailaddress_fieldblock}
+<tr class="{$fielddispclass_emailaddress}" data-fieldname="emailaddress">
+	<td class="rnr-label">
+		{$label hris_personnel emailaddress}
+	</td>
+	<td class="rnr-control style3">
+		{$emailaddress_value}&nbsp;
+	</td>
+</tr>
+{END emailaddress_fieldblock}
+	{BEGIN philhealth_fieldblock}
+<tr class="{$fielddispclass_philhealth}" data-fieldname="philhealth">
+	<td class="rnr-label">
+		{$label hris_personnel philhealth}
+	</td>
+	<td class="rnr-control style3">
+		{$philhealth_value}&nbsp;
+	</td>
+</tr>
+{END philhealth_fieldblock}
+	{BEGIN telephone_fieldblock}
+<tr class="{$fielddispclass_telephone}" data-fieldname="telephone">
+	<td class="rnr-label">
+		{$label hris_personnel telephone}
+	</td>
+	<td class="rnr-control style3">
+		{$telephone_value}&nbsp;
+	</td>
+</tr>
+{END telephone_fieldblock}
+</table></div>
+
+
+{BEGIN viewbuttons}
+<div  class="rnr-brickcontents style2 rnr-b-viewbuttons {$brickclass_viewbuttons}"><div class="rnr-buttons-right">
+{BEGIN prev_button}
+<a href="#" class="rnr-button {$prevbutton_class}" {$prevbutton_attrs}>&lt;&lt;&lt;</a>
+{END prev_button}
+{BEGIN next_button}
+<a href="#" class="rnr-button {$nextbutton_class}" {$nextbutton_attrs}>&gt;&gt;&gt;</a>
+{END next_button}
+</div>
+<div class="rnr-buttons-left">
+{BEGIN back_button}
+<a href="#" class="rnr-button" {$backbutton_attrs}>Back to list</a>
+{END back_button}
+{BEGIN close_button}
+<a href="#" class="rnr-button" {$closebutton_attrs}>Close window</a>
+{END close_button}
+{BEGIN edit_page_button}
+<a href="#" class="rnr-button" {$edit_page_button_attrs}>Edit</a>
+{END edit_page_button}
+</div>
+</div>{END viewbuttons}
+
+
+</div>
+{END container_fields}
+
+</div>
+
+
+</div>
+{END container_view}
+
+</div>
+
+
+</div>
+{END container_main}
+
+</div>
+
+
+
+</div>
+{END container_all}
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			<!--%%bottom%%-->
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

@@ -1,0 +1,60 @@
+<div {$pageattrs}>
+
+{BEGIN container_masterlistheader}
+<div class="rnr-c rnr-ch rnr-c-masterlistheader">
+
+
+<div  class="style1 rnr-bl rnr-b-masterprintheader {$brickclass_masterprintheader}">	<h1>{$pagetitlelabel User_Manager masterprint}</h1>
+</div>
+
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_masterlistheader}
+
+
+
+{BEGIN container_mastergrid}
+
+
+
+<table class="rnr-c rnr-cont rnr-c-mastergrid rnr-b-masterprintfields rnr-gridtable" cellpadding="0" >
+	<thead>
+		<tr class="rnr-toprow style1 {$gridHeader_class}" >
+			<th class="{$ID_class}">{$label User_Manager ID}</th>
+			<th class="{$lastname_class}">{$label User_Manager lastname}</th>
+			<th class="{$middlename_class}">{$label User_Manager middlename}</th>
+			<th class="{$firstname_class}">{$label User_Manager firstname}</th>
+			<th class="{$fullName_class}">{$label User_Manager fullName}</th>
+			<th class="{$jobtitle_class}">{$label User_Manager jobtitle}</th>
+			<th class="{$department_class}">{$label User_Manager department}</th>
+			<th class="{$unit_class}">{$label User_Manager unit}</th>
+			<th class="{$gender_class}">{$label User_Manager gender}</th>
+			<th class="{$emailaddress_class}">{$label User_Manager emailaddress}</th>
+			<th class="rnr-edge">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class="rnr-row style1">
+			<td class="{$ID_class}">{$ID_mastervalue}</td>
+			<td class="{$lastname_class}">{$lastname_mastervalue}</td>
+			<td class="{$middlename_class}">{$middlename_mastervalue}</td>
+			<td class="{$firstname_class}">{$firstname_mastervalue}</td>
+			<td class="{$fullName_class}">{$fullName_mastervalue}</td>
+			<td class="{$jobtitle_class}">{$jobtitle_mastervalue}</td>
+			<td class="{$department_class}">{$department_mastervalue}</td>
+			<td class="{$unit_class}">{$unit_mastervalue}</td>
+			<td class="{$gender_class}">{$gender_mastervalue}</td>
+			<td class="{$emailaddress_class}">{$emailaddress_mastervalue}</td>
+			<td class="rnr-edge">&nbsp;</td>
+		</tr>
+	</tbody>
+</table> 
+
+
+
+
+
+{END container_mastergrid}
+
+</div>

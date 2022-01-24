@@ -1,0 +1,344 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-print" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_pdf}
+<div class="rnr-c rnr-ch rnr-c-pdf">
+
+{BEGIN printbuttons}
+<div  class="style1 rnr-bl rnr-b-printbuttons {$brickclass_printbuttons}">{BEGIN divideintopages_block}
+<a href="#" class="divideintopages rnr-button button" {$divideintopages_attrs}>Prepare for printing</a>
+{END divideintopages_block}
+</div>
+{END printbuttons}
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_pdf}
+
+
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+
+{BEGIN container_pageheader}
+<div class="rnr-c rnr-cv rnr-c-pageheader">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-printheader {$brickclass_printheader}">	<h1>{$pagetitlelabel hris_personnel print}</h1>
+</div>
+
+
+{BEGIN page_number}
+<div  class="rnr-brickcontents style1 rnr-b-page_of_print {$brickclass_page_of_print}"><h1>Page <span class="rp-pageno">{$pageno}</span> of <span class="rp-pagecount">{$pagecount}</span></h1></div>{END page_number}
+
+
+</div>
+{END container_pageheader}
+
+
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+	<table class="rnr-c rnr-c-grid rnr-b-grid rnr-gridtable rp-maintable" cellpadding="0">
+	<thead>
+	{BEGIN grid_header}
+<tr class="rnr-toprow style1 {$gridHeader_class}" >
+{BEGIN record_header}
+		{BEGIN firstname_fieldheadercolumn}
+<th class="runner-cc {$firstname_class}" {$firstname_style}>
+	{BEGIN firstname_fieldheader}
+	<b>{$label hris_personnel firstname}</b>
+	{END firstname_fieldheader}
+</th>
+{END firstname_fieldheadercolumn}
+	{BEGIN ID_fieldheadercolumn}
+<th class="runner-cc {$ID_class}" {$ID_style}>
+	{BEGIN ID_fieldheader}
+	<b>{$label hris_personnel ID}</b>
+	{END ID_fieldheader}
+</th>
+{END ID_fieldheadercolumn}
+	{BEGIN middlename_fieldheadercolumn}
+<th class="runner-cc {$middlename_class}" {$middlename_style}>
+	{BEGIN middlename_fieldheader}
+	<b>{$label hris_personnel middlename}</b>
+	{END middlename_fieldheader}
+</th>
+{END middlename_fieldheadercolumn}
+	{BEGIN fullName_fieldheadercolumn}
+<th class="runner-cc {$fullName_class}" {$fullName_style}>
+	{BEGIN fullName_fieldheader}
+	<b>{$label hris_personnel fullName}</b>
+	{END fullName_fieldheader}
+</th>
+{END fullName_fieldheadercolumn}
+	{BEGIN lastname_fieldheadercolumn}
+<th class="runner-cc {$lastname_class}" {$lastname_style}>
+	{BEGIN lastname_fieldheader}
+	<b>{$label hris_personnel lastname}</b>
+	{END lastname_fieldheader}
+</th>
+{END lastname_fieldheadercolumn}
+	{BEGIN age_fieldheadercolumn}
+<th class="runner-cc {$age_class}" {$age_style}>
+	{BEGIN age_fieldheader}
+	<b>{$label hris_personnel age}</b>
+	{END age_fieldheader}
+</th>
+{END age_fieldheadercolumn}
+	{BEGIN dateofbirth_fieldheadercolumn}
+<th class="runner-cc {$dateofbirth_class}" {$dateofbirth_style}>
+	{BEGIN dateofbirth_fieldheader}
+	<b>{$label hris_personnel dateofbirth}</b>
+	{END dateofbirth_fieldheader}
+</th>
+{END dateofbirth_fieldheadercolumn}
+	{BEGIN skills_fieldheadercolumn}
+<th class="runner-cc {$skills_class}" {$skills_style}>
+	{BEGIN skills_fieldheader}
+	<b>{$label hris_personnel skills}</b>
+	{END skills_fieldheader}
+</th>
+{END skills_fieldheadercolumn}
+	{BEGIN civilstatus_fieldheadercolumn}
+<th class="runner-cc {$civilstatus_class}" {$civilstatus_style}>
+	{BEGIN civilstatus_fieldheader}
+	<b>{$label hris_personnel civilstatus}</b>
+	{END civilstatus_fieldheader}
+</th>
+{END civilstatus_fieldheadercolumn}
+	{BEGIN gender_fieldheadercolumn}
+<th class="runner-cc {$gender_class}" {$gender_style}>
+	{BEGIN gender_fieldheader}
+	<b>{$label hris_personnel gender}</b>
+	{END gender_fieldheader}
+</th>
+{END gender_fieldheadercolumn}
+	{BEGIN currentaddress_fieldheadercolumn}
+<th class="runner-cc {$currentaddress_class}" {$currentaddress_style}>
+	{BEGIN currentaddress_fieldheader}
+	<b>{$label hris_personnel currentaddress}</b>
+	{END currentaddress_fieldheader}
+</th>
+{END currentaddress_fieldheadercolumn}
+	{BEGIN sss_fieldheadercolumn}
+<th class="runner-cc {$sss_class}" {$sss_style}>
+	{BEGIN sss_fieldheader}
+	<b>{$label hris_personnel sss}</b>
+	{END sss_fieldheader}
+</th>
+{END sss_fieldheadercolumn}
+	{BEGIN permanentaddress_fieldheadercolumn}
+<th class="runner-cc {$permanentaddress_class}" {$permanentaddress_style}>
+	{BEGIN permanentaddress_fieldheader}
+	<b>{$label hris_personnel permanentaddress}</b>
+	{END permanentaddress_fieldheader}
+</th>
+{END permanentaddress_fieldheadercolumn}
+	{BEGIN tin_fieldheadercolumn}
+<th class="runner-cc {$tin_class}" {$tin_style}>
+	{BEGIN tin_fieldheader}
+	<b>{$label hris_personnel tin}</b>
+	{END tin_fieldheader}
+</th>
+{END tin_fieldheadercolumn}
+	{BEGIN pagibig_fieldheadercolumn}
+<th class="runner-cc {$pagibig_class}" {$pagibig_style}>
+	{BEGIN pagibig_fieldheader}
+	<b>{$label hris_personnel pagibig}</b>
+	{END pagibig_fieldheader}
+</th>
+{END pagibig_fieldheadercolumn}
+	{BEGIN emailaddress_fieldheadercolumn}
+<th class="runner-cc {$emailaddress_class}" {$emailaddress_style}>
+	{BEGIN emailaddress_fieldheader}
+	<b>{$label hris_personnel emailaddress}</b>
+	{END emailaddress_fieldheader}
+</th>
+{END emailaddress_fieldheadercolumn}
+	{BEGIN philhealth_fieldheadercolumn}
+<th class="runner-cc {$philhealth_class}" {$philhealth_style}>
+	{BEGIN philhealth_fieldheader}
+	<b>{$label hris_personnel philhealth}</b>
+	{END philhealth_fieldheader}
+</th>
+{END philhealth_fieldheadercolumn}
+	{BEGIN telephone_fieldheadercolumn}
+<th class="runner-cc {$telephone_class}" {$telephone_style}>
+	{BEGIN telephone_fieldheader}
+	<b>{$label hris_personnel telephone}</b>
+	{END telephone_fieldheader}
+</th>
+{END telephone_fieldheadercolumn}
+		
+	<th class="rnr-edge">&nbsp;</th>
+	{BEGIN endrecordheader_block}
+	<th class="rnr-cs">&nbsp;</th>
+	{END endrecordheader_block}
+	{END record_header}
+</tr>
+{END grid_header}
+
+	</thead>
+	<tbody>	
+	{BEGIN grid_row}
+	<tr class="rnr-row style1 {$rowclass}" {$rowattrs} {$rowstyle}>
+		{BEGIN grid_record}
+				{BEGIN firstname_fieldcolumn}
+<td  class="runner-cc {$firstname_class}" {$firstname_style} {$recordattrs}>
+	{$firstname_value}
+</td>
+{END firstname_fieldcolumn}
+	{BEGIN ID_fieldcolumn}
+<td  class="runner-cc {$ID_class}" {$ID_style} {$recordattrs}>
+	{$ID_value}
+</td>
+{END ID_fieldcolumn}
+	{BEGIN middlename_fieldcolumn}
+<td  class="runner-cc {$middlename_class}" {$middlename_style} {$recordattrs}>
+	{$middlename_value}
+</td>
+{END middlename_fieldcolumn}
+	{BEGIN fullName_fieldcolumn}
+<td  class="runner-cc {$fullName_class}" {$fullName_style} {$recordattrs}>
+	{$fullName_value}
+</td>
+{END fullName_fieldcolumn}
+	{BEGIN lastname_fieldcolumn}
+<td  class="runner-cc {$lastname_class}" {$lastname_style} {$recordattrs}>
+	{$lastname_value}
+</td>
+{END lastname_fieldcolumn}
+	{BEGIN age_fieldcolumn}
+<td  class="runner-cc {$age_class}" {$age_style} {$recordattrs}>
+	{$age_value}
+</td>
+{END age_fieldcolumn}
+	{BEGIN dateofbirth_fieldcolumn}
+<td  class="runner-cc {$dateofbirth_class}" {$dateofbirth_style} {$recordattrs}>
+	{$dateofbirth_value}
+</td>
+{END dateofbirth_fieldcolumn}
+	{BEGIN skills_fieldcolumn}
+<td  class="runner-cc {$skills_class}" {$skills_style} {$recordattrs}>
+	{$skills_value}
+</td>
+{END skills_fieldcolumn}
+	{BEGIN civilstatus_fieldcolumn}
+<td  class="runner-cc {$civilstatus_class}" {$civilstatus_style} {$recordattrs}>
+	{$civilstatus_value}
+</td>
+{END civilstatus_fieldcolumn}
+	{BEGIN gender_fieldcolumn}
+<td  class="runner-cc {$gender_class}" {$gender_style} {$recordattrs}>
+	{$gender_value}
+</td>
+{END gender_fieldcolumn}
+	{BEGIN currentaddress_fieldcolumn}
+<td  class="runner-cc {$currentaddress_class}" {$currentaddress_style} {$recordattrs}>
+	{$currentaddress_value}
+</td>
+{END currentaddress_fieldcolumn}
+	{BEGIN sss_fieldcolumn}
+<td  class="runner-cc {$sss_class}" {$sss_style} {$recordattrs}>
+	{$sss_value}
+</td>
+{END sss_fieldcolumn}
+	{BEGIN permanentaddress_fieldcolumn}
+<td  class="runner-cc {$permanentaddress_class}" {$permanentaddress_style} {$recordattrs}>
+	{$permanentaddress_value}
+</td>
+{END permanentaddress_fieldcolumn}
+	{BEGIN tin_fieldcolumn}
+<td  class="runner-cc {$tin_class}" {$tin_style} {$recordattrs}>
+	{$tin_value}
+</td>
+{END tin_fieldcolumn}
+	{BEGIN pagibig_fieldcolumn}
+<td  class="runner-cc {$pagibig_class}" {$pagibig_style} {$recordattrs}>
+	{$pagibig_value}
+</td>
+{END pagibig_fieldcolumn}
+	{BEGIN emailaddress_fieldcolumn}
+<td  class="runner-cc {$emailaddress_class}" {$emailaddress_style} {$recordattrs}>
+	{$emailaddress_value}
+</td>
+{END emailaddress_fieldcolumn}
+	{BEGIN philhealth_fieldcolumn}
+<td  class="runner-cc {$philhealth_class}" {$philhealth_style} {$recordattrs}>
+	{$philhealth_value}
+</td>
+{END philhealth_fieldcolumn}
+	{BEGIN telephone_fieldcolumn}
+<td  class="runner-cc {$telephone_class}" {$telephone_style} {$recordattrs}>
+	{$telephone_value}
+</td>
+{END telephone_fieldcolumn}
+
+		<td class="rnr-edge" {$recordattrs}>&nbsp;</td>
+		{BEGIN endrecord_block}
+		<td class="rnr-cs" {$endrecordblock_attrs}>&nbsp;</td>
+		{END endrecord_block}
+										
+		{END grid_record}
+
+	</tr>
+{END grid_row}
+
+
+	
+	</tbody>
+</table>
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			<!--%%bottom%%-->
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

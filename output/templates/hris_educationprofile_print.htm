@@ -1,0 +1,224 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-print" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_pdf}
+<div class="rnr-c rnr-ch rnr-c-pdf">
+
+{BEGIN printbuttons}
+<div  class="style1 rnr-bl rnr-b-printbuttons {$brickclass_printbuttons}">{BEGIN divideintopages_block}
+<a href="#" class="divideintopages rnr-button button" {$divideintopages_attrs}>Prepare for printing</a>
+{END divideintopages_block}
+</div>
+{END printbuttons}
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_pdf}
+
+
+
+{BEGIN container_master}
+<div class="rnr-c rnr-ch rnr-c-master">
+
+{BEGIN mastertable_block}
+<div  class="style1 rnr-bl rnr-b-masterinfoprint {$brickclass_masterinfoprint}">{$showmasterfile}
+</div>
+{END mastertable_block}
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_master}
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+
+{BEGIN container_pageheader}
+<div class="rnr-c rnr-cv rnr-c-pageheader">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-printheader {$brickclass_printheader}">	<h1>{$pagetitlelabel hris_educationprofile print}</h1>
+</div>
+
+
+{BEGIN page_number}
+<div  class="rnr-brickcontents style1 rnr-b-page_of_print {$brickclass_page_of_print}"><h1>Page <span class="rp-pageno">{$pageno}</span> of <span class="rp-pagecount">{$pagecount}</span></h1></div>{END page_number}
+
+
+</div>
+{END container_pageheader}
+
+
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+	<table class="rnr-c rnr-c-grid rnr-b-grid rnr-gridtable rp-maintable" cellpadding="0">
+	<thead>
+	{BEGIN grid_header}
+<tr class="rnr-toprow style1 {$gridHeader_class}" >
+{BEGIN record_header}
+		{BEGIN ID_fieldheadercolumn}
+<th class="runner-cc {$ID_class}" {$ID_style}>
+	{BEGIN ID_fieldheader}
+	<b>{$label hris_educationprofile ID}</b>
+	{END ID_fieldheader}
+</th>
+{END ID_fieldheadercolumn}
+	{BEGIN personelID_fieldheadercolumn}
+<th class="runner-cc {$personelID_class}" {$personelID_style}>
+	{BEGIN personelID_fieldheader}
+	<b>{$label hris_educationprofile personelID}</b>
+	{END personelID_fieldheader}
+</th>
+{END personelID_fieldheadercolumn}
+	{BEGIN schoolname_fieldheadercolumn}
+<th class="runner-cc {$schoolname_class}" {$schoolname_style}>
+	{BEGIN schoolname_fieldheader}
+	<b>{$label hris_educationprofile schoolname}</b>
+	{END schoolname_fieldheader}
+</th>
+{END schoolname_fieldheadercolumn}
+	{BEGIN schooladd_fieldheadercolumn}
+<th class="runner-cc {$schooladd_class}" {$schooladd_style}>
+	{BEGIN schooladd_fieldheader}
+	<b>{$label hris_educationprofile schooladd}</b>
+	{END schooladd_fieldheader}
+</th>
+{END schooladd_fieldheadercolumn}
+	{BEGIN educationlevel_fieldheadercolumn}
+<th class="runner-cc {$educationlevel_class}" {$educationlevel_style}>
+	{BEGIN educationlevel_fieldheader}
+	<b>{$label hris_educationprofile educationlevel}</b>
+	{END educationlevel_fieldheader}
+</th>
+{END educationlevel_fieldheadercolumn}
+	{BEGIN yearstarted_fieldheadercolumn}
+<th class="runner-cc {$yearstarted_class}" {$yearstarted_style}>
+	{BEGIN yearstarted_fieldheader}
+	<b>{$label hris_educationprofile yearstarted}</b>
+	{END yearstarted_fieldheader}
+</th>
+{END yearstarted_fieldheadercolumn}
+	{BEGIN yeargraduated_fieldheadercolumn}
+<th class="runner-cc {$yeargraduated_class}" {$yeargraduated_style}>
+	{BEGIN yeargraduated_fieldheader}
+	<b>{$label hris_educationprofile yeargraduated}</b>
+	{END yeargraduated_fieldheader}
+</th>
+{END yeargraduated_fieldheadercolumn}
+		
+	<th class="rnr-edge">&nbsp;</th>
+	{BEGIN endrecordheader_block}
+	<th class="rnr-cs">&nbsp;</th>
+	{END endrecordheader_block}
+	{END record_header}
+</tr>
+{END grid_header}
+
+	</thead>
+	<tbody>	
+	{BEGIN grid_row}
+	<tr class="rnr-row style1 {$rowclass}" {$rowattrs} {$rowstyle}>
+		{BEGIN grid_record}
+				{BEGIN ID_fieldcolumn}
+<td  class="runner-cc {$ID_class}" {$ID_style} {$recordattrs}>
+	{$ID_value}
+</td>
+{END ID_fieldcolumn}
+	{BEGIN personelID_fieldcolumn}
+<td  class="runner-cc {$personelID_class}" {$personelID_style} {$recordattrs}>
+	{$personelID_value}
+</td>
+{END personelID_fieldcolumn}
+	{BEGIN schoolname_fieldcolumn}
+<td  class="runner-cc {$schoolname_class}" {$schoolname_style} {$recordattrs}>
+	{$schoolname_value}
+</td>
+{END schoolname_fieldcolumn}
+	{BEGIN schooladd_fieldcolumn}
+<td  class="runner-cc {$schooladd_class}" {$schooladd_style} {$recordattrs}>
+	{$schooladd_value}
+</td>
+{END schooladd_fieldcolumn}
+	{BEGIN educationlevel_fieldcolumn}
+<td  class="runner-cc {$educationlevel_class}" {$educationlevel_style} {$recordattrs}>
+	{$educationlevel_value}
+</td>
+{END educationlevel_fieldcolumn}
+	{BEGIN yearstarted_fieldcolumn}
+<td  class="runner-cc {$yearstarted_class}" {$yearstarted_style} {$recordattrs}>
+	{$yearstarted_value}
+</td>
+{END yearstarted_fieldcolumn}
+	{BEGIN yeargraduated_fieldcolumn}
+<td  class="runner-cc {$yeargraduated_class}" {$yeargraduated_style} {$recordattrs}>
+	{$yeargraduated_value}
+</td>
+{END yeargraduated_fieldcolumn}
+
+		<td class="rnr-edge" {$recordattrs}>&nbsp;</td>
+		{BEGIN endrecord_block}
+		<td class="rnr-cs" {$endrecordblock_attrs}>&nbsp;</td>
+		{END endrecord_block}
+										
+		{END grid_record}
+
+	</tr>
+{END grid_row}
+
+
+	
+	</tbody>
+</table>
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			<!--%%bottom%%-->
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

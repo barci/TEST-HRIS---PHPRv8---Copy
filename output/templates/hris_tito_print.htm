@@ -1,0 +1,260 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-print" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_pdf}
+<div class="rnr-c rnr-ch rnr-c-pdf">
+
+{BEGIN printbuttons}
+<div  class="style1 rnr-bl rnr-b-printbuttons {$brickclass_printbuttons}">{BEGIN divideintopages_block}
+<a href="#" class="divideintopages rnr-button button" {$divideintopages_attrs}>Prepare for printing</a>
+{END divideintopages_block}
+</div>
+{END printbuttons}
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_pdf}
+
+
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+
+{BEGIN container_pageheader}
+<div class="rnr-c rnr-cv rnr-c-pageheader">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-printheader {$brickclass_printheader}">	<h1>{$pagetitlelabel hris_tito print}</h1>
+</div>
+
+
+{BEGIN page_number}
+<div  class="rnr-brickcontents style1 rnr-b-page_of_print {$brickclass_page_of_print}"><h1>Page <span class="rp-pageno">{$pageno}</span> of <span class="rp-pagecount">{$pagecount}</span></h1></div>{END page_number}
+
+
+</div>
+{END container_pageheader}
+
+
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+	<table class="rnr-c rnr-c-grid rnr-b-grid rnr-gridtable rp-maintable" cellpadding="0">
+	<thead>
+	{BEGIN grid_header}
+<tr class="rnr-toprow style1 {$gridHeader_class}" >
+{BEGIN record_header}
+		{BEGIN ID_fieldheadercolumn}
+<th class="runner-cc {$ID_class}" {$ID_style}>
+	{BEGIN ID_fieldheader}
+	<b>{$label hris_tito ID}</b>
+	{END ID_fieldheader}
+</th>
+{END ID_fieldheadercolumn}
+	{BEGIN personnelID_fieldheadercolumn}
+<th class="runner-cc {$personnelID_class}" {$personnelID_style}>
+	{BEGIN personnelID_fieldheader}
+	<b>{$label hris_tito personnelID}</b>
+	{END personnelID_fieldheader}
+</th>
+{END personnelID_fieldheadercolumn}
+	{BEGIN department_fieldheadercolumn}
+<th class="runner-cc {$department_class}" {$department_style}>
+	{BEGIN department_fieldheader}
+	<b>{$label hris_tito department}</b>
+	{END department_fieldheader}
+</th>
+{END department_fieldheadercolumn}
+	{BEGIN unit_fieldheadercolumn}
+<th class="runner-cc {$unit_class}" {$unit_style}>
+	{BEGIN unit_fieldheader}
+	<b>{$label hris_tito unit}</b>
+	{END unit_fieldheader}
+</th>
+{END unit_fieldheadercolumn}
+	{BEGIN jobtitle_fieldheadercolumn}
+<th class="runner-cc {$jobtitle_class}" {$jobtitle_style}>
+	{BEGIN jobtitle_fieldheader}
+	<b>{$label hris_tito jobtitle}</b>
+	{END jobtitle_fieldheader}
+</th>
+{END jobtitle_fieldheadercolumn}
+	{BEGIN TimeIn_fieldheadercolumn}
+<th class="runner-cc {$TimeIn_class}" {$TimeIn_style}>
+	{BEGIN TimeIn_fieldheader}
+	<b>{$label hris_tito TimeIn}</b>
+	{END TimeIn_fieldheader}
+</th>
+{END TimeIn_fieldheadercolumn}
+	{BEGIN TimeOut_fieldheadercolumn}
+<th class="runner-cc {$TimeOut_class}" {$TimeOut_style}>
+	{BEGIN TimeOut_fieldheader}
+	<b>{$label hris_tito TimeOut}</b>
+	{END TimeOut_fieldheader}
+</th>
+{END TimeOut_fieldheadercolumn}
+	{BEGIN IPin_fieldheadercolumn}
+<th class="runner-cc {$IPin_class}" {$IPin_style}>
+	{BEGIN IPin_fieldheader}
+	<b>{$label hris_tito IPin}</b>
+	{END IPin_fieldheader}
+</th>
+{END IPin_fieldheadercolumn}
+	{BEGIN IPout_fieldheadercolumn}
+<th class="runner-cc {$IPout_class}" {$IPout_style}>
+	{BEGIN IPout_fieldheader}
+	<b>{$label hris_tito IPout}</b>
+	{END IPout_fieldheader}
+</th>
+{END IPout_fieldheadercolumn}
+	{BEGIN TotalHours_fieldheadercolumn}
+<th class="runner-cc {$TotalHours_class}" {$TotalHours_style}>
+	{BEGIN TotalHours_fieldheader}
+	<b>{$label hris_tito TotalHours}</b>
+	{END TotalHours_fieldheader}
+</th>
+{END TotalHours_fieldheadercolumn}
+	{BEGIN CheckedBy_fieldheadercolumn}
+<th class="runner-cc {$CheckedBy_class}" {$CheckedBy_style}>
+	{BEGIN CheckedBy_fieldheader}
+	<b>{$label hris_tito CheckedBy}</b>
+	{END CheckedBy_fieldheader}
+</th>
+{END CheckedBy_fieldheadercolumn}
+		
+	<th class="rnr-edge">&nbsp;</th>
+	{BEGIN endrecordheader_block}
+	<th class="rnr-cs">&nbsp;</th>
+	{END endrecordheader_block}
+	{END record_header}
+</tr>
+{END grid_header}
+
+	</thead>
+	<tbody>	
+	{BEGIN grid_row}
+	<tr class="rnr-row style1 {$rowclass}" {$rowattrs} {$rowstyle}>
+		{BEGIN grid_record}
+				{BEGIN ID_fieldcolumn}
+<td  class="runner-cc {$ID_class}" {$ID_style} {$recordattrs}>
+	{$ID_value}
+</td>
+{END ID_fieldcolumn}
+	{BEGIN personnelID_fieldcolumn}
+<td  class="runner-cc {$personnelID_class}" {$personnelID_style} {$recordattrs}>
+	{$personnelID_value}
+</td>
+{END personnelID_fieldcolumn}
+	{BEGIN department_fieldcolumn}
+<td  class="runner-cc {$department_class}" {$department_style} {$recordattrs}>
+	{$department_value}
+</td>
+{END department_fieldcolumn}
+	{BEGIN unit_fieldcolumn}
+<td  class="runner-cc {$unit_class}" {$unit_style} {$recordattrs}>
+	{$unit_value}
+</td>
+{END unit_fieldcolumn}
+	{BEGIN jobtitle_fieldcolumn}
+<td  class="runner-cc {$jobtitle_class}" {$jobtitle_style} {$recordattrs}>
+	{$jobtitle_value}
+</td>
+{END jobtitle_fieldcolumn}
+	{BEGIN TimeIn_fieldcolumn}
+<td  class="runner-cc {$TimeIn_class}" {$TimeIn_style} {$recordattrs}>
+	{$TimeIn_value}
+</td>
+{END TimeIn_fieldcolumn}
+	{BEGIN TimeOut_fieldcolumn}
+<td  class="runner-cc {$TimeOut_class}" {$TimeOut_style} {$recordattrs}>
+	{$TimeOut_value}
+</td>
+{END TimeOut_fieldcolumn}
+	{BEGIN IPin_fieldcolumn}
+<td  class="runner-cc {$IPin_class}" {$IPin_style} {$recordattrs}>
+	{$IPin_value}
+</td>
+{END IPin_fieldcolumn}
+	{BEGIN IPout_fieldcolumn}
+<td  class="runner-cc {$IPout_class}" {$IPout_style} {$recordattrs}>
+	{$IPout_value}
+</td>
+{END IPout_fieldcolumn}
+	{BEGIN TotalHours_fieldcolumn}
+<td  class="runner-cc {$TotalHours_class}" {$TotalHours_style} {$recordattrs}>
+	{$TotalHours_value}
+</td>
+{END TotalHours_fieldcolumn}
+	{BEGIN CheckedBy_fieldcolumn}
+<td  class="runner-cc {$CheckedBy_class}" {$CheckedBy_style} {$recordattrs}>
+	{$CheckedBy_value}
+</td>
+{END CheckedBy_fieldcolumn}
+
+		<td class="rnr-edge" {$recordattrs}>&nbsp;</td>
+		{BEGIN endrecord_block}
+		<td class="rnr-cs" {$endrecordblock_attrs}>&nbsp;</td>
+		{END endrecord_block}
+										
+		{END grid_record}
+
+	</tr>
+{END grid_row}
+
+
+	
+	</tbody>
+</table>
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			<!--%%bottom%%-->
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

@@ -1,0 +1,140 @@
+<div {$pageattrs}>
+
+{BEGIN container_column}
+<div class="rnr-c rnr-ch rnr-c-column">
+
+{BEGIN masterlist_title}
+<div  class="style1 rnr-bl rnr-b-masterlistheader {$brickclass_masterlistheader}"><span>{$pagetitlelabel Active_Personnel masterlist}</span></div>
+{END masterlist_title}
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_column}
+
+
+
+{BEGIN container_mastergrid}
+
+
+
+	<style>
+	.bs-gridcell[data-field=ID]:before {
+		content: "{$label Active_Personnel ID}";
+	}
+	.bs-gridcell[data-field=fullName]:before {
+		content: "{$label Active_Personnel fullName}";
+	}
+	.bs-gridcell[data-field=department]:before {
+		content: "{$label Active_Personnel department}";
+	}
+	.bs-gridcell[data-field=unit]:before {
+		content: "{$label Active_Personnel unit}";
+	}
+	.bs-gridcell[data-field=jobtitle]:before {
+		content: "{$label Active_Personnel jobtitle}";
+	}
+	.bs-gridcell[data-field=firstname]:before {
+		content: "{$label Active_Personnel firstname}";
+	}
+	.bs-gridcell[data-field=middlename]:before {
+		content: "{$label Active_Personnel middlename}";
+	}
+	.bs-gridcell[data-field=lastname]:before {
+		content: "{$label Active_Personnel lastname}";
+	}
+	.bs-gridcell[data-field=gender]:before {
+		content: "{$label Active_Personnel gender}";
+	}
+	.bs-gridcell[data-field=currentaddress]:before {
+		content: "{$label Active_Personnel currentaddress}";
+	}
+	.bs-gridcell[data-field=permanentaddress]:before {
+		content: "{$label Active_Personnel permanentaddress}";
+	}
+	.bs-gridcell[data-field=sss]:before {
+		content: "{$label Active_Personnel sss}";
+	}
+	.bs-gridcell[data-field=tin]:before {
+		content: "{$label Active_Personnel tin}";
+	}
+	.bs-gridcell[data-field=pagibig]:before {
+		content: "{$label Active_Personnel pagibig}";
+	}
+	.bs-gridcell[data-field=philhealth]:before {
+		content: "{$label Active_Personnel philhealth}";
+	}
+	.bs-gridcell[data-field=emailaddress]:before {
+		content: "{$label Active_Personnel emailaddress}";
+	}
+	.bs-gridcell[data-field=telephone]:before {
+		content: "{$label Active_Personnel telephone}";
+	}
+	.bs-gridcell[data-field=dateofbirth]:before {
+		content: "{$label Active_Personnel dateofbirth}";
+	}
+	.bs-gridcell[data-field=skills]:before {
+		content: "{$label Active_Personnel skills}";
+	}
+	.bs-gridcell[data-field=civilstatus]:before {
+		content: "{$label Active_Personnel civilstatus}";
+	}
+</style>
+<table {$masterlistgrid_hiddenattr} data-pageid="{$pageid}" data-brick="masterlistgrid" class="table rnr-b-mastergridfields rnr-gridtable bs-flexgrid" >
+		<thead>
+		<tr>
+			<th class="{$ID_class}">{$label Active_Personnel ID}</th>
+			<th class="{$skills_class}">{$label Active_Personnel skills}</th>
+			<th class="{$dateofbirth_class}">{$label Active_Personnel dateofbirth}</th>
+			<th class="{$civilstatus_class}">{$label Active_Personnel civilstatus}</th>
+			<th class="{$lastname_class}">{$label Active_Personnel lastname}</th>
+			<th class="{$firstname_class}">{$label Active_Personnel firstname}</th>
+			<th class="{$middlename_class}">{$label Active_Personnel middlename}</th>
+			<th class="{$fullName_class}">{$label Active_Personnel fullName}</th>
+			<th class="{$jobtitle_class}">{$label Active_Personnel jobtitle}</th>
+			<th class="{$department_class}">{$label Active_Personnel department}</th>
+			<th class="{$unit_class}">{$label Active_Personnel unit}</th>
+			<th class="{$gender_class}">{$label Active_Personnel gender}</th>
+			<th class="{$currentaddress_class}">{$label Active_Personnel currentaddress}</th>
+			<th class="{$permanentaddress_class}">{$label Active_Personnel permanentaddress}</th>
+			<th class="{$sss_class}">{$label Active_Personnel sss}</th>
+			<th class="{$tin_class}">{$label Active_Personnel tin}</th>
+			<th class="{$pagibig_class}">{$label Active_Personnel pagibig}</th>
+			<th class="{$philhealth_class}">{$label Active_Personnel philhealth}</th>
+			<th class="{$emailaddress_class}">{$label Active_Personnel emailaddress}</th>
+			<th class="{$telephone_class}">{$label Active_Personnel telephone}</th>
+		</tr>
+	</thead>
+	
+	<tbody>
+		<tr>
+			<td class="{$ID_class} bs-gridcell" data-field=ID>{$ID_mastervalue}</td>
+			<td class="{$skills_class} bs-gridcell" data-field=skills>{$skills_mastervalue}</td>
+			<td class="{$dateofbirth_class} bs-gridcell" data-field=dateofbirth>{$dateofbirth_mastervalue}</td>
+			<td class="{$civilstatus_class} bs-gridcell" data-field=civilstatus>{$civilstatus_mastervalue}</td>
+			<td class="{$lastname_class} bs-gridcell" data-field=lastname>{$lastname_mastervalue}</td>
+			<td class="{$firstname_class} bs-gridcell" data-field=firstname>{$firstname_mastervalue}</td>
+			<td class="{$middlename_class} bs-gridcell" data-field=middlename>{$middlename_mastervalue}</td>
+			<td class="{$fullName_class} bs-gridcell" data-field=fullName>{$fullName_mastervalue}</td>
+			<td class="{$jobtitle_class} bs-gridcell" data-field=jobtitle>{$jobtitle_mastervalue}</td>
+			<td class="{$department_class} bs-gridcell" data-field=department>{$department_mastervalue}</td>
+			<td class="{$unit_class} bs-gridcell" data-field=unit>{$unit_mastervalue}</td>
+			<td class="{$gender_class} bs-gridcell" data-field=gender>{$gender_mastervalue}</td>
+			<td class="{$currentaddress_class} bs-gridcell" data-field=currentaddress>{$currentaddress_mastervalue}</td>
+			<td class="{$permanentaddress_class} bs-gridcell" data-field=permanentaddress>{$permanentaddress_mastervalue}</td>
+			<td class="{$sss_class} bs-gridcell" data-field=sss>{$sss_mastervalue}</td>
+			<td class="{$tin_class} bs-gridcell" data-field=tin>{$tin_mastervalue}</td>
+			<td class="{$pagibig_class} bs-gridcell" data-field=pagibig>{$pagibig_mastervalue}</td>
+			<td class="{$philhealth_class} bs-gridcell" data-field=philhealth>{$philhealth_mastervalue}</td>
+			<td class="{$emailaddress_class} bs-gridcell" data-field=emailaddress>{$emailaddress_mastervalue}</td>
+			<td class="{$telephone_class} bs-gridcell" data-field=telephone>{$telephone_mastervalue}</td>
+		</tr>
+	</tbody>
+
+</table> 
+
+
+
+
+{END container_mastergrid}
+
+</div>

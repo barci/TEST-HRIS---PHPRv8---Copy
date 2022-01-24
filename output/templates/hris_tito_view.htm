@@ -1,0 +1,235 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-view" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_all}
+<div class="rnr-c rnr-cv rnr-c-all">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_main} rnr-wrapper rnr-cbw-main">
+
+{BEGIN container_main}
+<div class="rnr-c rnr-cv rnr-c-main">
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_view} rnr-wrapper rnr-cbw-view">
+
+{BEGIN container_view}
+<div class="rnr-c rnr-cv rnr-c-view">
+
+{BEGIN viewheader}
+<div  class="rnr-brickcontents style2 rnr-b-viewheader {$brickclass_viewheader}"><span>	<h1>{$pagetitlelabel hris_tito view}</h1>
+</span></div>{END viewheader}
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_fields} rnr-wrapper rnr-cbw-fields">
+
+{BEGIN container_fields}
+<div class="rnr-c rnr-cv rnr-c-fields">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-viewfields {$brickclass_viewfields}"><table class="fieldGrid">
+	{BEGIN ID_fieldblock}
+<tr class="{$fielddispclass_ID}" data-fieldname="ID">
+	<td class="rnr-label">
+		{$label hris_tito ID}
+	</td>
+	<td class="rnr-control style3">
+		{$ID_value}&nbsp;
+	</td>
+</tr>
+{END ID_fieldblock}
+	{BEGIN personnelID_fieldblock}
+<tr class="{$fielddispclass_personnelID}" data-fieldname="personnelID">
+	<td class="rnr-label">
+		{$label hris_tito personnelID}
+	</td>
+	<td class="rnr-control style3">
+		{$personnelID_value}&nbsp;
+	</td>
+</tr>
+{END personnelID_fieldblock}
+	{BEGIN department_fieldblock}
+<tr class="{$fielddispclass_department}" data-fieldname="department">
+	<td class="rnr-label">
+		{$label hris_tito department}
+	</td>
+	<td class="rnr-control style3">
+		{$department_value}&nbsp;
+	</td>
+</tr>
+{END department_fieldblock}
+	{BEGIN unit_fieldblock}
+<tr class="{$fielddispclass_unit}" data-fieldname="unit">
+	<td class="rnr-label">
+		{$label hris_tito unit}
+	</td>
+	<td class="rnr-control style3">
+		{$unit_value}&nbsp;
+	</td>
+</tr>
+{END unit_fieldblock}
+	{BEGIN jobtitle_fieldblock}
+<tr class="{$fielddispclass_jobtitle}" data-fieldname="jobtitle">
+	<td class="rnr-label">
+		{$label hris_tito jobtitle}
+	</td>
+	<td class="rnr-control style3">
+		{$jobtitle_value}&nbsp;
+	</td>
+</tr>
+{END jobtitle_fieldblock}
+	{BEGIN TimeIn_fieldblock}
+<tr class="{$fielddispclass_TimeIn}" data-fieldname="TimeIn">
+	<td class="rnr-label">
+		{$label hris_tito TimeIn}
+	</td>
+	<td class="rnr-control style3">
+		{$TimeIn_value}&nbsp;
+	</td>
+</tr>
+{END TimeIn_fieldblock}
+	{BEGIN TimeOut_fieldblock}
+<tr class="{$fielddispclass_TimeOut}" data-fieldname="TimeOut">
+	<td class="rnr-label">
+		{$label hris_tito TimeOut}
+	</td>
+	<td class="rnr-control style3">
+		{$TimeOut_value}&nbsp;
+	</td>
+</tr>
+{END TimeOut_fieldblock}
+	{BEGIN IPin_fieldblock}
+<tr class="{$fielddispclass_IPin}" data-fieldname="IPin">
+	<td class="rnr-label">
+		{$label hris_tito IPin}
+	</td>
+	<td class="rnr-control style3">
+		{$IPin_value}&nbsp;
+	</td>
+</tr>
+{END IPin_fieldblock}
+	{BEGIN IPout_fieldblock}
+<tr class="{$fielddispclass_IPout}" data-fieldname="IPout">
+	<td class="rnr-label">
+		{$label hris_tito IPout}
+	</td>
+	<td class="rnr-control style3">
+		{$IPout_value}&nbsp;
+	</td>
+</tr>
+{END IPout_fieldblock}
+	{BEGIN TotalHours_fieldblock}
+<tr class="{$fielddispclass_TotalHours}" data-fieldname="TotalHours">
+	<td class="rnr-label">
+		{$label hris_tito TotalHours}
+	</td>
+	<td class="rnr-control style3">
+		{$TotalHours_value}&nbsp;
+	</td>
+</tr>
+{END TotalHours_fieldblock}
+	{BEGIN CheckedBy_fieldblock}
+<tr class="{$fielddispclass_CheckedBy}" data-fieldname="CheckedBy">
+	<td class="rnr-label">
+		{$label hris_tito CheckedBy}
+	</td>
+	<td class="rnr-control style3">
+		{$CheckedBy_value}&nbsp;
+	</td>
+</tr>
+{END CheckedBy_fieldblock}
+</table></div>
+
+
+{BEGIN viewbuttons}
+<div  class="rnr-brickcontents style2 rnr-b-viewbuttons {$brickclass_viewbuttons}"><div class="rnr-buttons-right">
+{BEGIN prev_button}
+<a href="#" class="rnr-button {$prevbutton_class}" {$prevbutton_attrs}>&lt;&lt;&lt;</a>
+{END prev_button}
+{BEGIN next_button}
+<a href="#" class="rnr-button {$nextbutton_class}" {$nextbutton_attrs}>&gt;&gt;&gt;</a>
+{END next_button}
+</div>
+<div class="rnr-buttons-left">
+{BEGIN back_button}
+<a href="#" class="rnr-button" {$backbutton_attrs}>Back to list</a>
+{END back_button}
+{BEGIN close_button}
+<a href="#" class="rnr-button" {$closebutton_attrs}>Close window</a>
+{END close_button}
+{BEGIN edit_page_button}
+<a href="#" class="rnr-button" {$edit_page_button_attrs}>Edit</a>
+{END edit_page_button}
+</div>
+</div>{END viewbuttons}
+
+
+</div>
+{END container_fields}
+
+</div>
+
+
+</div>
+{END container_view}
+
+</div>
+
+
+</div>
+{END container_main}
+
+</div>
+
+
+
+</div>
+{END container_all}
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			<!--%%bottom%%-->
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

@@ -1,0 +1,232 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+	</head>
+
+	<body class="{$stylename} function-print" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		<DIV class="bs-top">
+        
+
+{BEGIN container_pdf}
+<div {$pdf_chiddenattr} data-pageid="{$pageid}" data-container="pdf" class="   col-md-12 "> 
+
+{BEGIN printbuttons}
+
+{END printbuttons}
+
+
+
+</div>
+{END container_pdf}
+
+
+
+
+
+{BEGIN container_pageheader}
+<div {$pageheader_chiddenattr} data-pageid="{$pageid}" data-container="pageheader" class="    "> 
+
+{BEGIN printheader}
+	<h2 {$printheader_hiddenattr} data-pageid="{$pageid}" data-brick="printheader" >{$pagetitlelabel hris_leavecredit print}</h2>
+
+{END printheader}
+
+
+{BEGIN page_number}
+<span>Page <span class="rp-pageno">{$pageno}</span> of <span class="rp-pagecount">{$pagecount}</span></span>
+{END page_number}
+
+
+
+</div>
+{END container_pageheader}
+
+
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+	<table class="table table-bordered rp-maintable" {$printgrid_hiddenattr} data-pageid="{$pageid}" data-brick="printgrid" >
+	<thead>
+	{BEGIN grid_header}
+		<tr class="{$gridHeader_class}" >
+		{BEGIN record_header}
+			{BEGIN ID_fieldheadercolumn}
+			<th class="{$ID_class}" {$ID_style}>
+				{$label hris_leavecredit ID}
+			</th>
+			{END ID_fieldheadercolumn}
+			{BEGIN personnelID_fieldheadercolumn}
+			<th class="{$personnelID_class}" {$personnelID_style}>
+				{$label hris_leavecredit personnelID}
+			</th>
+			{END personnelID_fieldheadercolumn}
+			{BEGIN leavetype_fieldheadercolumn}
+			<th class="{$leavetype_class}" {$leavetype_style}>
+				{$label hris_leavecredit leavetype}
+			</th>
+			{END leavetype_fieldheadercolumn}
+			{BEGIN datesubmitted_fieldheadercolumn}
+			<th class="{$datesubmitted_class}" {$datesubmitted_style}>
+				{$label hris_leavecredit datesubmitted}
+			</th>
+			{END datesubmitted_fieldheadercolumn}
+			{BEGIN inclusivedates_fieldheadercolumn}
+			<th class="{$inclusivedates_class}" {$inclusivedates_style}>
+				{$label hris_leavecredit inclusivedates}
+			</th>
+			{END inclusivedates_fieldheadercolumn}
+			{BEGIN fiscalyear_fieldheadercolumn}
+			<th class="{$fiscalyear_class}" {$fiscalyear_style}>
+				{$label hris_leavecredit fiscalyear}
+			</th>
+			{END fiscalyear_fieldheadercolumn}
+			{BEGIN credit_fieldheadercolumn}
+			<th class="{$credit_class}" {$credit_style}>
+				{$label hris_leavecredit credit}
+			</th>
+			{END credit_fieldheadercolumn}
+			{BEGIN debit_fieldheadercolumn}
+			<th class="{$debit_class}" {$debit_style}>
+				{$label hris_leavecredit debit}
+			</th>
+			{END debit_fieldheadercolumn}
+			{BEGIN notes_fieldheadercolumn}
+			<th class="{$notes_class}" {$notes_style}>
+				{$label hris_leavecredit notes}
+			</th>
+			{END notes_fieldheadercolumn}
+			{BEGIN approverID_fieldheadercolumn}
+			<th class="{$approverID_class}" {$approverID_style}>
+				{$label hris_leavecredit approverID}
+			</th>
+			{END approverID_fieldheadercolumn}
+			{BEGIN dateapproved_fieldheadercolumn}
+			<th class="{$dateapproved_class}" {$dateapproved_style}>
+				{$label hris_leavecredit dateapproved}
+			</th>
+			{END dateapproved_fieldheadercolumn}
+			{BEGIN endrecordheader_block}
+			<th class="rnr-cs">&nbsp;</th>
+			{END endrecordheader_block}
+		{END record_header}
+		</tr>
+	{END grid_header}
+	</thead>
+	
+	<tbody>	
+	{BEGIN grid_row}
+		<tr class="{$rowclass}" {$rowattrs} {$rowstyle}>
+		{BEGIN grid_record}
+			{BEGIN ID_fieldcolumn}
+			<td  class="{$ID_class}" {$ID_style} {$recordattrs}>
+				{$ID_value}
+			</td>
+			{END ID_fieldcolumn}
+			{BEGIN personnelID_fieldcolumn}
+			<td  class="{$personnelID_class}" {$personnelID_style} {$recordattrs}>
+				{$personnelID_value}
+			</td>
+			{END personnelID_fieldcolumn}
+			{BEGIN leavetype_fieldcolumn}
+			<td  class="{$leavetype_class}" {$leavetype_style} {$recordattrs}>
+				{$leavetype_value}
+			</td>
+			{END leavetype_fieldcolumn}
+			{BEGIN datesubmitted_fieldcolumn}
+			<td  class="{$datesubmitted_class}" {$datesubmitted_style} {$recordattrs}>
+				{$datesubmitted_value}
+			</td>
+			{END datesubmitted_fieldcolumn}
+			{BEGIN inclusivedates_fieldcolumn}
+			<td  class="{$inclusivedates_class}" {$inclusivedates_style} {$recordattrs}>
+				{$inclusivedates_value}
+			</td>
+			{END inclusivedates_fieldcolumn}
+			{BEGIN fiscalyear_fieldcolumn}
+			<td  class="{$fiscalyear_class}" {$fiscalyear_style} {$recordattrs}>
+				{$fiscalyear_value}
+			</td>
+			{END fiscalyear_fieldcolumn}
+			{BEGIN credit_fieldcolumn}
+			<td  class="{$credit_class}" {$credit_style} {$recordattrs}>
+				{$credit_value}
+			</td>
+			{END credit_fieldcolumn}
+			{BEGIN debit_fieldcolumn}
+			<td  class="{$debit_class}" {$debit_style} {$recordattrs}>
+				{$debit_value}
+			</td>
+			{END debit_fieldcolumn}
+			{BEGIN notes_fieldcolumn}
+			<td  class="{$notes_class}" {$notes_style} {$recordattrs}>
+				{$notes_value}
+			</td>
+			{END notes_fieldcolumn}
+			{BEGIN approverID_fieldcolumn}
+			<td  class="{$approverID_class}" {$approverID_style} {$recordattrs}>
+				{$approverID_value}
+			</td>
+			{END approverID_fieldcolumn}
+			{BEGIN dateapproved_fieldcolumn}
+			<td  class="{$dateapproved_class}" {$dateapproved_style} {$recordattrs}>
+				{$dateapproved_value}
+			</td>
+			{END dateapproved_fieldcolumn}
+			{BEGIN endrecord_block}
+			<td class="rnr-cs" {$endrecordblock_attrs}>&nbsp;</td>
+			{END endrecord_block}
+		{END grid_record}
+		</tr>
+{END grid_row}
+	</tbody>
+
+</table>
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+		</div>
+		<div class="bs-middle ">
+			<div class="bs-topmiddle">
+				
+			</div>
+			<div class="bs-left" {$blockattr_left}>
+				
+			</div>
+			<div class="bs-center">
+				
+			</div>
+			<div class="bs-right">
+				
+			</div>
+		</div>
+		<DIV class="bs-bottom">
+        
+		</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

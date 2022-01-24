@@ -1,0 +1,73 @@
+<div {$pageattrs}>
+
+{BEGIN container_column}
+<div class="rnr-c rnr-ch rnr-c-column">
+
+{BEGIN masterlist_title}
+<div  class="style1 rnr-bl rnr-b-masterprintheader {$brickclass_masterprintheader}"><span>{$pagetitlelabel hris_personnel masterprint}</span></div>
+{END masterlist_title}
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_column}
+
+
+
+{BEGIN container_mastergrid}
+
+
+
+<table {$bsmasterprintgrid_hiddenattr} data-pageid="{$pageid}" data-brick="bsmasterprintgrid" class="table rnr-b-mastergridfields rnr-gridtable" >
+		<thead>
+		<tr>
+			<th class="{$skills_class}">{$label hris_personnel skills}</th>
+			<th class="{$dateofbirth_class}">{$label hris_personnel dateofbirth}</th>
+			<th class="{$firstname_class}">{$label hris_personnel firstname}</th>
+			<th class="{$middlename_class}">{$label hris_personnel middlename}</th>
+			<th class="{$lastname_class}">{$label hris_personnel lastname}</th>
+			<th class="{$civilstatus_class}">{$label hris_personnel civilstatus}</th>
+			<th class="{$ID_class}">{$label hris_personnel ID}</th>
+			<th class="{$fullName_class}">{$label hris_personnel fullName}</th>
+			<th class="{$age_class}">{$label hris_personnel age}</th>
+			<th class="{$gender_class}">{$label hris_personnel gender}</th>
+			<th class="{$currentaddress_class}">{$label hris_personnel currentaddress}</th>
+			<th class="{$sss_class}">{$label hris_personnel sss}</th>
+			<th class="{$permanentaddress_class}">{$label hris_personnel permanentaddress}</th>
+			<th class="{$tin_class}">{$label hris_personnel tin}</th>
+			<th class="{$emailaddress_class}">{$label hris_personnel emailaddress}</th>
+			<th class="{$pagibig_class}">{$label hris_personnel pagibig}</th>
+			<th class="{$philhealth_class}">{$label hris_personnel philhealth}</th>
+			<th class="{$telephone_class}">{$label hris_personnel telephone}</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td class="{$skills_class}">{$skills_mastervalue}</td>
+			<td class="{$dateofbirth_class}">{$dateofbirth_mastervalue}</td>
+			<td class="{$firstname_class}">{$firstname_mastervalue}</td>
+			<td class="{$middlename_class}">{$middlename_mastervalue}</td>
+			<td class="{$lastname_class}">{$lastname_mastervalue}</td>
+			<td class="{$civilstatus_class}">{$civilstatus_mastervalue}</td>
+			<td class="{$ID_class}">{$ID_mastervalue}</td>
+			<td class="{$fullName_class}">{$fullName_mastervalue}</td>
+			<td class="{$age_class}">{$age_mastervalue}</td>
+			<td class="{$gender_class}">{$gender_mastervalue}</td>
+			<td class="{$currentaddress_class}">{$currentaddress_mastervalue}</td>
+			<td class="{$sss_class}">{$sss_mastervalue}</td>
+			<td class="{$permanentaddress_class}">{$permanentaddress_mastervalue}</td>
+			<td class="{$tin_class}">{$tin_mastervalue}</td>
+			<td class="{$emailaddress_class}">{$emailaddress_mastervalue}</td>
+			<td class="{$pagibig_class}">{$pagibig_mastervalue}</td>
+			<td class="{$philhealth_class}">{$philhealth_mastervalue}</td>
+			<td class="{$telephone_class}">{$telephone_mastervalue}</td>
+		</tr>
+	</tbody>
+
+</table> 
+
+
+
+
+{END container_mastergrid}
+
+</div>

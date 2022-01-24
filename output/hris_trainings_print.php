@@ -15,7 +15,7 @@ require_once("include/hris_trainings_variables.php");
 
 
 
-$layout = new TLayout("print", "FusionAqua", "MobileAqua");
+$layout = new TLayout("print", "FusionOffice", "MobileOffice");
 $layout->version = 2;
 $layout->blocks["center"] = array();
 $layout->containers["pageheader"] = array();
@@ -72,7 +72,7 @@ $layout->skinsparams["3"] = array("button"=>"button1");
 	
 
 
-$layout = new TLayout("masterprint", "FusionAqua", "MobileAqua");
+$layout = new TLayout("masterprint", "FusionOffice", "MobileOffice");
 $layout->version = 2;
 $layout->blocks["bare"] = array();
 $layout->containers["masterlistheader"] = array();

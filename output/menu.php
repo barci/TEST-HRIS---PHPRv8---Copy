@@ -14,7 +14,7 @@ if (($_SESSION["MyURL"] == "") || (!isLoggedAsGuest())) {
 
 
 
-$layout = new TLayout("menu", "FusionAqua", "MobileAqua");
+$layout = new TLayout("menu", "FusionOffice", "MobileOffice");
 $layout->version = 2;
 $layout->blocks["top"] = array();
 $layout->containers["menu"] = array();

@@ -19,7 +19,7 @@ AddPage::handleBrokenRequest();
 
 
 
-$layout = new TLayout("add2", "FusionAqua", "MobileAqua");
+$layout = new TLayout("add2", "FusionOffice", "MobileOffice");
 $layout->version = 2;
 $layout->blocks["top"] = array();
 $layout->containers["all"] = array();

@@ -13,7 +13,7 @@ require_once("include/Inactive_Personnel_variables.php");
 
 
 
-$layout = new TLayout("export2", "FusionAqua", "MobileAqua");
+$layout = new TLayout("export2", "FusionOffice", "MobileOffice");
 $layout->version = 2;
 $layout->blocks["top"] = array();
 $layout->containers["export"] = array();

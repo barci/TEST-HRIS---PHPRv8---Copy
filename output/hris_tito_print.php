@@ -15,7 +15,7 @@ require_once("include/hris_tito_variables.php");
 
 
 
-$layout = new TLayout("print", "FusionAqua", "MobileAqua");
+$layout = new TLayout("print", "FusionOffice", "MobileOffice");
 $layout->version = 2;
 $layout->blocks["center"] = array();
 $layout->containers["pageheader"] = array();

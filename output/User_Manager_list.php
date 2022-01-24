@@ -22,7 +22,7 @@ InitLookupLinks();
 
 
 
-$layout = new TLayout("list2", "FusionDeliciousLavender", "MobileDeliciousLavender");
+$layout = new TLayout("list2", "FusionFire", "MobileFire");
 $layout->version = 2;
 $layout->blocks["center"] = array();
 $layout->skins["recordcontrols"] = "1";

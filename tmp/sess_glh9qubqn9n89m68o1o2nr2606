@@ -1,0 +1,10 @@
+myqsladdress|s:9:"127.0.0.1";OwnerID|N;hris_personnel_search|i:0;hris_personnel_key|a:1:{i:0;i:1;}hris_personnel_orderFieldsList|s:109:"a:1:{i:0;O:10:"OrderField":3:{s:10:"fieldIndex";i:1;s:14:"orderDirection";s:3:"ASC";s:11:"userDefined";b:0;}}";hris_personnel_sql|s:1429:"SELECT
+`ID`, concat(upper(lastname),", ",firstname) as `fullName`, TIMESTAMPDIFF(YEAR,dateofbirth,now()) as `age`, `firstname`, `middlename`, `lastname`, `gender`, `currentaddress`, `permanentaddress`, `sss`, `tin`, `pagibig`, `philhealth`, `emailaddress`, `telephone`, `dateofbirth`, `skills`, `civilstatus`,(SELECT count(*) FROM (SELECT personnelID 
+ FROM `hris_job` ) `subQuery_cnt` WHERE `subQuery_cnt`.`personnelID`=`hris_personnel`.`ID`) as `hris_job_cnt` ,(SELECT count(*) FROM (SELECT personnelID 
+ FROM `hris_journey` ) `subQuery_cnt` WHERE `subQuery_cnt`.`personnelID`=`hris_personnel`.`ID`) as `hris_journey_cnt` ,(SELECT count(*) FROM (SELECT personelID 
+ FROM `hris_educationprofile` ) `subQuery_cnt` WHERE `subQuery_cnt`.`personelID`=`hris_personnel`.`ID`) as `hris_educationprofile_cnt` ,(SELECT count(*) FROM (SELECT hris_licert.personnelID 
+ FROM `hris_licert`
+,`hris_job` WHERE `hris_licert`.`personnelID` =hris_job.personnelID ) `subQuery_cnt` WHERE `subQuery_cnt`.`personnelID`=`hris_personnel`.`ID`) as `hris_licert_cnt` ,(SELECT count(*) FROM (SELECT personnelID 
+ FROM `hris_trainings` ) `subQuery_cnt` WHERE `subQuery_cnt`.`personnelID`=`hris_personnel`.`ID`) as `hris_trainings_cnt` ,(SELECT count(*) FROM (SELECT personnelID 
+ FROM `hris_affiliation` ) `subQuery_cnt` WHERE `subQuery_cnt`.`personnelID`=`hris_personnel`.`ID`) as `hris_affiliation_cnt`  
+ FROM `hris_personnel`    ORDER BY 1 ASC";hris_personnel_where|s:0:"";hris_personnel_having|s:0:"";hris_personnel_criteria|s:3:"and";hris_personnel_order|s:15:" ORDER BY 1 ASC";hris_personnel_joinFromPart|s:0:"";
